@@ -14,3 +14,6 @@
 ## Extraction (agent B)
 - scraper.py built; tests: seed=HTTP200, traverse down/lateral OK, extraction OK.
 - Open question with owner: which 3 scope options for full crawl.
+
+## QA (agent C)
+- Verified all 4 task outputs print the spec strings against the live site.
