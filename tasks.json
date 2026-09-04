@@ -34,8 +34,9 @@
       "section": "## Crawl Log",
       "status": "done",
       "owner": "crawl-agent",
-      "note": "-m",
-      "updated": "2026-09-04T16:37:06Z"
+      "note": "phase 1 (books + headers) complete: 16/16 book home pages HTTP 200 + full header outlines (books/<slug>/outline.md), 18,936 pages mapped, ARTIFACTS-README.md + index.md; phase-2 full crawl pending user sign-off",
+      "updated": "2026-09-04T16:37:06Z",
+      "completed": "2026-09-04T17:55:00CDT"
     }
   ]
 }
