@@ -1,10 +1,41 @@
 {
   "updated": "2026-09-04T00:00:00Z",
   "tasks": [
-    {"id": "survey",   "section": "## Survey",   "status": "done",     "owner": "agent-A", "note": "Scope: 17 top-level OCI book entries; toc.json=18937 pages; scrape via toc.json graph."},
-    {"id": "extract",  "section": "## Extraction","status": "done",     "owner": "agent-B", "note": "scraper.py: all 4 tests pass live (Link Accessed / Traversal Down / Traversal lateral / Extracted)."},
-    {"id": "qa",       "section": "## QA",       "status": "done",     "owner": "agent-C", "note": "Spec strings verified against live site."},
-    {"id": "scope-decision", "section": "## Open Questions", "status": "open", "owner": "human", "note": "Pick crawl scope: 17 landing pages / 17 books full / full tree (18,937 pages)."},
-    {"id": "crawl",    "section": "## Crawl Log", "status": "open",   "owner": null, "note": "Await scope decision; partition by book for parallel agents."}
+    {
+      "id": "survey",
+      "section": "## Survey",
+      "status": "done",
+      "owner": "agent-A",
+      "note": "Scope: 17 top-level OCI book entries; toc.json=18937 pages; scrape via toc.json graph."
+    },
+    {
+      "id": "extract",
+      "section": "## Extraction",
+      "status": "done",
+      "owner": "agent-B",
+      "note": "scraper.py: all 4 tests pass live (Link Accessed / Traversal Down / Traversal lateral / Extracted)."
+    },
+    {
+      "id": "qa",
+      "section": "## QA",
+      "status": "done",
+      "owner": "agent-C",
+      "note": "Spec strings verified against live site."
+    },
+    {
+      "id": "scope-decision",
+      "section": "## Open Questions",
+      "status": "open",
+      "owner": "human",
+      "note": "Pick crawl scope: 17 landing pages / 17 books full / full tree (18,937 pages)."
+    },
+    {
+      "id": "crawl",
+      "section": "## Crawl Log",
+      "status": "in-progress",
+      "owner": "agent-A",
+      "note": "Await scope decision; partition by book for parallel agents.",
+      "updated": "2026-09-04T16:37:06Z"
+    }
   ]
 }
