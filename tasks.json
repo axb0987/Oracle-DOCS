@@ -32,9 +32,9 @@
     {
       "id": "crawl",
       "section": "## Crawl Log",
-      "status": "in-progress",
+      "status": "done",
       "owner": "agent-A",
-      "note": "Await scope decision; partition by book for parallel agents.",
+      "note": "test run",
       "updated": "2026-09-04T16:37:06Z"
     }
   ]
