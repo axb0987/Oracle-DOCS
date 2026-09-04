@@ -1,0 +1,66 @@
+# Oracle Cloud Infrastructure Cloud Adoption Framework
+
+- Home: `https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/home.htm`
+- Home fetched: **HTTP 200** (12,395 B) — <title>Oracle Cloud Infrastructure Cloud Adoption Framework</title>
+- Pages in book (incl. home): 59
+
+## Header outline
+
+- **Value Proposition** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/value-proposition.htm
+- **Business Strategy** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/business-strategy.htm
+  - **Goals and Economics** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/goals-and-economics.htm
+  - **Business Case** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/business-case.htm
+  - **Business Value** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/business-value.htm
+- **People Strategy** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/people-strategy.htm
+  - **Cloud Center of Excellence** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/cloud-center-of-excellence.htm
+  - **Training and Readiness** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/training-readiness-plan.htm
+  - **Change Management** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/change-management.htm
+- **Security** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/quick-links-security.htm
+  - **Shared Security Model** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/security.htm
+  - **Security Architecture** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/security-architecture.htm
+  - **Deployment** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/deployment.htm
+  - **Maintenance, Monitoring, and Prevention** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/maintenance-monitoring-prevention.htm
+  - **IAM Security Structure** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/iam-security-structure.htm
+  - **Enable Security Operations** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/security-strategy.htm
+    - **DevOps Security Challenges and Considerations** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/devsecops.htm
+    - **Design Guidance for SIEM Integration** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/siem-integration.htm
+  - **Access Governance** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/security-access-gov.htm
+- **Process Design** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/process-design.htm
+  - **Enterprise Architecture** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/enterprise-architecture.htm
+    - **Business Architecture** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/ea-business-architecture.htm
+    - **Data Architecture** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/ea-data-architecture.htm
+    - **Application Architecture** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/ea-application-architecture.htm
+    - **Technology Architecture** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/ea-technology-architecture.htm
+    - **Security Architecture** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/ea-security-architecture.htm
+  - **Governance** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/governance.htm
+  - **Risk and Compliance** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/risk-and-compliance.htm
+- **Technology Implementation** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/technology-implementation.htm
+  - **Landing Zones Overview** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/oci-landing-zones-overview.htm
+  - **OCI Core Landing Zone** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/oci-core-landing-zone.htm
+  - **Secure Cloud Computing Architecture Landing Zone** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/scca-landing-zone.htm
+  - **Extreme Reliability** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/extreme-reliability.htm
+  - **High Availability** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/high-availability.htm
+  - **Disaster Recovery** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/disaster-recovery.htm
+  - **Enterprise Scenarios for Design and Implementation** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/enterprise-scenario-design-implementation.htm
+    - **Cloud Native** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/cloud-native.htm
+      - **Containers** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/containers.htm
+      - **Microservices** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/microservices.htm
+      - **Serverless** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/serverless.htm
+    - **Enterprise-Ready Architecture** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/enterprise-ready-architecture.htm
+      - **Scalability** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/era-scalability.htm
+      - **Cost Management** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/era-cost-management.htm
+      - **Resiliency** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/era-resiliency.htm
+      - **Security** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/era-security.htm
+      - **Operations** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/era-operations-management.htm
+    - **Shared Responsibility Model for Resiliency** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/oci-shared-responsibility.htm
+- **Management and Operations** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/management-and-operations.htm
+  - **Observability and Management in the Cloud** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/monitoring-visibility-audit.htm
+    - **Monitoring and Observability** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/monitoring-and-observability.htm
+    - **Logging and Logging Analytics Strategy** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/logging-and-logging-analytics-strategy.htm
+    - **Events and Notifications Strategy** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/events-notifications-strategy.htm
+    - **Auditing** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/auditing.htm
+    - **Database Observability and Data Security** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/database-observability-data-security.htm
+  - **Optimization** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/optimization.htm
+    - **Financial Metrics** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/financial-metrics.htm
+  - **Support and Incident Management** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/support-incident-management.htm
+- **Next Steps** — https://docs.oracle.com/en-us/iaas/Content/cloud-adoption-framework/next-steps.htm

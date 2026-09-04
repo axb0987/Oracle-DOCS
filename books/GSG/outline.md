@@ -1,0 +1,72 @@
+# Getting Started
+
+- Home: `https://docs.oracle.com/en-us/iaas/Content/GSG/Concepts/baremetalintro.htm`
+- Home fetched: **HTTP 200** (8,712 B) — <title>Welcome to Oracle Cloud Infrastructure</title>
+- Pages in book (incl. home): 65
+
+## Header outline
+
+- **Accessing Oracle Cloud Infrastructure** — https://docs.oracle.com/en-us/iaas/Content/GSG/Concepts/baremetalintro_topic-Accessing_Oracle_Cloud_Infrastructure.htm
+- **Learn About Oracle Cloud Basics** — https://docs.oracle.com/en-us/iaas/Content/GSG/Concepts/concepts.htm
+  - **Physical Architecture Concepts** — https://docs.oracle.com/en-us/iaas/Content/GSG/Concepts/concepts-physical.htm
+  - **Account and Access Concepts** — https://docs.oracle.com/en-us/iaas/Content/GSG/Concepts/concepts-account.htm
+  - **Core Services Concepts** — https://docs.oracle.com/en-us/iaas/Content/GSG/Concepts/concepts-core.htm
+- **Get an Oracle Cloud Account** — https://docs.oracle.com/en-us/iaas/Content/GSG/Concepts/get-account.htm
+  - **Request and Manage Free Oracle Cloud Promotions** — https://docs.oracle.com/en-us/iaas/Content/GSG/Tasks/signingup.htm
+    - **Sign Up for the Free Oracle Cloud Promotion** — https://docs.oracle.com/en-us/iaas/Content/GSG/Tasks/signingup_topic-Sign_Up_for_Free_Oracle_Cloud_Promotion.htm
+    - **Monitor the Credit Balance for Your Free Oracle Cloud Promotion** — https://docs.oracle.com/en-us/iaas/Content/GSG/Tasks/signingup_topic-Monitor_Credit_Balance.htm
+    - **What Happens When the Promotion Expires** — https://docs.oracle.com/en-us/iaas/Content/GSG/Tasks/signingup_topic-What_Happens_When_the_Promotion_Expires.htm
+    - **Upgrade Your Free Oracle Cloud Promotion** — https://docs.oracle.com/en-us/iaas/Content/GSG/Tasks/buysubscription_topic-Upgrade_Your_Free_Promotion.htm
+  - **Buy an Oracle Cloud Subscription** — https://docs.oracle.com/en-us/iaas/Content/GSG/Tasks/buysubscription.htm
+- **Sign In to the Console** — https://docs.oracle.com/en-us/iaas/Content/GSG/Tasks/signingin.htm
+  - **Understanding the Sign-In Options** — https://docs.oracle.com/en-us/iaas/Content/GSG/Concepts/signinoptions.htm
+  - **Signing In for the First Time** — https://docs.oracle.com/en-us/iaas/Content/GSG/Tasks/signingin_topic-Signing_In_for_the_First_Time.htm
+  - **Troubleshooting Signing In to the Console** — https://docs.oracle.com/en-us/iaas/Content/GSG/Tasks/signinginIdentityDomain.htm
+- **New Console Experience** — https://docs.oracle.com/en-us/iaas/Content/GSG/Concepts/new-console.htm
+- **Get to Know the Console** — https://docs.oracle.com/en-us/iaas/Content/GSG/Concepts/console.htm
+  - **Console Home Page** — https://docs.oracle.com/en-us/iaas/Content/GSG/Concepts/console-home.htm
+  - **Navigating to Services** — https://docs.oracle.com/en-us/iaas/Content/GSG/Concepts/navigating-to-services.htm
+  - **Working in Regions** — https://docs.oracle.com/en-us/iaas/Content/GSG/Concepts/working-with-regions.htm
+  - **Finding Resources** — https://docs.oracle.com/en-us/iaas/Content/GSG/Concepts/finding-resources.htm
+  - **Understanding Compartments** — https://docs.oracle.com/en-us/iaas/Content/GSG/Concepts/compartments.htm
+  - **Changing the Session Time-Out** — https://docs.oracle.com/en-us/iaas/Content/GSG/Concepts/console_topic-session-timeout.htm
+  - **Switching Languages** — https://docs.oracle.com/en-us/iaas/Content/GSG/Concepts/console_topic-Switching_Languages.htm
+  - **Setting Your Console Time Zone** — https://docs.oracle.com/en-us/iaas/Content/GSG/Concepts/console_topic-set-time-zone.htm
+  - **Viewing Billing Details** — https://docs.oracle.com/en-us/iaas/Content/GSG/Concepts/console_topic-AccountCenter-Billing.htm
+  - **Signing Out** — https://docs.oracle.com/en-us/iaas/Content/GSG/Concepts/console_topic-Signing_Out.htm
+  - **Console Availability** — https://docs.oracle.com/en-us/iaas/Content/GSG/Concepts/console_topic-Console_Availability.htm
+  - **Allowing Access to the Console from Your Network** — https://docs.oracle.com/en-us/iaas/Content/GSG/Concepts/console_topic-Allowlist.htm
+- **Using the Mobile App** — https://docs.oracle.com/en-us/iaas/Content/GSG/Concepts/mobile.htm
+- **Get Started with the Command Line Interface** — https://docs.oracle.com/en-us/iaas/Content/GSG/Tasks/gettingstartedwiththeCLI.htm
+- **Create Your First Resources** — https://docs.oracle.com/en-us/iaas/Content/GSG/Reference/tutorials.htm
+  - **Putting Data into Object Storage** — https://docs.oracle.com/en-us/iaas/Content/GSG/Tasks/addingbuckets.htm
+  - **Getting Started with Load Balancing** — https://docs.oracle.com/en-us/iaas/Content/GSG/Tasks/loadbalancing.htm
+- **Account Basics** — https://docs.oracle.com/en-us/iaas/Content/GSG/Concepts/account-basics.htm
+  - **Changing Your Password** — https://docs.oracle.com/en-us/iaas/Content/GSG/Tasks/changingyourpassword.htm
+  - **Adding Users** — https://docs.oracle.com/en-us/iaas/Content/GSG/Tasks/addingusers.htm
+- **Learn Best Practices for Setting Up Your Tenancy** — https://docs.oracle.com/en-us/iaas/Content/GSG/Concepts/settinguptenancy.htm
+- **A Data Scientist&#x27;s Guide to OCI** — https://docs.oracle.com/en-us/iaas/Content/GSG/Reference/getting-started-as-data-scientist.htm
+- **A DevOps Engineer&#x27;s Guide to OCI** — https://docs.oracle.com/en-us/iaas/Content/GSG/Reference/getting-started-as-devops.htm
+- **Getting Help** — https://docs.oracle.com/en-us/iaas/Content/GSG/support/getting-help.htm
+- **Using Oracle Cloud Success Services** — https://docs.oracle.com/en-us/iaas/Content/GSG/support/cloud-success-portfolio.htm
+  - **Enrolling in an Oracle Cloud Success Service** — https://docs.oracle.com/en-us/iaas/Content/GSG/support/enroll-support-plan.htm
+  - **Listing Support Plans** — https://docs.oracle.com/en-us/iaas/Content/GSG/support/list-support-plans.htm
+  - **Unenrolling from an Oracle Cloud Success Service** — https://docs.oracle.com/en-us/iaas/Content/GSG/support/unenroll-support-plan.htm
+- **Support Requests** — https://docs.oracle.com/en-us/iaas/Content/GSG/Tasks/contactingsupport.htm
+  - **Validating a User** — https://docs.oracle.com/en-us/iaas/Content/GSG/support/validate-user.htm
+  - **Listing Eligible Products for Support** — https://docs.oracle.com/en-us/iaas/Content/GSG/support/list-incident-resource-types-taxonomy.htm
+  - **Listing Limits for Service Limit Increase Requests** — https://docs.oracle.com/en-us/iaas/Content/GSG/support/list-incident-resource-types-limit.htm
+  - **Listing Support Requests** — https://docs.oracle.com/en-us/iaas/Content/GSG/support/list-incidents.htm
+  - **Creating a Support Request** — https://docs.oracle.com/en-us/iaas/Content/GSG/support/create-incident.htm
+  - **Getting the Details of a Support Request** — https://docs.oracle.com/en-us/iaas/Content/GSG/support/get-incident.htm
+  - **Updating a Support Request** — https://docs.oracle.com/en-us/iaas/Content/GSG/support/update-incident.htm
+    - **Comments** — https://docs.oracle.com/en-us/iaas/Content/GSG/support/update-incident-add-comment.htm
+    - **Attachments** — https://docs.oracle.com/en-us/iaas/Content/GSG/support/update-incident-add-attachment.htm
+    - **Closing** — https://docs.oracle.com/en-us/iaas/Content/GSG/support/update-incident-close.htm
+    - **Reopening** — https://docs.oracle.com/en-us/iaas/Content/GSG/support/update-incident-reopen.htm
+  - **Configuring Your Oracle Support Account** — https://docs.oracle.com/en-us/iaas/Content/GSG/Tasks/usingsupport.htm
+  - **Locating Oracle Cloud Infrastructure IDs** — https://docs.oracle.com/en-us/iaas/Content/GSG/Tasks/contactingsupport_topic-Locating_Oracle_Cloud_Infrastructure_IDs.htm
+  - **IAM Policy Reference** — https://docs.oracle.com/en-us/iaas/Content/GSG/support/policy-reference.htm
+  - **Known Issues** — https://docs.oracle.com/en-us/iaas/Content/GSG/support/known-issues.htm
+- **Comparable Services: OCI, AWS, Azure, and Google Cloud** — https://docs.oracle.com/en-us/iaas/Content/GSG/Reference/service-comparison.htm
+- **Frequently Asked Questions** — https://docs.oracle.com/en-us/iaas/Content/GSG/Reference/faq.htm

@@ -1,0 +1,173 @@
+# Marketplace
+
+- Home: `https://docs.oracle.com/en-us/iaas/Content/Marketplace/home.htm`
+- Home fetched: **HTTP 200** (10,950 B) — <title>Marketplace</title>
+- Pages in book (incl. home): 166
+
+## Header outline
+
+- **Overview** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/overview-marketplace.htm
+- **Commercial Guide for Marketplace** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/commercial-guide.htm
+  - **Pricing Models for Marketplace** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/pricing-models.htm
+  - **Customer-Consumer: Commercial Information for Marketplace** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/customer-consumer.htm
+    - **Finding Billing and Usage Details for an OCI Account** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/finding-billing-details.htm
+    - **Consumer Billing for Paid Listing and Private Offers on Marketplace** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/consumer-billing-private-offers.htm
+    - **Refunds in Marketplace** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/refunds.htm
+  - **Partner-Publisher: Commercial Information for Marketplace** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/partner.htm
+    - **Marketplace Image Billing** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/managing-images.htm
+    - **Partner&#x27;s Payment for Marketplace Transactions and Reporting** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/transactions-and-reporting.htm
+- **Using Marketplace** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/how-to-use.htm
+  - **Customer-Consumer: User Information for Marketplace** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/customers.htm
+    - **Using Oracle Cloud Marketplace, Public Site** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/cloud-marketplace.htm
+      - **Getting Started with Public Marketplace** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/get-started.htm
+      - **Changing the User Interface Language** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/ui-language-change.htm
+      - **Getting Support for Questions** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/support-questions.htm
+      - **Listing Apps or Services on Marketplace** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/listings.htm
+      - **Troubleshooting** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/troubleshooting.htm
+    - **Using Oracle Cloud Marketplace, Console** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/introduction.htm
+      - **Working with Listings** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/working-with-listings.htm
+        - **Pricing for Listings** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/pricing-for-listings.htm
+        - **Required IAM Policy To View Listings** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/iam-policy.htm
+        - **Finding a Listing** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/find-listing.htm
+        - **Filtering the Listings** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/filter-listings.htm
+        - **Viewing a Listing** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/view-listing.htm
+        - **Launching a Listing with Additional Markets and Currencies** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/launch-listing.htm
+        - **Launching an Instance Based on an Image** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/launch-instance.htm
+        - **Launching a Stack** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/launch-stack.htm
+        - **Exporting Container and Helm Charts** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/export-cont-helmchart.htm
+        - **Downloading a Terraform Configuration File** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/download-terraform-file.htm
+      - **Publishing Listings** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/publish-listings.htm
+      - **Publishing Community Applications** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/publish-community-application.htm
+        - **Required IAM Policy to Publish Community Applications** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/required-iam-policy.htm
+        - **Listing a Community Application** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/listing-comm-app.htm
+        - **Creating a Community Application** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/create-comm-app.htm
+        - **Updating a Community Application** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/update-community-application.htm
+        - **Moving a Community Application** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/move-community-application.htm
+        - **Deleting a Community Application** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/delete-community-application.htm
+      - **Accepting a Private Offer** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/accepting-privateoffer.htm
+      - **Launching and Exporting Roving Edge Exportability Listings** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/roving-edge-intro.htm
+        - **Launching a RED-Enabled Listing** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/launch-red-enabled-listing.htm
+        - **Creating and Exporting a Custom Image to RED** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/create-export-custom-image.htm
+      - **Viewing Accepted Terms-of-Use Agreements** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/view-deployed-applications.htm
+      - **Required IAM Policy to Access Marketplace** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/view-applications-iam-policy.htm
+      - **Oracle Cloud Microsoft Workloads Competency Partners** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Concepts/microsoft-partner.htm
+      - **Work Requests** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/work-request.htm
+        - **Listing Marketplace Work Requests** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/list-work-requests.htm
+        - **Getting Marketplace Work Request&#x27;s Details** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/get-work-request-details.htm
+        - **Listing Marketplace Work Request Errors** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/list-work-request-errors.htm
+        - **Listing Marketplace Work Request Logs** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/list-work-request-logs.htm
+    - **Managing Saas Subscriptions, Customers** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/saas-customer.htm
+      - **Customer Prerequisites** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/prereqs-saas.htm
+      - **Creating a SaaS Subscription** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/creating-subscription.htm
+      - **Managing Customer Subscriptions** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/managing-customer-subscriptions.htm
+    - **Overview of Service Catalog** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/overview_of_service_catalog.htm
+      - **Managing Service Catalogs** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/workingwithservicecatalogs.htm
+        - **Browsing and Launching Service Catalog Applications** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/workingwithservicecatalog_topic-browsing_and_launching_service_catalog_applications.htm
+        - **Creating a Service Catalog** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/workingwithservicecatalog_topic-To_create_a_service_catalog_console.htm
+        - **Viewing All Service Catalogs in a Compartment** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/workingwithservicecatalog_topic-To_view_all_service_catalogs_in_a_compartment_console.htm
+        - **Getting a Service Catalog&#x27;s Details** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/workingwithservicecatalog_topic-To_view_a_service_catalog_details_console.htm
+        - **Updating a Service Catalog** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/workingwithservicecatalog_topic-To_update_a_service_catalog_console.htm
+        - **Moving a Service Catalog Application to Another Compartment** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/workingwithservicecatalog_topic-To_move_a_service_catalog_console_to_another_compartment_console.htm
+        - **Deleting a Service Catalog** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/workingwithservicecatalog_topic-To_delete_a_service_catalog_console.htm
+      - **Managing Private Applications** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/workingwithprivateapplications.htm
+        - **Creating a Private Application** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/workingwithprivateapplications_topic-To_create_a_private_application_console.htm
+        - **Viewing All Private Applications in a Compartment** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/workingwithprivateapplications_topic-To_view_all_private_applications_in_a_compartment_console.htm
+        - **Getting a Private Application&#x27;s Details** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/workingwithprivateapplications_topic-To_view_a_private_application_details_console.htm
+        - **Updating a Private Application** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/workingwithprivateapplications_topic-To_update_a_private_application_console.htm
+        - **Moving a Private Application to Another Compartment** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/workingwithprivateapplications_topic-To_move_a_private_application_console_to_another_compartment_console.htm
+        - **Deleting a Private Application** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/workingwithprivateapplications_topic-To_delete_a_private_application_console.htm
+      - **Service Catalog Policies** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/service-catalog-policies.htm
+  - **Partner-Publisher: User Information for Marketplace** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/partners-and-publishers.htm
+    - **Becoming an OCI Partner and Publisher** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/become-oci-partner.htm
+    - **Publishing Guidelines** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/publishing_guidelines.htm
+      - **Building Images** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/build-image.htm
+        - **Creating an Image** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/create-image.htm
+      - **Publishing OCI Stack Listings** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/build-stack-listing.htm
+        - **Creating a Terraform Configuration File** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/create-terraform-configuration-files.htm
+        - **Creating a Terraform Artifact with Automate Stack Validation** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/stack-validation.htm
+        - **Verifying Terraform Configuration on a Local Machine** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/test-terraform.htm
+        - **Verifying Terraform Configuration in Resource Manager** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/test-terraform-resource-manager.htm
+        - **Subscribing Terraform Configurations to Marketplace Images** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/subscribe-terraform-configurations.htm
+      - **Managing Containers** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/containers.htm
+      - **Managing Helm Charts** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/understanding-helm-charts.htm
+      - **Tags for Marketplace-Launched OCI Instances** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/tags-marketplace.htm
+    - **Console Publishing** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/console-publishing.htm
+      - **New Partners** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/new-partners.htm
+      - **Existing Partners** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/existing-partners.htm
+      - **Learn About Publisher** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/overview.htm
+      - **Creating a Resource in Container Registry** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/container-registry.htm
+      - **Required IAM Policy** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/publisher-iam-policy.htm
+      - **Managing Listings, Artifacts, and Terms** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/manage-containers-in-marketplace.htm
+        - **Managing Listings** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/manage-listings.htm
+          - **Gathering Information for a Listing** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/gathering-info-listing.htm
+          - **Creating a Lead Generation Listing** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/creating-lead-generation-listing.htm
+          - **Creating an OCI Application Listing** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/creating-oci-application-listing.htm
+            - **Adding Pricing Plans for SaaS Listings** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/pricing-plan-types.htm
+          - **Creating a Service Listing** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/creating-service-listing.htm
+          - **Creating an AI Agent Listing** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/creating-ai-listing.htm
+          - **Editing a Listing Revision&#x27;s Details** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/edit-listing.htm
+          - **Publishing a Listing Revision** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/publish-listing.htm
+          - **Cloning a Listing Revision** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/clone-listing.htm
+          - **Deleting a Listing Revision** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/delete-listing.htm
+          - **Guidelines for Publishing Listings** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/publish-guidelines-listings.htm
+          - **Viewing Listings** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/viewing-listings.htm
+        - **Managing Artifacts** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/manage-artifacts.htm
+          - **Creating an Artifact** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/create-artifact.htm
+          - **Viewing Artifacts** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/view-all-artifacts.htm
+          - **Getting an Artifact&#x27;s Details** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/get-artifact-details.htm
+          - **Editing an Artifact** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/edit-an-artifact.htm
+          - **Deleting an Artifact** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/delete-artifact.htm
+        - **Managing Terms** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/manage-terms.htm
+          - **Creating a Term Version** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/create-terms.htm
+          - **Adding a Term Version** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/add-term-version.htm
+          - **Viewing All Term Versions** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/view-all-term-details.htm
+          - **Editing a Term Version** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/edit-term.htm
+          - **Deleting a Term Version** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/delete-term.htm
+          - **Guidelines for Publishing Terms** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/publish-guideline-terms.htm
+      - **Managing SaaS Subscriptions** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/manage-saas-subscription.htm
+        - **Publisher Prerequisites** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/publisher-preq.htm
+        - **Required IAM Policies** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/subscriptions-required-iam-policies.htm
+        - **Partner Provisioning of Subscriptions** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/partner-provisioning.htm
+        - **Reporting Metered Usage to Oracle Marketplace** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/usage-based-record-fwd.htm
+      - **Enabling Listings for Private Offers** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/private-offers-listings.htm
+      - **Managing Private Offers** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/manage-private-offers.htm
+        - **Workflow for Private Offers** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/privateoffers-workflow.htm
+        - **Prerequisites for Private Offers** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/privateoffers-prerequisites.htm
+          - **OCI Application Listings, Artifacts, and Private Offer Entitlements for SaaS and PaaS** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/private-offers-saas-paas.htm
+          - **Required IAM Policies** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/privateoffers-required-iam-policies.htm
+          - **Information Required for a Private Offer** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/info-from-customer.htm
+          - **Determining the Customer’s 25% Universal Credits Commit Credit Limit** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/determining-customer-15-ucm-commit-credit-limit.htm
+          - **Creating and Extending a Private Offer to a Customer** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/create-extend-offer-to-customer.htm
+        - **Creating a Private Offer** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/create-private-offers.htm
+          - **Adding Offer Details to a Private Offer** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/add-offer-details.htm
+          - **Adding Customer Information to a Private Offer** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/add-customer-info.htm
+          - **Adding Publisher Information to a Private Offer** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/add-publisher-info.htm
+        - **Multi-Party Private Offers** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/mppo.htm
+          - **Reseller** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/reseller-mppo.htm
+            - **Creating a Multi-Party Private Offer Quote Request** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/mppo-quote-request.htm
+            - **Accepting a Multi-Party Private Offer Quote Request** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/accepting-quote-request-mppo.htm
+            - **Creating a Multi-Party Private Offer** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/mppo-creating.htm
+          - **ISV** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/ISV-mppo.htm
+            - **Reviewing Quote Request** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/ISV-mppo-review-quote-request.htm
+        - **Viewing a Private Offer** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/view-private-offer.htm
+        - **Sending a Private Offer** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/send-private-offer.htm
+        - **Withdrawing a Private Offer** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/Tasks/withdraw-private-offer.htm
+      - **Cookbook for Publishing OCI Resource Manager Listings** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/api-cookbook-oci-resource-manager-listings.htm
+      - **Publishing SaaS Applications** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/saas_applications.htm
+      - **Types of Reports in Marketplace** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/marketplace-report-types.htm
+        - **OCI Customer Instances Report** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/customer-instances-report.htm
+        - **Disbursement and Tax Report** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/disb-tax-report.htm
+- **Creating a Support Request** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/creating-support-requests.htm
+- **Regulatory and Publishing Policies** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/marketplace-policies.htm
+  - **Regulatory Policies** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/policies.htm
+  - **Publishing Guidelines** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/app-publisher-guideline.htm
+    - **About Marketplace Publisher Guidelines** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/publisher-guidelines.htm
+    - **Guidelines for Listings** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/app-publisher-guidelines-listings.htm
+    - **Guidelines for Images** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/app-publisher-guidelines-images.htm
+    - **Guidelines for Stacks** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/app-publisher-guidelines-stacks.htm
+- **Frequently Asked Questions** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/frequently-asked-questions.htm
+  - **Marketplace FAQ** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/faq.htm
+  - **Marketplace Publisher FAQ** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/faq-publisher.htm
+- **Known Issues** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/known-issues.htm
+  - **Marketplace** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/marketplace.htm
+  - **Service Catalog** — https://docs.oracle.com/en-us/iaas/Content/Marketplace/known_issues_for_service_catalog.htm

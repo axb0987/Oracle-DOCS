@@ -1,0 +1,60 @@
+# Applications Services
+
+- Home: `https://docs.oracle.com/en-us/iaas/Content/applications-manager/applications-services-home.htm`
+- Home fetched: **HTTP 200** (7,141 B) — <title>Applications Services</title>
+- Pages in book (incl. home): 53
+
+## Header outline
+
+- **Activating Your Oracle Cloud Applications Order** — https://docs.oracle.com/en-us/iaas/Content/applications-manager/activate-applications.htm
+- **Using the Oracle Cloud Console** — https://docs.oracle.com/en-us/iaas/Content/applications-manager/applications-home-page.htm
+- **Adding Oracle Cloud Console Users** — https://docs.oracle.com/en-us/iaas/Content/applications-manager/add-apps-users.htm
+- **Exploring Your Applications Service Details** — https://docs.oracle.com/en-us/iaas/Content/applications-manager/application-service-details.htm
+- **Fusion Applications Environment Management** — https://docs.oracle.com/en-us/iaas/Content/fusion-applications/home.htm
+  - **Overview of Fusion Applications Environment Management** — https://docs.oracle.com/en-us/iaas/Content/fusion-applications/overview.htm
+  - **Planning an Environment Family** — https://docs.oracle.com/en-us/iaas/Content/fusion-applications/plan-environment-family.htm
+  - **Planning an Environment** — https://docs.oracle.com/en-us/iaas/Content/fusion-applications/plan-environment.htm
+  - **Fusion Applications Environment Setup Wizard** — https://docs.oracle.com/en-us/iaas/Content/fusion-applications/setup-wizard.htm
+  - **Managing Access** — https://docs.oracle.com/en-us/iaas/Content/fusion-applications/access-landing.htm
+    - **Managing Oracle Cloud Users with Specific Job Functions** — https://docs.oracle.com/en-us/iaas/Content/fusion-applications/fa-add-apps-users.htm
+    - **Managing Access with IAM Policies** — https://docs.oracle.com/en-us/iaas/Content/fusion-applications/managing-access.htm
+      - **Fusion Applications Environment Management IAM Policy Reference** — https://docs.oracle.com/en-us/iaas/Content/fusion-applications/iam-policies.htm
+  - **Managing Environment Families** — https://docs.oracle.com/en-us/iaas/Content/fusion-applications/manage-environment-family.htm
+  - **Managing Environments** — https://docs.oracle.com/en-us/iaas/Content/fusion-applications/manage-environment.htm
+  - **Viewing Metrics** — https://docs.oracle.com/en-us/iaas/Content/fusion-applications/metrics-landing.htm
+    - **Monthly Performance Metrics** — https://docs.oracle.com/en-us/iaas/Content/fusion-applications/metrics.htm
+    - **Environment Availability Metric** — https://docs.oracle.com/en-us/iaas/Content/fusion-applications/metrics-system.htm
+    - **Commercial Measurement Usage Metrics** — https://docs.oracle.com/en-us/iaas/Content/fusion-applications/usage-metrics.htm
+  - **Managing Security Features** — https://docs.oracle.com/en-us/iaas/Content/fusion-applications/manage-security-features.htm
+    - **Data Masking** — https://docs.oracle.com/en-us/iaas/Content/fusion-applications/manage-security-data-masking.htm
+    - **Customer-Managed Keys for Oracle Break Glass** — https://docs.oracle.com/en-us/iaas/Content/fusion-applications/manage-security-key-management.htm
+    - **Break Glass Support for Environments** — https://docs.oracle.com/en-us/iaas/Content/fusion-applications/manage-security-break-glass.htm
+  - **Managing Integrations** — https://docs.oracle.com/en-us/iaas/Content/fusion-applications/manage-integrations.htm
+  - **Refreshing an Environment** — https://docs.oracle.com/en-us/iaas/Content/fusion-applications/refresh-environment.htm
+  - **Enabling and Viewing Notifications** — https://docs.oracle.com/en-us/iaas/Content/fusion-applications/about-notifications.htm
+  - **Maintenance Start Time Changes** — https://docs.oracle.com/en-us/iaas/Content/fusion-applications/maintenance-start-time-changes.htm
+  - **Securely Accessing Fusion Applications** — https://docs.oracle.com/en-us/iaas/Content/fusion-applications/network-setup.htm
+  - **Disaster Recovery Support** — https://docs.oracle.com/en-us/iaas/Content/fusion-applications/disaster-recovery.htm
+  - **Creating an Application Data Extract** — https://docs.oracle.com/en-us/iaas/Content/fusion-applications/app-data-extract.htm
+  - **Conversion Home** — https://docs.oracle.com/en-us/iaas/Content/fusion-applications/fa-conversion-center.htm
+    - **Conversion Overview** — https://docs.oracle.com/en-us/iaas/Content/fusion-applications/conversions.htm
+    - **Conversion Checklist** — https://docs.oracle.com/en-us/iaas/Content/fusion-applications/conversion-checklist.htm
+    - **What&#x27;s New** — https://docs.oracle.com/en-us/iaas/Content/fusion-applications/fa-whatsnew.htm
+  - **Identity Upgrade Home** — https://docs.oracle.com/en-us/iaas/Content/fusion-applications/fa-identity-migration-center.htm
+    - **Identity Upgrade Overview** — https://docs.oracle.com/en-us/iaas/Content/fusion-applications/identity-migration-overview.htm
+    - **Identity Upgrade Checklist** — https://docs.oracle.com/en-us/iaas/Content/fusion-applications/identity-migration-checklist.htm
+  - **Multifactor Authentication (MFA) Enforcement** — https://docs.oracle.com/en-us/iaas/Content/fusion-applications/mfa-enforcement.htm
+- **Applications Environment Management** — https://docs.oracle.com/en-us/iaas/Content/applications-manager/home.htm
+  - **Overview of Managing Applications Environments** — https://docs.oracle.com/en-us/iaas/Content/applications-manager/overview.htm
+  - **Managing User Access to Applications Environments** — https://docs.oracle.com/en-us/iaas/Content/applications-manager/manage-access.htm
+  - **Planning an Applications Environment** — https://docs.oracle.com/en-us/iaas/Content/applications-manager/plan-apps-environment.htm
+  - **Managing Applications Environments** — https://docs.oracle.com/en-us/iaas/Content/applications-manager/manage-apps-environment.htm
+  - **Enabling and Viewing Notifications** — https://docs.oracle.com/en-us/iaas/Content/applications-manager/app-man-about-notifications.htm
+  - **Managing Security Features** — https://docs.oracle.com/en-us/iaas/Content/applications-manager/manage-security-features-appman.htm
+    - **Customer-Managed Keys for Oracle Break Glass** — https://docs.oracle.com/en-us/iaas/Content/applications-manager/key-management.htm
+    - **Break Glass Support for Environments** — https://docs.oracle.com/en-us/iaas/Content/applications-manager/manage-security-break-glass-appman.htm
+    - **Data Masking** — https://docs.oracle.com/en-us/iaas/Content/applications-manager/manage-apps-security-data-masking.htm
+  - **Applications Environment Management IAM Policy Reference** — https://docs.oracle.com/en-us/iaas/Content/applications-manager/iam-policies.htm
+  - **Troubleshooting** — https://docs.oracle.com/en-us/iaas/Content/applications-manager/troubleshooting-apps.htm
+- **Oracle Fusion Cloud Applications Suite Documentation** — https://docs.oracle.com/en-us/iaas/Content/applications-manager/link-to-apps-docs.htm
+- **Migration of My Services to Cloud Console** — https://docs.oracle.com/en-us/iaas/Content/applications-manager/console-migration.htm

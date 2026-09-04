@@ -1,0 +1,81 @@
+# Security
+
+- Home: `https://docs.oracle.com/en-us/iaas/Content/Security/Concepts/security.htm`
+- Home fetched: **HTTP 200** (9,217 B) — <title>Security</title>
+- Pages in book (incl. home): 72
+
+## Header outline
+
+- **Oracle Cloud Infrastructure Security Guide** — https://docs.oracle.com/en-us/iaas/Content/Security/Concepts/security_guide.htm
+  - **Security Overview** — https://docs.oracle.com/en-us/iaas/Content/Security/Concepts/security_overview.htm
+  - **Security Services** — https://docs.oracle.com/en-us/iaas/Content/Security/Concepts/security_features.htm
+  - **Security for Core Services** — https://docs.oracle.com/en-us/iaas/Content/Security/Concepts/security_core_services.htm
+  - **Securing Your Tenancy** — https://docs.oracle.com/en-us/iaas/Content/Security/Tasks/securing_your_tenancy.htm
+  - **Security Best Practices** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/configuration_security.htm
+    - **Securing API Gateway** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/apigw_security.htm
+    - **Securing Autonomous Recovery Service** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/autonomous_recovery_security.htm
+    - **Securing Bastion** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/bastion_security.htm
+    - **Securing Batch** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/batch_security.htm
+    - **Securing Block Volume** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/blockstorage_security.htm
+    - **Securing Cloud Advisor** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/cloudadvisor-security.htm
+    - **Securing Cloud Guard** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/cloud-guard_security.htm
+    - **Securing Cluster Placement Groups** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/clusterplacementgroups_security.htm
+    - **Securing Compute** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/compute_security.htm
+    - **Securing Compute Cloud@Customer** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/securing-compute-cloud-at-customer.htm
+    - **Securing Connector Hub** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/sch_security.htm
+    - **Securing Console Dashboards** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/dashboards-security.htm
+    - **Securing Data Catalog** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/datacatalog_security.htm
+    - **Securing Data Integration** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/dataintegration_security.htm
+    - **Securing Database** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/dbaas_security.htm
+    - **Securing DevOps** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/devops_security.htm
+    - **Securing Document Understanding** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/document-understanding-security.htm
+    - **Securing Email Delivery** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/email_security.htm
+    - **Securing File Storage** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/filestorage_security.htm
+    - **Securing File Storage with Lustre** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/lustre_security.htm
+    - **Securing GoldenGate** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/goldengate_security.htm
+    - **Securing Health Checks** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/healthchecks_security.htm
+    - **Securing IAM** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/iam_security.htm
+      - **IAM MFA** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/iam_security_topic-IAM_MFA.htm
+        - **Determining the Tenancy Type** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/determining_the_tenancy_type.htm
+        - **Identity Domains Without the &quot;Security Policy for OCI Console&quot; Sign-On Policy** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/iam_security_topic-iam_mfa_with_identity_domains.htm
+        - **Identity Domains With the &quot;Security Policy for OCI Console&quot; Sign-On Policy** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/iam_security_topic-iam_mfa_identity_domains_signon_policy.htm
+        - **Tenancies Without Identity Domains and Without the &quot;Security Policy for OCI Console&quot;
+                                          Sign-On Policy** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/iam_security_topic-iam_mfa_no_identity_domains_no_policy.htm
+        - **Tenancies Without Identity Domains and With the &quot;Security Policy for OCI Console&quot;
+                                          Sign-On Policy** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/iam_security_topic-iam_mfa_no_identity_domains.htm
+        - **Modifying and Restoring Oracle Security Defaults Using the Required Consents** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/iam_security_topic_update_default_security_policy_using_required_consent_overview.htm
+        - **Using Cloud Guard** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/iam_security_topic-using_cloud-guard.htm
+      - **IAM Tenancy and Compartments** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/iam_security_topic-IAM_Tenancy_and_Compartments.htm
+      - **IAM Users and Groups** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/iam_security_topic-IAM_Users_and_Groups.htm
+      - **IAM Credentials** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/iam_security_topic-IAM_Credentials.htm
+      - **IAM Security Policies** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/iam_security_topic-IAM_Security_Policies.htm
+      - **IAM Federation** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/iam_security_topic-IAM_Federation.htm
+      - **Security Policy Examples** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/iam_security_topic-Security_Policy_Examples.htm
+      - **Useful CLI Commands** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/iam_security_topic-Useful_CLI_Commands.htm
+    - **Securing Java Management** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/java_security.htm
+    - **Securing Kubernetes Engine** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/oke_security.htm
+    - **Securing Media Services** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/media_services_security.htm
+    - **Securing Monitoring** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/monitoring_security.htm
+    - **Securing Networking: VCN, Load Balancers, and DNS** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/networking_security.htm
+    - **Securing Network Firewall** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/network-firewall_security.htm
+    - **Securing Notifications** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/notifications_security.htm
+    - **Securing Object Storage** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/objectstorage_security.htm
+    - **Securing OCI Control Center** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/occ_security.htm
+    - **Securing Oracle Cloud Migrations** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/cloud-migration_security.htm
+    - **Securing OS Management Hub** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/securing-osmh.htm
+    - **Securing Process Automation** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/process_automation_security.htm
+    - **Securing Queue** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/queue_security.htm
+    - **Securing Resource Manager** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/resourcemanager_security.htm
+    - **Securing Secure Desktops** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/securing-sd.htm
+    - **Securing Security Advisor** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/securityadvisor_security.htm
+    - **Securing Security Zones** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/securityzone_security.htm
+    - **Securing Streaming** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/streaming_security.htm
+    - **Securing Support Management** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/support-management.htm
+    - **Securing Tagging** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/tagging_security.htm
+    - **Securing Threat Intelligence** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/threatintel_security.htm
+    - **Securing VMware Solution** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/vmware_security.htm
+    - **Securing Vulnerability Scanning** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/scanning_security.htm
+    - **Securing Web Application Firewall** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/waf_security.htm
+    - **Securing WebLogic Management** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/securing-weblogic.htm
+  - **Addressing Basic Configuration Issues** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/configuration_tasks.htm
+- **Oracle Cloud Security Responses to Vulnerabilities** — https://docs.oracle.com/en-us/iaas/Content/Security/Reference/responses_to_vulnerabilities.htm

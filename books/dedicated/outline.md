@@ -1,0 +1,65 @@
+# Oracle Dedicated Cloud
+
+- Home: `https://docs.oracle.com/en-us/iaas/Content/dedicated/home.htm`
+- Home fetched: **HTTP 200** (5,985 B) — <title>Oracle Dedicated Cloud</title>
+- Pages in book (incl. home): 58
+
+## Header outline
+
+- **OCI Dedicated Cloud Architecture** — https://docs.oracle.com/en-us/iaas/Content/dedicated/dedicated-cloud-architecture.htm
+- **Dedicated Region Overview** — https://docs.oracle.com/en-us/iaas/Content/dedicated/dedicated-region/dedicated-region-overview.htm
+  - **Tenancy Operating Model** — https://docs.oracle.com/en-us/iaas/Content/dedicated/dedicated-region/tenancy-operating-model.htm
+    - **Order Management** — https://docs.oracle.com/en-us/iaas/Content/dedicated/dedicated-region/order-management.htm
+  - **Subscriptions** — https://docs.oracle.com/en-us/iaas/Content/dedicated/dedicated-region/subscriptions.htm
+  - **Dedicated Region - Identity and Access Management (IAM)** — https://docs.oracle.com/en-us/iaas/Content/dedicated/dedicated-region/dedicated-region-identity-access-management-iam.htm
+  - **Dedicated Region Security** — https://docs.oracle.com/en-us/iaas/Content/dedicated/dedicated-region/dedicated-region-security.htm
+  - **Business Reporting** — https://docs.oracle.com/en-us/iaas/Content/dedicated/dedicated-region/business-reporting.htm
+  - **Capacity Management** — https://docs.oracle.com/en-us/iaas/Content/dedicated/dedicated-region/capacity-management.htm
+  - **APIs** — https://docs.oracle.com/en-us/iaas/Content/dedicated/dedicated-region/apis.htm
+  - **Disaster Recovery** — https://docs.oracle.com/en-us/iaas/Content/dedicated/dedicated-region/disaster-recovery.htm
+  - **Roles and Responsibilities** — https://docs.oracle.com/en-us/iaas/Content/dedicated/dedicated-region/roles-and-responsibilities.htm
+  - **Change Management** — https://docs.oracle.com/en-us/iaas/Content/dedicated/dedicated-region/change-management.htm
+  - **Customer Support** — https://docs.oracle.com/en-us/iaas/Content/dedicated/dedicated-region/customer-support.htm
+  - **Service Request Readiness** — https://docs.oracle.com/en-us/iaas/Content/dedicated/dedicated-region/service-request-readiness.htm
+  - **Multitenancy Support Model** — https://docs.oracle.com/en-us/iaas/Content/dedicated/dedicated-region/multitenancy-support-model.htm
+  - **Customer Console Support Access and Permissions** — https://docs.oracle.com/en-us/iaas/Content/dedicated/dedicated-region/customer-console-support-access-and-permissions.htm
+  - **Customer Support-Related Tasks in the Customer Console** — https://docs.oracle.com/en-us/iaas/Content/dedicated/dedicated-region/customer-support-related-tasks-in-the-customer-console.htm
+  - **Operator Support Consoles and Oracle-Facing Escalation** — https://docs.oracle.com/en-us/iaas/Content/dedicated/dedicated-region/operator-support-consoles-and-oracle-facing-escalation.htm
+  - **Fusion Support** — https://docs.oracle.com/en-us/iaas/Content/dedicated/dedicated-region/fusion-support.htm
+  - **Marketplace** — https://docs.oracle.com/en-us/iaas/Content/dedicated/dedicated-region/marketplace.htm
+- **Oracle Alloy Overview** — https://docs.oracle.com/en-us/iaas/Content/dedicated/alloy/oracle-alloy-overview.htm
+  - **Oracle Alloy Architecture** — https://docs.oracle.com/en-us/iaas/Content/dedicated/alloy/oracle-alloy-architecture.htm
+    - **Oracle Alloy APIs** — https://docs.oracle.com/en-us/iaas/Content/dedicated/alloy/apis.htm
+    - **Disaster Recovery** — https://docs.oracle.com/en-us/iaas/Content/dedicated/alloy/disaster-recovery.htm
+    - **Oracle Alloy Security** — https://docs.oracle.com/en-us/iaas/Content/dedicated/alloy/security.htm
+  - **Operator and Fusion Consoles** — https://docs.oracle.com/en-us/iaas/Content/dedicated/alloy/operator-console.htm
+  - **Commercial Systems** — https://docs.oracle.com/en-us/iaas/Content/dedicated/alloy/commercial-systems.htm
+    - **Oracle Alloy Pricing** — https://docs.oracle.com/en-us/iaas/Content/dedicated/alloy/oracle-alloy-pricing.htm
+    - **Oracle Alloy Billing** — https://docs.oracle.com/en-us/iaas/Content/dedicated/alloy/oracle-alloy-billing.htm
+    - **Oracle Alloy Branding** — https://docs.oracle.com/en-us/iaas/Content/dedicated/alloy/branding.htm
+  - **Oracle Alloy Subscriptions** — https://docs.oracle.com/en-us/iaas/Content/dedicated/alloy/subscriptions.htm
+  - **Oracle Alloy and Fusion** — https://docs.oracle.com/en-us/iaas/Content/dedicated/alloy/fusion-administration-for-oracle-alloy.htm
+    - **Fusion Pricing Administration** — https://docs.oracle.com/en-us/iaas/Content/dedicated/alloy/fusion-pricing-administration.htm
+  - **Oracle Alloy Announcements and Notifications** — https://docs.oracle.com/en-us/iaas/Content/dedicated/alloy/notifications.htm
+  - **Oracle Alloy Business Reporting** — https://docs.oracle.com/en-us/iaas/Content/dedicated/alloy/alloy-business-reporting.htm
+  - **Roles and Responsibilities** — https://docs.oracle.com/en-us/iaas/Content/dedicated/alloy/roles-and-responsibilities.htm
+  - **Change Management** — https://docs.oracle.com/en-us/iaas/Content/dedicated/alloy/change-management.htm
+  - **Alloy Reserved Regions** — https://docs.oracle.com/en-us/iaas/Content/dedicated/alloy/alloy-reserved-regions.htm
+  - **Customer Support** — https://docs.oracle.com/en-us/iaas/Content/dedicated/alloy/customer-support.htm
+  - **Oracle Alloy Marketplace** — https://docs.oracle.com/en-us/iaas/Content/dedicated/alloy/marketplace.htm
+- **Dedicated Cloud Build Readiness** — https://docs.oracle.com/en-us/iaas/Content/dedicated/build-readiness-guide/dedicated-cloud-build-readiness.htm
+  - **Site Readiness Overview** — https://docs.oracle.com/en-us/iaas/Content/dedicated/build-readiness-guide/site-readiness-overview.htm
+  - **Information for Design Review** — https://docs.oracle.com/en-us/iaas/Content/dedicated/build-readiness-guide/information-for-design-review.htm
+  - **Support Space** — https://docs.oracle.com/en-us/iaas/Content/dedicated/build-readiness-guide/support-space.htm
+  - **Facilities, Environmental Health, and Safety** — https://docs.oracle.com/en-us/iaas/Content/dedicated/build-readiness-guide/facilities-environmental-health-and-safety.htm
+  - **Capacity Requirements** — https://docs.oracle.com/en-us/iaas/Content/dedicated/build-readiness-guide/capacity-requirements.htm
+  - **Operations Requirements** — https://docs.oracle.com/en-us/iaas/Content/dedicated/build-readiness-guide/operations-requirements.htm
+  - **Security** — https://docs.oracle.com/en-us/iaas/Content/dedicated/build-readiness-guide/security.htm
+    - **Physical Security** — https://docs.oracle.com/en-us/iaas/Content/dedicated/build-readiness-guide/physical-security.htm
+    - **Security Monitoring** — https://docs.oracle.com/en-us/iaas/Content/dedicated/build-readiness-guide/security-monitoring.htm
+    - **Physical Security Alarms** — https://docs.oracle.com/en-us/iaas/Content/dedicated/build-readiness-guide/physical-security-alarms.htm
+  - **Access Control** — https://docs.oracle.com/en-us/iaas/Content/dedicated/build-readiness-guide/access-control.htm
+  - **Physical Networking** — https://docs.oracle.com/en-us/iaas/Content/dedicated/build-readiness-guide/physical-networking.htm
+    - **Meet-Me Rooms** — https://docs.oracle.com/en-us/iaas/Content/dedicated/build-readiness-guide/meet-me-rooms.htm
+    - **Conduit Pathway** — https://docs.oracle.com/en-us/iaas/Content/dedicated/build-readiness-guide/conduit-pathway.htm
+    - **Fiber Optic Cabling** — https://docs.oracle.com/en-us/iaas/Content/dedicated/build-readiness-guide/fiber-optic-cabling.htm

@@ -1,0 +1,619 @@
+# Oracle Multicloud
+
+- Home: `https://docs.oracle.com/en-us/iaas/Content/multicloud/Oraclemulticloud.htm`
+- Home fetched: **HTTP 200** (6,612 B) — <title>Oracle Multicloud</title>
+- Pages in book (incl. home): 609
+
+## Header outline
+
+- **Overview** — https://docs.oracle.com/en-us/iaas/Content/multicloud/overview.htm
+- **Get Started** — https://docs.oracle.com/en-us/iaas/Content/multicloud/get-started.htm
+  - **Multicloud Benefits** — https://docs.oracle.com/en-us/iaas/Content/multicloud/get-started-benefits.htm
+  - **Multicloud Challenges** — https://docs.oracle.com/en-us/iaas/Content/multicloud/get-started-challenges.htm
+  - **Multicloud Management** — https://docs.oracle.com/en-us/iaas/Content/multicloud/get-started-management.htm
+  - **Multicloud Use Cases** — https://docs.oracle.com/en-us/iaas/Content/multicloud/get-started-use-cases.htm
+  - **Multicloud Strategy** — https://docs.oracle.com/en-us/iaas/Content/multicloud/get-started-strategy.htm
+  - **Multicloud Deployment with Oracle** — https://docs.oracle.com/en-us/iaas/Content/multicloud/get-started-deployment.htm
+- **Oracle Subscriptions** — https://docs.oracle.com/en-us/iaas/Content/multicloud/subscriptions-oracle.htm
+  - **Universal Credits** — https://docs.oracle.com/en-us/iaas/Content/multicloud/universal-credits-oracle.htm
+  - **Multicloud Universal Credits (MUC)** — https://docs.oracle.com/en-us/iaas/Content/multicloud/universal-credits.htm
+  - **Multicloud Subscriptions** — https://docs.oracle.com/en-us/iaas/Content/multicloud/subscriptions-mc.htm
+- **Regional Availability** — https://docs.oracle.com/en-us/iaas/Content/multicloud/regions.htm
+- **Onboard (MUC)** — https://docs.oracle.com/en-us/iaas/Content/multicloud/onboard.htm
+  - **Prerequisites** — https://docs.oracle.com/en-us/iaas/Content/multicloud/prereqs.htm
+  - **Request Offer** — https://docs.oracle.com/en-us/iaas/Content/multicloud/request.htm
+  - **Purchase** — https://docs.oracle.com/en-us/iaas/Content/multicloud/onboard-purchase.htm
+- **Quotas and Service Limits** — https://docs.oracle.com/en-us/iaas/Content/multicloud/quotas-limits.htm
+- **Requesting a Limit Increase** — https://docs.oracle.com/en-us/iaas/Content/multicloud/limits-increase.htm
+- **Oracle AI Database@AWS** — https://docs.oracle.com/en-us/iaas/Content/database-at-aws/oaaws.htm
+  - **Overview** — https://docs.oracle.com/en-us/iaas/Content/database-at-aws/oaaws-overview.htm
+  - **Get Started** — https://docs.oracle.com/en-us/iaas/Content/database-at-aws/oaaws-getting-started.htm
+    - **Architecture** — https://docs.oracle.com/en-us/iaas/Content/database-at-aws/oaaws-getting-started-architecture.htm
+    - **AWS Account** — https://docs.oracle.com/en-us/iaas/Content/database-at-aws/oaaws-gs-aws-account.htm
+    - **OCI Tenancy** — https://docs.oracle.com/en-us/iaas/Content/database-at-aws/oaaws-gs-oci-account.htm
+    - **Private Offer** — https://docs.oracle.com/en-us/iaas/Content/database-at-aws/oaaws-gs-private-offer.htm
+    - **Public Offer** — https://docs.oracle.com/en-us/iaas/Content/database-at-aws/oaaws-gs-public-offer.htm
+    - **Reselling** — https://docs.oracle.com/en-us/iaas/Content/database-at-aws/get-started-reselling.htm
+    - **Regional Availability** — https://docs.oracle.com/en-us/iaas/Content/database-at-aws/oaaws-regions.htm
+    - **Quotas and Service Limits** — https://docs.oracle.com/en-us/iaas/Content/database-at-aws/quotas-limits.htm
+    - **Requesting a Limit Increase** — https://docs.oracle.com/en-us/iaas/Content/database-at-aws/limits-increase.htm
+  - **Onboard** — https://docs.oracle.com/en-us/iaas/Content/database-at-aws/oaaws-onboard.htm
+    - **Prerequisites** — https://docs.oracle.com/en-us/iaas/Content/database-at-aws/oaaws-prerequisites.htm
+    - **Request Offer** — https://docs.oracle.com/en-us/iaas/Content/database-at-aws/oaaws-task-2-request-offer.htm
+    - **Purchase** — https://docs.oracle.com/en-us/iaas/Content/database-at-aws/oaaws-task-3-purchase-offer.htm
+    - **Link** — https://docs.oracle.com/en-us/iaas/Content/database-at-aws/oaaws-task-4-link-accounts.htm
+    - **Verify** — https://docs.oracle.com/en-us/iaas/Content/database-at-aws/oaaws-task-5-verify-setup.htm
+    - **Support Registration** — https://docs.oracle.com/en-us/iaas/Content/database-at-aws/oaaws-task-6-mocs-registration.htm
+    - **Role-Based Access Control** — https://docs.oracle.com/en-us/iaas/Content/database-at-aws/oaaws-rbac.htm
+    - **Federation (Optional)** — https://docs.oracle.com/en-us/iaas/Content/database-at-aws/oaaws-task-7-federation.htm
+    - **Subscription Sharing (Optional)** — https://docs.oracle.com/en-us/iaas/Content/database-at-aws/onboard-multi.htm
+  - **Network** — https://docs.oracle.com/en-us/iaas/Content/database-at-aws/oaaws-ip.htm
+    - **ODB Network Design** — https://docs.oracle.com/en-us/iaas/Content/database-at-aws/oaaws-network-odb-network.htm
+    - **DNS** — https://docs.oracle.com/en-us/iaas/Content/database-at-aws/oaaws-network-dns.htm
+    - **Topologies** — https://docs.oracle.com/en-us/iaas/Content/database-at-aws/oaaws-network-topologies.htm
+  - **Create** — https://docs.oracle.com/en-us/iaas/Content/awscr-create.html
+    - **Prerequisites** — https://docs.oracle.com/en-us/iaas/Content/awscr-create-prerequisites.html
+    - **ODB Network** — https://docs.oracle.com/en-us/iaas/Content/awscr-create-odb-network.html
+    - **Secrets (Optional)** — https://docs.oracle.com/en-us/iaas/Content/awscr-create-secrets-optional.html
+    - **Exadata Infrastructure** — https://docs.oracle.com/en-us/iaas/Content/awscr-create-exadata-infrastructure.html
+    - **Resource Sharing (Optional)** — https://docs.oracle.com/en-us/iaas/Content/awscr-create-resource-sharing-optional.html
+    - **Exadata VM Cluster** — https://docs.oracle.com/en-us/iaas/Content/awscr-create-exadata-vm-cluster.html
+    - **Autonomous VM Cluster** — https://docs.oracle.com/en-us/iaas/Content/awscr-create-autonomous-vm-cluster.html
+    - **Exascale VM Cluster** — https://docs.oracle.com/en-us/iaas/Content/awscr-create-exascale-vm-cluster.html
+    - **ODB Peering Connection** — https://docs.oracle.com/en-us/iaas/Content/awscr-create-odb-peering-connections.html
+    - **Exadata Database** — https://docs.oracle.com/en-us/iaas/Content/awscr-create-exadata-database.html
+    - **Exascale Database** — https://docs.oracle.com/en-us/iaas/Content/awscr-create-exascale-database.html
+    - **Autonomous AI Database (Serverless)** — https://docs.oracle.com/en-us/iaas/Content/awscr-create-autonomous-ai-database-serverless.html
+    - **Autonomous AI Database (Dedicated)** — https://docs.oracle.com/en-us/iaas/Content/awscr-create-autonomous-ai-database-dedicated.html
+  - **Connect** — https://docs.oracle.com/en-us/iaas/Content/awscn-connect.html
+    - **Configure** — https://docs.oracle.com/en-us/iaas/Content/awscn-connect-configure.html
+    - **Exadata VM Cluster** — https://docs.oracle.com/en-us/iaas/Content/awscn-connect-exadata-vm-cluster.html
+    - **Exascale VM Cluster** — https://docs.oracle.com/en-us/iaas/Content/awscn-connect-exascale-vm-cluster.html
+    - **Exadata Database** — https://docs.oracle.com/en-us/iaas/Content/awscn-connect-exadata-database.html
+    - **Exascale Database** — https://docs.oracle.com/en-us/iaas/Content/awscn-connect-exascale-database.html
+    - **Autonomous AI Database (Serverless)** — https://docs.oracle.com/en-us/iaas/Content/awscn-connect-autonomous-ai-database-serverless.html
+    - **Autonomous AI Database (Dedicated)** — https://docs.oracle.com/en-us/iaas/Content/awscn-connect-autonomous-ai-database-dedicated.html
+    - **Network Latency** — https://docs.oracle.com/en-us/iaas/Content/awscn-connect-network-latency.html
+  - **Modify** — https://docs.oracle.com/en-us/iaas/Content/awsmd-modify.html
+    - **Prerequisites** — https://docs.oracle.com/en-us/iaas/Content/awsmd-modify-prerequisites.html
+    - **ODB Network** — https://docs.oracle.com/en-us/iaas/Content/awsmd-modify-odb-network.html
+    - **Secrets (Optional)** — https://docs.oracle.com/en-us/iaas/Content/awsmd-modify-secrets-optional.html
+    - **Exadata Infrastructure** — https://docs.oracle.com/en-us/iaas/Content/awsmd-modify-exadata-infrastructure.html
+    - **Resource Sharing (Optional)** — https://docs.oracle.com/en-us/iaas/Content/awsmd-modify-resource-sharing-optional.html
+    - **Exadata VM Cluster** — https://docs.oracle.com/en-us/iaas/Content/awsmd-modify-exadata-vm-cluster.html
+    - **Autonomous VM Cluster** — https://docs.oracle.com/en-us/iaas/Content/awsmd-modify-autonomous-vm-cluster.html
+    - **Exascale VM Cluster** — https://docs.oracle.com/en-us/iaas/Content/awsmd-modify-exascale-vm-cluster.html
+    - **ODB Peering Connections** — https://docs.oracle.com/en-us/iaas/Content/awsmd-modify-odb-peering-connections.html
+    - **Exadata Database** — https://docs.oracle.com/en-us/iaas/Content/awsmd-modify-exadata-database.html
+    - **Exascale Database** — https://docs.oracle.com/en-us/iaas/Content/awsmd-modify-exascale-database.html
+    - **Autonomous AI Database (Serverless)** — https://docs.oracle.com/en-us/iaas/Content/awsmd-modify-autonomous-ai-database-serverless.html
+    - **Autonomous AI Database (Dedicated)** — https://docs.oracle.com/en-us/iaas/Content/awsmd-modify-autonomous-ai-database-dedicated.html
+  - **Delete** — https://docs.oracle.com/en-us/iaas/Content/awsdl-delete.html
+    - **Prerequisites** — https://docs.oracle.com/en-us/iaas/Content/awsdl-delete-prerequisites.html
+    - **ODB Network** — https://docs.oracle.com/en-us/iaas/Content/awsdl-delete-odb-network.html
+    - **Secrets (Optional)** — https://docs.oracle.com/en-us/iaas/Content/awsdl-delete-secrets-optional.html
+    - **Exadata Infrastructure** — https://docs.oracle.com/en-us/iaas/Content/awsdl-delete-exadata-infrastructure.html
+    - **Resource Sharing (Optional)** — https://docs.oracle.com/en-us/iaas/Content/awsdl-delete-resource-sharing-optional.html
+    - **Exadata VM Cluster** — https://docs.oracle.com/en-us/iaas/Content/awsdl-delete-exadata-vm-cluster.html
+    - **Autonomous VM Cluster** — https://docs.oracle.com/en-us/iaas/Content/awsdl-delete-autonomous-vm-cluster.html
+    - **Exascale VM Cluster** — https://docs.oracle.com/en-us/iaas/Content/awsdl-delete-exascale-vm-cluster.html
+    - **ODB Peering Connections** — https://docs.oracle.com/en-us/iaas/Content/awsdl-delete-odb-peering-connections.html
+    - **Exadata Database** — https://docs.oracle.com/en-us/iaas/Content/awsdl-delete-exadata-database.html
+    - **Exascale Database** — https://docs.oracle.com/en-us/iaas/Content/awsdl-delete-exascale-database.html
+    - **Autonomous AI Database (Serverless)** — https://docs.oracle.com/en-us/iaas/Content/awsdl-delete-autonomous-ai-database-serverless.html
+    - **Autonomous AI Database (Dedicated)** — https://docs.oracle.com/en-us/iaas/Content/awsdl-delete-autonomous-ai-database-dedicated.html
+  - **Backup** — https://docs.oracle.com/en-us/iaas/Content/awsbu-backup-backup.html
+    - **Prerequisites** — https://docs.oracle.com/en-us/iaas/Content/awsbu-backup-prerequisites.html
+    - **Exadata Database - Automatic** — https://docs.oracle.com/en-us/iaas/Content/awsbu-backup-exadata-database-automatic.html
+    - **Exadata Database - Manual** — https://docs.oracle.com/en-us/iaas/Content/awsbu-backup-exadata-database-manual.html
+    - **Exadata Database - LTR** — https://docs.oracle.com/en-us/iaas/Content/awsbu-backup-exadata-database-ltr.html
+    - **Exascale Database - Automatic** — https://docs.oracle.com/en-us/iaas/Content/awsbu-backup-exascale-database-automatic.html
+    - **Exascale Database - Manual** — https://docs.oracle.com/en-us/iaas/Content/awsbu-backup-exascale-database-manual.html
+    - **Exascale Database - LTR** — https://docs.oracle.com/en-us/iaas/Content/awsbu-backup-exascale-database-ltr.html
+    - **Autonomous AI Database (Serverless) - Automatic** — https://docs.oracle.com/en-us/iaas/Content/awsbu-backup-autonomous-ai-database-serverless-automatic.html
+    - **Autonomous AI Database (Serverless) - Manual** — https://docs.oracle.com/en-us/iaas/Content/awsbu-backup-autonomous-ai-database-serverless-manual.html
+    - **Autonomous AI Database (Serverless) - LTR** — https://docs.oracle.com/en-us/iaas/Content/awsbu-backup-autonomous-ai-database-serverless-ltr.html
+    - **Autonomous AI Database (Dedicated) - Automatic** — https://docs.oracle.com/en-us/iaas/Content/awsbu-backup-autonomous-ai-database-dedicated-automatic.html
+    - **Autonomous AI Database (Dedicated) - Manual** — https://docs.oracle.com/en-us/iaas/Content/awsbu-backup-autonomous-ai-database-dedicated-manual.html
+    - **Autonomous AI Database (Dedicated) - LTR** — https://docs.oracle.com/en-us/iaas/Content/awsbu-backup-autonomous-ai-database-dedicated-ltr.html
+  - **Restore** — https://docs.oracle.com/en-us/iaas/Content/awsrs-restore-restore.html
+    - **Prerequisites** — https://docs.oracle.com/en-us/iaas/Content/awsrs-restore-prerequisites.html
+    - **Exadata Database - Clone** — https://docs.oracle.com/en-us/iaas/Content/awsrs-restore-exadata-database-clone.html
+    - **Exadata Database - Restore** — https://docs.oracle.com/en-us/iaas/Content/awsrs-restore-exadata-database-restore.html
+    - **Exadata Database - PITR** — https://docs.oracle.com/en-us/iaas/Content/awsrs-restore-exadata-database-pitr.html
+    - **Exascale Database - Clone** — https://docs.oracle.com/en-us/iaas/Content/awsrs-restore-exascale-database-clone.html
+    - **Exascale Database - Restore** — https://docs.oracle.com/en-us/iaas/Content/awsrs-restore-exascale-database-restore.html
+    - **Exascale Database - PITR** — https://docs.oracle.com/en-us/iaas/Content/awsrs-restore-exascale-database-pitr.html
+    - **Autonomous AI Database (Serverless) - Clone** — https://docs.oracle.com/en-us/iaas/Content/awsrs-restore-autonomous-ai-database-serverless-clone.html
+    - **Autonomous AI Database (Serverless) - Restore** — https://docs.oracle.com/en-us/iaas/Content/awsrs-restore-autonomous-ai-database-serverless-restore.html
+    - **Autonomous AI Database (Serverless) - PITR** — https://docs.oracle.com/en-us/iaas/Content/awsrs-restore-autonomous-ai-database-serverless-pitr.html
+    - **Autonomous AI Database (Dedicated) - Clone** — https://docs.oracle.com/en-us/iaas/Content/awsrs-restore-autonomous-ai-database-dedicated-clone.html
+    - **Autonomous AI Database (Dedicated) - Restore** — https://docs.oracle.com/en-us/iaas/Content/awsrs-restore-autonomous-ai-database-dedicated-restore.html
+    - **Autonomous AI Database (Dedicated) - PITR** — https://docs.oracle.com/en-us/iaas/Content/awsrs-restore-autonomous-ai-database-dedicated-pitr.html
+  - **Business Continuity (HADR)** — https://docs.oracle.com/en-us/iaas/Content/awsbc-business-continuity-hadr.html
+    - **Prerequisites** — https://docs.oracle.com/en-us/iaas/Content/awsbc-business-continuity-hadr-prerequisites.html
+    - **Exadata Database** — https://docs.oracle.com/en-us/iaas/Content/awsbc-business-continuity-hadr-exadata-database.html
+    - **Exascale Database** — https://docs.oracle.com/en-us/iaas/Content/awsbc-business-continuity-hadr-exascale-database.html
+    - **Autonomous AI Database (Serverless)** — https://docs.oracle.com/en-us/iaas/Content/awsbc-business-continuity-hadr-autonomous-ai-database-serverless.html
+    - **Autonomous AI Database (Dedicated)** — https://docs.oracle.com/en-us/iaas/Content/awsbc-business-continuity-hadr-autonomous-ai-database-dedicated.html
+  - **Migration** — https://docs.oracle.com/en-us/iaas/Content/awsmg-migration.html
+    - **Overview** — https://docs.oracle.com/en-us/iaas/Content/awsmg-migration-overview.html
+    - **Migrate to Exadata Database** — https://docs.oracle.com/en-us/iaas/Content/awsmg-migration-migrate-exadata-database.html
+    - **Migrate to Autonomous AI Database (Dedicated)** — https://docs.oracle.com/en-us/iaas/Content/awsmg-migration-migrate-autonomous-ai-database-dedicated.html
+  - **Monitor** — https://docs.oracle.com/en-us/iaas/Content/awsmn-monitor.html
+    - **Prerequisites** — https://docs.oracle.com/en-us/iaas/Content/awsmn-monitor-prerequisites.html
+    - **CloudWatch** — https://docs.oracle.com/en-us/iaas/Content/awsmn-monitor-cloudwatch.html
+    - **EventBridge** — https://docs.oracle.com/en-us/iaas/Content/awsmn-monitor-eventbridge.html
+    - **CloudTrail** — https://docs.oracle.com/en-us/iaas/Content/awsmn-monitor-cloudtrail.html
+    - **OEM** — https://docs.oracle.com/en-us/iaas/Content/awsmn-monitor-oem.html
+    - **OCI** — https://docs.oracle.com/en-us/iaas/Content/awsmn-monitor-oci.html
+    - **Billing** — https://docs.oracle.com/en-us/iaas/Content/awsmn-monitor-billing.html
+  - **Security** — https://docs.oracle.com/en-us/iaas/Content/awssc-security.html
+    - **Prerequisites** — https://docs.oracle.com/en-us/iaas/Content/awssc-security-prerequisites.html
+    - **Protect Exadata Database** — https://docs.oracle.com/en-us/iaas/Content/awssc-security-protect-exadata-database.html
+    - **Protect Exascale Database** — https://docs.oracle.com/en-us/iaas/Content/awssc-security-protect-exascale-database.html
+    - **Protect Autonomous AI Database (Serverless)** — https://docs.oracle.com/en-us/iaas/Content/awssc-security-protect-autonomous-ai-database-serverless.html
+    - **Protect Autonomous AI Database (Dedicated)** — https://docs.oracle.com/en-us/iaas/Content/awssc-security-protect-autonomous-ai-database-dedicated.html
+    - **Compliance** — https://docs.oracle.com/en-us/iaas/Content/awssc-security-compliance.html
+  - **Troubleshoot** — https://docs.oracle.com/en-us/iaas/Content/awstr-troubleshoot.html
+    - **ODB Network** — https://docs.oracle.com/en-us/iaas/Content/awstr-tr-odb-network.html
+    - **Connect** — https://docs.oracle.com/en-us/iaas/Content/awstr-tr-connect.html
+    - **Oracle Exadata Database Service on Dedicated Infrastructure** — https://docs.oracle.com/en-us/iaas/Content/awstr-tr-oracle-exadata-database-service-dedicated-infrastructure.html
+    - **Oracle Autonomous AI Database on Dedicated Exadata Infrastructure** — https://docs.oracle.com/en-us/iaas/Content/awstr-tr-oracle-autonomous-ai-database-dedicated-exadata-infrastructure.html
+  - **Industry Use Cases** — https://docs.oracle.com/en-us/iaas/Content/awscs-industry-use-cases.html
+    - **Automotive and Manufacturing** — https://docs.oracle.com/en-us/iaas/Content/awscs-industry-use-cases-uc-automotive-and-manufacturing.html
+    - **Energy and Utilities** — https://docs.oracle.com/en-us/iaas/Content/awscs-industry-use-cases-uc-energy-and-utilities.html
+    - **Financial Services** — https://docs.oracle.com/en-us/iaas/Content/awscs-industry-use-cases-uc-financial-services.html
+    - **Healthcare and Life Science** — https://docs.oracle.com/en-us/iaas/Content/awscs-industry-use-cases-uc-healthcare-and-life-science.html
+    - **Media and Entertainment** — https://docs.oracle.com/en-us/iaas/Content/awscs-industry-use-cases-uc-media-and-entertainment.html
+    - **Retail and Consumer Goods** — https://docs.oracle.com/en-us/iaas/Content/awscs-industry-use-cases-uc-retail-and-consumer-goods.html
+    - **Telecommunications** — https://docs.oracle.com/en-us/iaas/Content/awscs-industry-use-cases-uc-telecommunications.html
+    - **Travel and Hospitality** — https://docs.oracle.com/en-us/iaas/Content/awscs-industry-use-cases-uc-travel-and-hospitality.html
+  - **Native Integration** — https://docs.oracle.com/en-us/iaas/Content/awsuc-native-integration.html
+    - **EC2** — https://docs.oracle.com/en-us/iaas/Content/awsuc-native-integration-ec2.html
+    - **ECS** — https://docs.oracle.com/en-us/iaas/Content/awsuc-native-integration-ecs.html
+    - **Amazon Elastic Kubernetes Service (Amazon EKS)** — https://docs.oracle.com/en-us/iaas/Content/awsuc-native-integration-eks.html
+    - **Lambda** — https://docs.oracle.com/en-us/iaas/Content/awsuc-native-integration-lambda.html
+    - **Kinesis** — https://docs.oracle.com/en-us/iaas/Content/awsuc-native-integration-kinesis.html
+    - **Quicksight** — https://docs.oracle.com/en-us/iaas/Content/awsuc-native-integration-quicksight.html
+    - **Bedrock and Nova** — https://docs.oracle.com/en-us/iaas/Content/awsuc-native-integration-bedrock-and-nova.html
+    - **Sagemaker** — https://docs.oracle.com/en-us/iaas/Content/awsuc-native-integration-sagemaker.html
+  - **Oracle Applications** — https://docs.oracle.com/en-us/iaas/Content/awsoa-oracle-applications.html
+    - **Oracle E-Business Suite** — https://docs.oracle.com/en-us/iaas/Content/awsoa-oracle-applications-oa-oracle-e-business-suite.html
+    - **PeopleSoft** — https://docs.oracle.com/en-us/iaas/Content/awsoa-oracle-applications-oa-peoplesoft.html
+    - **JD Edwards** — https://docs.oracle.com/en-us/iaas/Content/awsoa-oracle-applications-oa-jd-edwards.html
+    - **Retail Merchandising System** — https://docs.oracle.com/en-us/iaas/Content/awsoa-oracle-applications-oa-retail-merchandising-system.html
+    - **Enterprise Performance Management** — https://docs.oracle.com/en-us/iaas/Content/awsoa-oracle-applications-oa-enterprise-performance-management.html
+  - **Tutorials** — https://docs.oracle.com/en-us/iaas/Content/database-at-aws/tutorials.htm
+  - **Support Information** — https://docs.oracle.com/en-us/iaas/Content/database-at-aws/oaaws-support.htm
+  - **What&#x27;s New** — https://docs.oracle.com/en-us/iaas/Content/database-at-aws/oaaws-whats-new.htm
+- **Oracle AI Database@Azure** — https://docs.oracle.com/en-us/iaas/Content/database-at-azure/oaa.htm
+  - **Overview** — https://docs.oracle.com/en-us/iaas/Content/database-at-azure/overview.htm
+  - **Get Started** — https://docs.oracle.com/en-us/iaas/Content/database-at-azure/getting-started.htm
+    - **Architecture** — https://docs.oracle.com/en-us/iaas/Content/database-at-azure/getting-started-architecture.htm
+    - **Azure Subscription** — https://docs.oracle.com/en-us/iaas/Content/database-at-azure/getting-started-azure-account.htm
+    - **OCI Tenancy** — https://docs.oracle.com/en-us/iaas/Content/database-at-azure/getting-started-oci-tenancy.htm
+    - **Private Offer** — https://docs.oracle.com/en-us/iaas/Content/database-at-azure/getting-started-private-offer.htm
+    - **Public Offer** — https://docs.oracle.com/en-us/iaas/Content/database-at-azure/getting-started-public-offer.htm
+    - **Regional Availability** — https://docs.oracle.com/en-us/iaas/Content/database-at-azure/oaa_regions.htm
+    - **Quotas and Service Limits** — https://docs.oracle.com/en-us/iaas/Content/database-at-azure/quotas-limits.htm
+    - **Requesting a Limit Increase** — https://docs.oracle.com/en-us/iaas/Content/database-at-azure/limits-increase.htm
+  - **Onboard** — https://docs.oracle.com/en-us/iaas/Content/database-at-azure/oaaonboard.htm
+    - **Prerequisites** — https://docs.oracle.com/en-us/iaas/Content/database-at-azure/oaaprerequisites.htm
+    - **Request Offer** — https://docs.oracle.com/en-us/iaas/Content/database-at-azure/request-offer.htm
+    - **Purchase** — https://docs.oracle.com/en-us/iaas/Content/database-at-azure/onboard-purchase.htm
+    - **Link** — https://docs.oracle.com/en-us/iaas/Content/database-at-azure/onboard-link.htm
+    - **Verify** — https://docs.oracle.com/en-us/iaas/Content/database-at-azure/onboard-verify.htm
+    - **Support Registration** — https://docs.oracle.com/en-us/iaas/Content/database-at-azure/onboard-register-mos.htm
+    - **Role-Based Access Control** — https://docs.oracle.com/en-us/iaas/Content/database-at-azure/onboard-access-control.htm
+    - **Federation (Optional)** — https://docs.oracle.com/en-us/iaas/Content/database-at-azure/onboard-federation.htm
+    - **Multi-Subscription (Optional)** — https://docs.oracle.com/en-us/iaas/Content/database-at-azure/oaa-multiple-subscriptions.htm
+    - **Plan Change (Optional)** — https://docs.oracle.com/en-us/iaas/Content/database-at-azure/onboard-plan-change.htm
+  - **Network** — https://docs.oracle.com/en-us/iaas/Content/database-at-azure/network.htm
+    - **Delegated Subnet Design** — https://docs.oracle.com/en-us/iaas/Content/database-at-azure/network-delegated-subnet-design.htm
+    - **Anchor Design** — https://docs.oracle.com/en-us/iaas/Content/database-at-azure/network-anchor-design.htm
+    - **DNS** — https://docs.oracle.com/en-us/iaas/Content/database-at-azure/network-dns.htm
+    - **Topologies** — https://docs.oracle.com/en-us/iaas/Content/database-at-azure/network-topologies.htm
+  - **Create** — https://docs.oracle.com/en-us/iaas/Content/azucr-create.html
+    - **Prerequisites** — https://docs.oracle.com/en-us/iaas/Content/azucr-create-prerequisites.html
+    - **Delegated Subnet** — https://docs.oracle.com/en-us/iaas/Content/azucr-create-delegated-subnet.html
+    - **Resource Anchor** — https://docs.oracle.com/en-us/iaas/Content/azucr-create-resource-anchor.html
+    - **Network Anchor** — https://docs.oracle.com/en-us/iaas/Content/azucr-create-network-anchor.html
+    - **Exadata Infrastructure** — https://docs.oracle.com/en-us/iaas/Content/azucr-create-exadata-infrastructure.html
+    - **Exadata Exascale Storage Vault** — https://docs.oracle.com/en-us/iaas/Content/azucr-create-exadata-exascale-storage-vault.html
+    - **Exadata VM Cluster** — https://docs.oracle.com/en-us/iaas/Content/azucr-create-exadata-vm-cluster.html
+    - **Autonomous VM Cluster** — https://docs.oracle.com/en-us/iaas/Content/azucr-create-autonomous-vm-cluster.html
+    - **Exascale VM Cluster** — https://docs.oracle.com/en-us/iaas/Content/azucr-create-exascale-vm-cluster.html
+    - **Autonomous AI Database (Serverless)** — https://docs.oracle.com/en-us/iaas/Content/azucr-create-autonomous-ai-database-serverless.html
+    - **Autonomous AI Database (Dedicated)** — https://docs.oracle.com/en-us/iaas/Content/azucr-create-autonomous-ai-database-dedicated.html
+    - **Base Database** — https://docs.oracle.com/en-us/iaas/Content/azucr-create-base-database.html
+    - **Exadata Database** — https://docs.oracle.com/en-us/iaas/Content/azucr-create-exadata-database.html
+    - **Exascale Database** — https://docs.oracle.com/en-us/iaas/Content/azucr-create-exascale-database.html
+    - **GoldenGate** — https://docs.oracle.com/en-us/iaas/Content/azucr-create-goldengate.html
+  - **Connect** — https://docs.oracle.com/en-us/iaas/Content/azucn-connect.html
+    - **Configure** — https://docs.oracle.com/en-us/iaas/Content/azucn-connect-configure.html
+    - **Exadata VM Cluster** — https://docs.oracle.com/en-us/iaas/Content/azucn-connect-c-exadata-vm-cluster.html
+    - **Exascale VM Cluster** — https://docs.oracle.com/en-us/iaas/Content/azucn-connect-c-exascale-vm-cluster.html
+    - **Base Database VM** — https://docs.oracle.com/en-us/iaas/Content/azucn-connect-c-base-database-vm.html
+    - **Exadata Database** — https://docs.oracle.com/en-us/iaas/Content/azucn-connect-c-exadata-database.html
+    - **Exascale Database** — https://docs.oracle.com/en-us/iaas/Content/azucn-connect-c-exascale-database.html
+    - **Autonomous AI Database (Serverless)** — https://docs.oracle.com/en-us/iaas/Content/azucn-connect-c-autonomous-ai-database-serverless.html
+    - **Autonomous AI Database (Dedicated)** — https://docs.oracle.com/en-us/iaas/Content/azucn-connect-c-autonomous-ai-database-dedicated.html
+    - **Base Database** — https://docs.oracle.com/en-us/iaas/Content/azucn-connect-c-base-database.html
+    - **Network Latency** — https://docs.oracle.com/en-us/iaas/Content/azucn-connect-network-latency.html
+  - **Modify** — https://docs.oracle.com/en-us/iaas/Content/azumd-modify.html
+    - **Prerequisites** — https://docs.oracle.com/en-us/iaas/Content/azumd-modify-prerequisites.html
+    - **Delegated Subnet** — https://docs.oracle.com/en-us/iaas/Content/azumd-modify-delegated-subnet.html
+    - **Resource Anchor** — https://docs.oracle.com/en-us/iaas/Content/azumd-modify-resource-anchor.html
+    - **Network Anchor** — https://docs.oracle.com/en-us/iaas/Content/azumd-modify-network-anchor.html
+    - **Exadata Infrastructure** — https://docs.oracle.com/en-us/iaas/Content/azumd-modify-exadata-infrastructure.html
+    - **Exadata VM Cluster** — https://docs.oracle.com/en-us/iaas/Content/azumd-modify-exadata-vm-cluster.html
+    - **Autonomous VM Cluster** — https://docs.oracle.com/en-us/iaas/Content/azumd-modify-autonomous-vm-cluster.html
+    - **Exascale VM Cluster** — https://docs.oracle.com/en-us/iaas/Content/azumd-modify-exascale-vm-cluster.html
+    - **Autonomous AI Database (Serverless)** — https://docs.oracle.com/en-us/iaas/Content/azumd-modify-autonomous-ai-database-serverless.html
+    - **Autonomous AI Database (Dedicated)** — https://docs.oracle.com/en-us/iaas/Content/azumd-modify-autonomous-ai-database-dedicated.html
+    - **Base Database** — https://docs.oracle.com/en-us/iaas/Content/azumd-modify-base-database.html
+    - **Exadata Database** — https://docs.oracle.com/en-us/iaas/Content/azumd-modify-exadata-database.html
+    - **Exascale Database** — https://docs.oracle.com/en-us/iaas/Content/azumd-modify-exascale-database.html
+    - **GoldenGate** — https://docs.oracle.com/en-us/iaas/Content/azumd-modify-goldengate.html
+  - **Delete** — https://docs.oracle.com/en-us/iaas/Content/azudl-delete.html
+    - **Prerequisites** — https://docs.oracle.com/en-us/iaas/Content/azudl-delete-prerequisites.html
+    - **Delegated Subnet** — https://docs.oracle.com/en-us/iaas/Content/azudl-delete-delegated-subnet.html
+    - **Resource Anchor** — https://docs.oracle.com/en-us/iaas/Content/azudl-delete-resource-anchor.html
+    - **Network Anchor** — https://docs.oracle.com/en-us/iaas/Content/azudl-delete-network-anchor.html
+    - **Exadata Infrastructure** — https://docs.oracle.com/en-us/iaas/Content/azudl-delete-exadata-infrastructure.html
+    - **Exadata VM Cluster** — https://docs.oracle.com/en-us/iaas/Content/azudl-delete-exadata-vm-cluster.html
+    - **Autonomous VM Cluster** — https://docs.oracle.com/en-us/iaas/Content/azudl-delete-autonomous-vm-cluster.html
+    - **Exascale VM Cluster** — https://docs.oracle.com/en-us/iaas/Content/azudl-delete-exascale-vm-cluster.html
+    - **Autonomous AI Database (Serverless)** — https://docs.oracle.com/en-us/iaas/Content/azudl-delete-autonomous-ai-database-serverless.html
+    - **Autonomous AI Database (Dedicated)** — https://docs.oracle.com/en-us/iaas/Content/azudl-delete-autonomous-ai-database-dedicated.html
+    - **Base Database** — https://docs.oracle.com/en-us/iaas/Content/azudl-delete-base-database.html
+    - **Exadata Database** — https://docs.oracle.com/en-us/iaas/Content/azudl-delete-exadata-database.html
+    - **Exascale Database** — https://docs.oracle.com/en-us/iaas/Content/azudl-delete-exascale-database.html
+    - **GoldenGate** — https://docs.oracle.com/en-us/iaas/Content/azudl-delete-goldengate.html
+  - **Backup** — https://docs.oracle.com/en-us/iaas/Content/azubu-backup-backup.html
+    - **Prerequisites** — https://docs.oracle.com/en-us/iaas/Content/azubu-backup-prerequisites.html
+    - **Exadata Database - Automatic** — https://docs.oracle.com/en-us/iaas/Content/azubu-backup-exadata-database-automatic.html
+    - **Exadata Database - Manual** — https://docs.oracle.com/en-us/iaas/Content/azubu-backup-exadata-database-manual.html
+    - **Exadata Database - LTR** — https://docs.oracle.com/en-us/iaas/Content/azubu-backup-exadata-database-ltr.html
+    - **Exascale Database - Automatic** — https://docs.oracle.com/en-us/iaas/Content/azubu-backup-exascale-database-automatic.html
+    - **Exascale Database - Manual** — https://docs.oracle.com/en-us/iaas/Content/azubu-backup-exascale-database-manual.html
+    - **Exascale Database - LTR** — https://docs.oracle.com/en-us/iaas/Content/azubu-backup-exascale-database-ltr.html
+    - **Autonomous AI Database (Serverless) - Automatic** — https://docs.oracle.com/en-us/iaas/Content/azubu-backup-autonomous-ai-database-serverless-automatic.html
+    - **Autonomous AI Database (Serverless) - Manual** — https://docs.oracle.com/en-us/iaas/Content/azubu-backup-autonomous-ai-database-serverless-manual.html
+    - **Autonomous AI Database (Serverless) - LTR** — https://docs.oracle.com/en-us/iaas/Content/azubu-backup-autonomous-ai-database-serverless-ltr.html
+    - **Autonomous AI Database (Dedicated) - Automatic** — https://docs.oracle.com/en-us/iaas/Content/azubu-backup-autonomous-ai-database-dedicated-automatic.html
+    - **Autonomous AI Database (Dedicated) - Manual** — https://docs.oracle.com/en-us/iaas/Content/azubu-backup-autonomous-ai-database-dedicated-manual.html
+    - **Autonomous AI Database (Dedicated) - LTR** — https://docs.oracle.com/en-us/iaas/Content/azubu-backup-autonomous-ai-database-dedicated-ltr.html
+    - **Base Database - Automatic** — https://docs.oracle.com/en-us/iaas/Content/azubu-backup-base-database-automatic.html
+    - **Base Database - Manual** — https://docs.oracle.com/en-us/iaas/Content/azubu-backup-base-database-manual.html
+    - **Base Database - LTR** — https://docs.oracle.com/en-us/iaas/Content/azubu-backup-base-database-ltr.html
+  - **Restore** — https://docs.oracle.com/en-us/iaas/Content/azurs-restore-restore.html
+    - **Prerequisites** — https://docs.oracle.com/en-us/iaas/Content/azusr-restore-prerequisites.html
+    - **Exadata Database - Clone** — https://docs.oracle.com/en-us/iaas/Content/azurs-restore-exadata-database-clone.html
+    - **Exadata Database - Restore** — https://docs.oracle.com/en-us/iaas/Content/azurs-restore-exadata-database-restore.html
+    - **Exadata Database - PITR** — https://docs.oracle.com/en-us/iaas/Content/azurs-restore-exadata-database-pitr.html
+    - **Exascale Database - Clone** — https://docs.oracle.com/en-us/iaas/Content/azurs-restore-exascale-database-clone.html
+    - **Exascale Database - Restore** — https://docs.oracle.com/en-us/iaas/Content/azurs-restore-exascale-database-restore.html
+    - **Exascale Database - PITR** — https://docs.oracle.com/en-us/iaas/Content/azurs-restore-exascale-database-pitr.html
+    - **Autonomous AI Database (Serverless) - Clone** — https://docs.oracle.com/en-us/iaas/Content/azurs-restore-autonomous-ai-database-serverless-clone.html
+    - **Autonomous AI Database (Serverless) - Restore** — https://docs.oracle.com/en-us/iaas/Content/azurs-restore-autonomous-ai-database-serverless-restore.html
+    - **Autonomous AI Database (Serverless) - PITR** — https://docs.oracle.com/en-us/iaas/Content/azurs-restore-autonomous-ai-database-serverless-pitr.html
+    - **Autonomous AI Database (Dedicated) - Clone** — https://docs.oracle.com/en-us/iaas/Content/azurs-restore-autonomous-ai-database-dedicated-clone.html
+    - **Autonomous AI Database (Dedicated) - Restore** — https://docs.oracle.com/en-us/iaas/Content/azurs-restore-autonomous-ai-database-dedicated-restore.html
+    - **Autonomous AI Database (Dedicated) - PITR** — https://docs.oracle.com/en-us/iaas/Content/azurs-restore-autonomous-ai-database-dedicated-pitr.html
+    - **Base Database - Clone** — https://docs.oracle.com/en-us/iaas/Content/azurs-restore-base-database-clone.html
+    - **Base Database - Restore** — https://docs.oracle.com/en-us/iaas/Content/azurs-restore-base-database-restore.html
+    - **Base Database - PITR** — https://docs.oracle.com/en-us/iaas/Content/azurs-restore-base-database-pitr.html
+  - **Business Continuity (HADR)** — https://docs.oracle.com/en-us/iaas/Content/azubc-business-continuity-hadr.html
+    - **Prerequisites** — https://docs.oracle.com/en-us/iaas/Content/azubc-business-continuity-hadr-prerequisites.html
+    - **Exadata Database - Cross-AZ** — https://docs.oracle.com/en-us/iaas/Content/azubc-business-continuity-hadr-exadata-database-cross-az.html
+    - **Exadata Database - Cross-Region** — https://docs.oracle.com/en-us/iaas/Content/azubc-business-continuity-hadr-exadata-database-cross-region.html
+    - **Exascale Database - Cross-AZ** — https://docs.oracle.com/en-us/iaas/Content/azubc-business-continuity-hadr-exascale-database-cross-az.html
+    - **Exascale Database - Cross-Region** — https://docs.oracle.com/en-us/iaas/Content/azubc-business-continuity-hadr-exascale-database-cross-region.html
+    - **Autonomous AI Database (Serverless) - Cross-AZ** — https://docs.oracle.com/en-us/iaas/Content/azubc-business-continuity-hadr-autonomous-ai-database-serverless-cross-az.html
+    - **Autonomous AI Database (Serverless) - Cross-Region** — https://docs.oracle.com/en-us/iaas/Content/azubc-business-continuity-hadr-autonomous-ai-database-serverless-cross-region.html
+    - **Autonomous AI Database (Dedicated) - Cross-AZ** — https://docs.oracle.com/en-us/iaas/Content/azubc-business-continuity-hadr-autonomous-ai-database-dedicated-cross-az.html
+    - **Autonomous AI Database (Dedicated) - Cross-Region** — https://docs.oracle.com/en-us/iaas/Content/azubc-business-continuity-hadr-autonomous-ai-database-dedicated-cross-region.html
+    - **Base Database - Cross-AZ** — https://docs.oracle.com/en-us/iaas/Content/azubc-business-continuity-hadr-base-database-cross-az.html
+    - **Base Database - Cross-Region** — https://docs.oracle.com/en-us/iaas/Content/azubc-business-continuity-hadr-base-database-cross-region.html
+  - **Migration** — https://docs.oracle.com/en-us/iaas/Content/azumr-migration.html
+    - **Overview** — https://docs.oracle.com/en-us/iaas/Content/azumr-migration-overview.html
+    - **Migrate to Exadata Database** — https://docs.oracle.com/en-us/iaas/Content/azumr-migration-migrate-exadata-database.html
+    - **Migrate to Autonomous AI Database** — https://docs.oracle.com/en-us/iaas/Content/azumr-migration-migrate-autonomous-ai-database.html
+  - **Monitor** — https://docs.oracle.com/en-us/iaas/Content/azumn-monitor.html
+    - **Prerequisites** — https://docs.oracle.com/en-us/iaas/Content/azumn-monitor-prerequisites.html
+    - **Azure Monitor** — https://docs.oracle.com/en-us/iaas/Content/azumn-monitor-azure-monitor.html
+    - **Azure Event Hub** — https://docs.oracle.com/en-us/iaas/Content/azumn-monitor-azure-event-hub.html
+    - **Azure Log Analytics** — https://docs.oracle.com/en-us/iaas/Content/azumn-monitor-azure-log-analytics.html
+    - **OEM** — https://docs.oracle.com/en-us/iaas/Content/azumn-monitor-oem.html
+    - **OCI** — https://docs.oracle.com/en-us/iaas/Content/azumn-monitor-oci.html
+    - **Billing** — https://docs.oracle.com/en-us/iaas/Content/azumn-monitor-billing.html
+  - **Security** — https://docs.oracle.com/en-us/iaas/Content/azusr-security.html
+    - **Prerequisites** — https://docs.oracle.com/en-us/iaas/Content/azusr-security-prerequisites.html
+    - **Exadata Database - In-Transit** — https://docs.oracle.com/en-us/iaas/Content/azusr-security-exadata-database-transit.html
+    - **Exadata Database - Oracle Wallet** — https://docs.oracle.com/en-us/iaas/Content/azusr-security-exadata-database-oracle-wallet.html
+    - **Exadata Database - OCI Vault** — https://docs.oracle.com/en-us/iaas/Content/azusr-security-exadata-database-oci-vault.html
+    - **Exadata Database - OKV** — https://docs.oracle.com/en-us/iaas/Content/azusr-security-exadata-database-okv.html
+    - **Exadata Database - AKV** — https://docs.oracle.com/en-us/iaas/Content/azusr-security-exadata-database-akv.html
+    - **Exascale Database - In-Transit** — https://docs.oracle.com/en-us/iaas/Content/azusr-security-exascale-database-transit.html
+    - **Exascale Database - Oracle Wallet** — https://docs.oracle.com/en-us/iaas/Content/azusr-security-exascale-database-oracle-wallet.html
+    - **Exascale Database - OCI Vault** — https://docs.oracle.com/en-us/iaas/Content/azusr-security-exascale-database-oci-vault.html
+    - **Exascale Database - OKV** — https://docs.oracle.com/en-us/iaas/Content/azusr-security-exascale-database-okv.html
+    - **Exascale Database - AKV** — https://docs.oracle.com/en-us/iaas/Content/azusr-security-exascale-database-akv.html
+    - **Autonomous AI Database (Serverless) - In-Transit** — https://docs.oracle.com/en-us/iaas/Content/azusr-security-autonomous-ai-database-serverless-transit.html
+    - **Autonomous AI Database (Serverless) - Oracle Wallet** — https://docs.oracle.com/en-us/iaas/Content/azusr-security-autonomous-ai-database-serverless-oracle-wallet.html
+    - **Autonomous AI Database (Serverless) - OCI Vault** — https://docs.oracle.com/en-us/iaas/Content/azusr-security-autonomous-ai-database-serverless-oci-vault.html
+    - **Autonomous AI Database (Serverless) - OKV** — https://docs.oracle.com/en-us/iaas/Content/azusr-security-autonomous-ai-database-serverless-okv.html
+    - **Autonomous AI Database (Serverless) - AKV** — https://docs.oracle.com/en-us/iaas/Content/azusr-security-autonomous-ai-database-serverless-akv.html
+    - **Autonomous AI Database (Dedicated) - In-Transit** — https://docs.oracle.com/en-us/iaas/Content/azusr-security-autonomous-ai-database-dedicated-transit.html
+    - **Autonomous AI Database (Dedicated) - Oracle Wallet** — https://docs.oracle.com/en-us/iaas/Content/azusr-security-autonomous-ai-database-dedicated-oracle-wallet.html
+    - **Autonomous AI Database (Dedicated) - OCI Vault** — https://docs.oracle.com/en-us/iaas/Content/azusr-security-autonomous-ai-database-dedicated-oci-vault.html
+    - **Autonomous AI Database (Dedicated) - OKV** — https://docs.oracle.com/en-us/iaas/Content/azusr-security-autonomous-ai-database-dedicated-okv.html
+    - **Autonomous AI Database (Dedicated) - AKV** — https://docs.oracle.com/en-us/iaas/Content/azusr-security-autonomous-ai-database-dedicated-akv.html
+    - **Base Database - In-Transit** — https://docs.oracle.com/en-us/iaas/Content/azusr-security-base-database-transit.html
+    - **Base Database - Oracle Wallet** — https://docs.oracle.com/en-us/iaas/Content/azusr-security-base-database-oracle-wallet.html
+    - **Base Database - OCI Vault** — https://docs.oracle.com/en-us/iaas/Content/azusr-security-base-database-oci-vault.html
+    - **Base Database - OKV** — https://docs.oracle.com/en-us/iaas/Content/azusr-security-base-database-okv.html
+    - **Base Database - AKV** — https://docs.oracle.com/en-us/iaas/Content/azusr-security-base-database-akv.html
+    - **Compliance** — https://docs.oracle.com/en-us/iaas/Content/azusr-security-compliance.html
+  - **Troubleshoot** — https://docs.oracle.com/en-us/iaas/Content/azutr-troubleshoot.html
+    - **Connect** — https://docs.oracle.com/en-us/iaas/Content/azutr-troubleshoot-connect.html
+    - **Oracle Exadata Database Service on Dedicated Infrastructure** — https://docs.oracle.com/en-us/iaas/Content/azutr-troubleshoot-tr-oracle-exadata-database-service-dedicated-infrastructure.html
+    - **Oracle Autonomous AI Database Services** — https://docs.oracle.com/en-us/iaas/Content/azutr-troubleshoot-tr-oracle-autonomous-ai-database-services.html
+    - **Oracle Exadata Database on Exascale Infrastructure** — https://docs.oracle.com/en-us/iaas/Content/azutr-troubleshoot-tr-oracle-exadata-database-exascale-infrastructure.html
+    - **Oracle Base Database Service** — https://docs.oracle.com/en-us/iaas/Content/azutr-troubleshoot-tr-oracle-base-database-services.html
+  - **Industry Use Cases** — https://docs.oracle.com/en-us/iaas/Content/azucs-industry-use-cases.html
+    - **Automotive and Manufacturing** — https://docs.oracle.com/en-us/iaas/Content/azucs-industry-use-cases-uc-automotive-and-manufacturing.html
+    - **Energy and Utilities** — https://docs.oracle.com/en-us/iaas/Content/azucs-industry-use-cases-uc-energy-and-utilities.html
+    - **Financial Services** — https://docs.oracle.com/en-us/iaas/Content/azucs-industry-use-cases-uc-financial-services.html
+    - **Healthcare and Life Science** — https://docs.oracle.com/en-us/iaas/Content/azucs-industry-use-cases-uc-healthcare-and-life-science.html
+    - **Media and Entertainment** — https://docs.oracle.com/en-us/iaas/Content/azucs-industry-use-cases-uc-media-and-entertainment.html
+    - **Retail and Consumer Goods** — https://docs.oracle.com/en-us/iaas/Content/azucs-industry-use-cases-uc-retail-and-consumer-goods.html
+    - **Telecommunications** — https://docs.oracle.com/en-us/iaas/Content/azucs-industry-use-cases-uc-telecommunications.html
+    - **Travel and Hospitality** — https://docs.oracle.com/en-us/iaas/Content/azucs-industry-use-cases-uc-travel-and-hospitality.html
+  - **Native Integration** — https://docs.oracle.com/en-us/iaas/Content/azuuc-native-integration.html
+    - **Azure Compute VM** — https://docs.oracle.com/en-us/iaas/Content/azuuc-native-integration-azure-compute-vm.html
+    - **Azure Kubernetes Service (AKS)** — https://docs.oracle.com/en-us/iaas/Content/azuuc-native-integration-azure-kubernetes-service-aks.html
+    - **Azure Functions** — https://docs.oracle.com/en-us/iaas/Content/azuuc-native-integration-azure-functions.html
+    - **Blob Storage** — https://docs.oracle.com/en-us/iaas/Content/azuuc-native-integration-blob-storage.html
+    - **Microsoft Sentinel** — https://docs.oracle.com/en-us/iaas/Content/azuuc-native-integration-synapse-link.html
+    - **Azure Events Hub** — https://docs.oracle.com/en-us/iaas/Content/azuuc-native-integration-azure-events-hub.html
+    - **Power BI** — https://docs.oracle.com/en-us/iaas/Content/azuuc-native-integration-power-bi.html
+    - **Azure Machine Learning and OpenAI** — https://docs.oracle.com/en-us/iaas/Content/azuuc-native-integration-azure-machine-learning-and-openai.html
+  - **Oracle Applications** — https://docs.oracle.com/en-us/iaas/Content/azuoa-oracle-applications.html
+    - **Oracle E-Business Suite** — https://docs.oracle.com/en-us/iaas/Content/azuoa-oracle-applications-oa-oracle-e-business-suite.html
+    - **PeopleSoft** — https://docs.oracle.com/en-us/iaas/Content/azuoa-oracle-applications-oa-peoplesoft.html
+    - **JD Edwards** — https://docs.oracle.com/en-us/iaas/Content/azuoa-oracle-applications-oa-jd-edwards.html
+    - **Retail Merchandising System** — https://docs.oracle.com/en-us/iaas/Content/azuoa-oracle-applications-oa-retail-merchandising-system.html
+    - **Enterprise Performance Management** — https://docs.oracle.com/en-us/iaas/Content/azuoa-oracle-applications-oa-enterprise-performance-management.html
+  - **Tutorials** — https://docs.oracle.com/en-us/iaas/Content/database-at-azure/tutorials.htm
+  - **Support Information** — https://docs.oracle.com/en-us/iaas/Content/database-at-azure/support.htm
+  - **What&#x27;s New** — https://docs.oracle.com/en-us/iaas/Content/database-at-azure/whats-new.htm
+- **Oracle AI Database@Google Cloud** — https://docs.oracle.com/en-us/iaas/Content/database-at-gcp/home.htm
+  - **Overview** — https://docs.oracle.com/en-us/iaas/Content/database-at-gcp/overview.htm
+  - **Get Started** — https://docs.oracle.com/en-us/iaas/Content/database-at-gcp/get-started.htm
+    - **Architecture** — https://docs.oracle.com/en-us/iaas/Content/database-at-gcp/get-started-arch.htm
+    - **Google Cloud Project** — https://docs.oracle.com/en-us/iaas/Content/database-at-gcp/get-started-project.htm
+    - **OCI Tenancy** — https://docs.oracle.com/en-us/iaas/Content/database-at-gcp/get-started-oci-tenancy.htm
+    - **Private Offer** — https://docs.oracle.com/en-us/iaas/Content/database-at-gcp/get-started-private-offer.htm
+    - **Public Offer** — https://docs.oracle.com/en-us/iaas/Content/database-at-gcp/get-started-public-offer.htm
+    - **Reselling** — https://docs.oracle.com/en-us/iaas/Content/database-at-gcp/get-started-reselling.htm
+    - **Regional Availability** — https://docs.oracle.com/en-us/iaas/Content/database-at-gcp/get-started-regions.htm
+    - **Quotas and Service Limits** — https://docs.oracle.com/en-us/iaas/Content/database-at-gcp/quotas-limits.htm
+    - **Requesting a Limit Increase** — https://docs.oracle.com/en-us/iaas/Content/database-at-gcp/limits-increase.htm
+  - **Onboard** — https://docs.oracle.com/en-us/iaas/Content/database-at-gcp/onboard.htm
+    - **Prerequisites** — https://docs.oracle.com/en-us/iaas/Content/database-at-gcp/onboard-prerequisites.htm
+    - **Request Offer** — https://docs.oracle.com/en-us/iaas/Content/database-at-gcp/onboard-request.htm
+    - **Purchase** — https://docs.oracle.com/en-us/iaas/Content/database-at-gcp/onboard-purchase.htm
+    - **Link** — https://docs.oracle.com/en-us/iaas/Content/database-at-gcp/onboard-link-oci-account.htm
+    - **Verify** — https://docs.oracle.com/en-us/iaas/Content/database-at-gcp/onboard-verify-link.htm
+    - **Support Registration** — https://docs.oracle.com/en-us/iaas/Content/database-at-gcp/onboard-register-mos.htm
+    - **Role-Based Access Control** — https://docs.oracle.com/en-us/iaas/Content/database-at-gcp/onboard-rbac.htm
+    - **Federation (Optional)** — https://docs.oracle.com/en-us/iaas/Content/database-at-gcp/onboard-federation.htm
+    - **Multi-Project (Optional)** — https://docs.oracle.com/en-us/iaas/Content/database-at-gcp/multi-project.htm
+  - **Network** — https://docs.oracle.com/en-us/iaas/Content/database-at-gcp/network.htm
+    - **ODB Network Design** — https://docs.oracle.com/en-us/iaas/Content/database-at-gcp/network-odb.htm
+    - **DNS** — https://docs.oracle.com/en-us/iaas/Content/database-at-gcp/network-dns.htm
+    - **Topologies** — https://docs.oracle.com/en-us/iaas/Content/database-at-gcp/network-topologies.htm
+  - **Create** — https://docs.oracle.com/en-us/iaas/Content/gcpcr-create.html
+    - **Prerequisites** — https://docs.oracle.com/en-us/iaas/Content/gcpcr-create-prerequisites.html
+    - **ODB Network** — https://docs.oracle.com/en-us/iaas/Content/gcpcr-create-odb-network.html
+    - **Shared VPC (Optional)** — https://docs.oracle.com/en-us/iaas/Content/gcpcr-create-shared-vpc-optional.html
+    - **Exadata Infrastructure** — https://docs.oracle.com/en-us/iaas/Content/gcpcr-create-exadata-infrastructure.html
+    - **Exadata Exascale Storage Vault** — https://docs.oracle.com/en-us/iaas/Content/gcpcr-create-exadata-exascale-storage-vault.html
+    - **Exadata VM Cluster** — https://docs.oracle.com/en-us/iaas/Content/gcpcr-create-exadata-vm-cluster.html
+    - **Exascale VM Cluster** — https://docs.oracle.com/en-us/iaas/Content/gcpcr-create-exascale-vm-cluster.html
+    - **Autonomous AI Database (Serverless)** — https://docs.oracle.com/en-us/iaas/Content/gcpcr-create-autonomous-ai-database-serverless.html
+    - **Base Database** — https://docs.oracle.com/en-us/iaas/Content/gcpcr-create-base-database.html
+    - **Exadata Database** — https://docs.oracle.com/en-us/iaas/Content/gcpcr-create-exadata-database.html
+    - **Exascale Database** — https://docs.oracle.com/en-us/iaas/Content/gcpcr-create-exascale-database.html
+    - **GoldenGate** — https://docs.oracle.com/en-us/iaas/Content/gcpcr-create-goldengate.html
+  - **Connect** — https://docs.oracle.com/en-us/iaas/Content/gcpcn-connect.html
+    - **Configure** — https://docs.oracle.com/en-us/iaas/Content/gcpcn-connect-configure.html
+    - **Exadata VM Cluster** — https://docs.oracle.com/en-us/iaas/Content/gcpcn-connect-c-exadata-vm-cluster.html
+    - **Exascale VM Cluster** — https://docs.oracle.com/en-us/iaas/Content/gcpcn-connect-c-exascale-vm-cluster.html
+    - **Base Database VM** — https://docs.oracle.com/en-us/iaas/Content/gcpcn-connect-c-base-database-vm.html
+    - **Exadata Database** — https://docs.oracle.com/en-us/iaas/Content/gcpcn-connect-c-exadata-database.html
+    - **Exascale Database** — https://docs.oracle.com/en-us/iaas/Content/gcpcn-connect-c-exascale-database.html
+    - **Autonomous AI Database (Serverless)** — https://docs.oracle.com/en-us/iaas/Content/gcpcn-connect-c-autonomous-ai-database-serverless.html
+    - **Base Database** — https://docs.oracle.com/en-us/iaas/Content/gcpcn-connect-c-base-database.html
+    - **Network Latency** — https://docs.oracle.com/en-us/iaas/Content/gcpcn-connect-network-latency.html
+  - **Modify** — https://docs.oracle.com/en-us/iaas/Content/gcpmd-modify.html
+    - **Prerequisites** — https://docs.oracle.com/en-us/iaas/Content/gcpmd-modify-prerequisites.html
+    - **ODB Network** — https://docs.oracle.com/en-us/iaas/Content/gcpmd-modify-odb-network.html
+    - **Shared VPC (Optional)** — https://docs.oracle.com/en-us/iaas/Content/gcpmd-modify-shared-vpc-optional.html
+    - **Exadata Infrastructure** — https://docs.oracle.com/en-us/iaas/Content/gcpmd-modify-exadata-infrastructure.html
+    - **Exadata Exascale Storage Vault** — https://docs.oracle.com/en-us/iaas/Content/gcpmd-modify-exadata-exascale-storage-vault.html
+    - **Exadata VM Cluster** — https://docs.oracle.com/en-us/iaas/Content/gcpmd-modify-exadata-vm-cluster.html
+    - **Exascale VM Cluster** — https://docs.oracle.com/en-us/iaas/Content/gcpmd-modify-exascale-vm-cluster.html
+    - **Autonomous AI Database (Serverless)** — https://docs.oracle.com/en-us/iaas/Content/gcpmd-modify-autonomous-ai-database-serverless.html
+    - **Base Database** — https://docs.oracle.com/en-us/iaas/Content/gcpmd-modify-base-database.html
+    - **Exadata Database** — https://docs.oracle.com/en-us/iaas/Content/gcpmd-modify-exadata-database.html
+    - **Exascale Database** — https://docs.oracle.com/en-us/iaas/Content/gcpmd-modify-exascale-database.html
+    - **GoldenGate** — https://docs.oracle.com/en-us/iaas/Content/gcpmd-modify-goldengate.html
+  - **Delete** — https://docs.oracle.com/en-us/iaas/Content/gcpdl-delete.html
+    - **Prerequisites** — https://docs.oracle.com/en-us/iaas/Content/gcpdl-delete-prerequisites.html
+    - **ODB Network** — https://docs.oracle.com/en-us/iaas/Content/gcpdl-delete-odb-network.html
+    - **Shared VPC (Optional)** — https://docs.oracle.com/en-us/iaas/Content/gcpdl-delete-shared-vpc-optional.html
+    - **Exadata Infrastructure** — https://docs.oracle.com/en-us/iaas/Content/gcpdl-delete-exadata-infrastructure.html
+    - **Exadata Exascale Storage Vault** — https://docs.oracle.com/en-us/iaas/Content/gcpdl-delete-exadata-exascale-storage-vault.html
+    - **Exadata VM Cluster** — https://docs.oracle.com/en-us/iaas/Content/gcpdl-delete-exadata-vm-cluster.html
+    - **Exascale VM Cluster** — https://docs.oracle.com/en-us/iaas/Content/gcpdl-delete-exascale-vm-cluster.html
+    - **Autonomous AI Database (Serverless)** — https://docs.oracle.com/en-us/iaas/Content/gcpdl-delete-autonomous-ai-database-serverless.html
+    - **Base Database** — https://docs.oracle.com/en-us/iaas/Content/gcpdl-delete-base-database.html
+    - **Exadata Database** — https://docs.oracle.com/en-us/iaas/Content/gcpdl-delete-exadata-database.html
+    - **Exascale Database** — https://docs.oracle.com/en-us/iaas/Content/gcpdl-delete-exascale-database.html
+    - **GoldenGate** — https://docs.oracle.com/en-us/iaas/Content/gcpdl-delete-goldengate.html
+  - **Backup** — https://docs.oracle.com/en-us/iaas/Content/gcpbu-backup-backup.html
+    - **Prerequisites** — https://docs.oracle.com/en-us/iaas/Content/gcpbu-backup-prerequisites.html
+    - **Exadata Database - Automatic** — https://docs.oracle.com/en-us/iaas/Content/gcpbu-backup-exadata-database-automatic.html
+    - **Exadata Database - Manual** — https://docs.oracle.com/en-us/iaas/Content/gcpbu-backup-exadata-database-manual.html
+    - **Exadata Database - LTR** — https://docs.oracle.com/en-us/iaas/Content/gcpbu-backup-exadata-database-ltr.html
+    - **Exascale Database - Automatic** — https://docs.oracle.com/en-us/iaas/Content/gcpbu-backup-exascale-database-automatic.html
+    - **Exascale Database - Manual** — https://docs.oracle.com/en-us/iaas/Content/gcpbu-backup-exascale-database-manual.html
+    - **Exascale Database - LTR** — https://docs.oracle.com/en-us/iaas/Content/gcpbu-backup-exascale-database-ltr.html
+    - **Autonomous AI Database (Serverless) - Automatic** — https://docs.oracle.com/en-us/iaas/Content/gcpbu-backup-autonomous-ai-database-serverless-automatic.html
+    - **Autonomous AI Database (Serverless) - Manual** — https://docs.oracle.com/en-us/iaas/Content/gcpbu-backup-autonomous-ai-database-serverless-manual.html
+    - **Autonomous AI Database (Serverless) - LTR** — https://docs.oracle.com/en-us/iaas/Content/gcpbu-backup-autonomous-ai-database-serverless-ltr.html
+    - **Base Database - Automatic** — https://docs.oracle.com/en-us/iaas/Content/gcpbu-backup-base-database-automatic.html
+    - **Base Database - Manual** — https://docs.oracle.com/en-us/iaas/Content/gcpbu-backup-base-database-manual.html
+    - **Base Database - LTR** — https://docs.oracle.com/en-us/iaas/Content/gcpbu-backup-base-database-ltr.html
+  - **Restore** — https://docs.oracle.com/en-us/iaas/Content/gcprs-restore-restore.html
+    - **Prerequisites** — https://docs.oracle.com/en-us/iaas/Content/gcprs-restore-prerequisites.html
+    - **Exadata Database - Clone** — https://docs.oracle.com/en-us/iaas/Content/gcprs-restore-exadata-database-clone.html
+    - **Exadata Database - Restore** — https://docs.oracle.com/en-us/iaas/Content/gcprs-restore-exadata-database-restore.html
+    - **Exadata Database - PITR** — https://docs.oracle.com/en-us/iaas/Content/gcprs-restore-exadata-database-pitr.html
+    - **Exascale Database - Clone** — https://docs.oracle.com/en-us/iaas/Content/gcprs-restore-exascale-database-clone.html
+    - **Exascale Database - Restore** — https://docs.oracle.com/en-us/iaas/Content/gcprs-restore-exascale-database-restore.html
+    - **Exascale Database - PITR** — https://docs.oracle.com/en-us/iaas/Content/gcprs-restore-exascale-database-pitr.html
+    - **Autonomous AI Database (Serverless) - Clone** — https://docs.oracle.com/en-us/iaas/Content/gcprs-restore-autonomous-ai-database-serverless-clone.html
+    - **Autonomous AI Database (Serverless) - Restore** — https://docs.oracle.com/en-us/iaas/Content/gcprs-restore-autonomous-ai-database-serverless-restore.html
+    - **Autonomous AI Database (Serverless) - PITR** — https://docs.oracle.com/en-us/iaas/Content/gcprs-restore-autonomous-ai-database-serverless-pitr.html
+    - **Base Database - Clone** — https://docs.oracle.com/en-us/iaas/Content/gcprs-restore-base-database-clone.html
+    - **Base Database - Restore** — https://docs.oracle.com/en-us/iaas/Content/gcprs-restore-base-database-restore.html
+    - **Base Database - PITR** — https://docs.oracle.com/en-us/iaas/Content/gcprs-restore-base-database-pitr.html
+  - **Business Continuity (HADR)** — https://docs.oracle.com/en-us/iaas/Content/gcpbc-business-continuity-hadr.html
+    - **Prerequisites** — https://docs.oracle.com/en-us/iaas/Content/gcpbc-business-continuity-hadr-prerequisites.html
+    - **Exadata Database** — https://docs.oracle.com/en-us/iaas/Content/gcpbc-business-continuity-hadr-exadata-database.html
+    - **Exascale Database** — https://docs.oracle.com/en-us/iaas/Content/gcpbc-business-continuity-hadr-exascale-database.html
+    - **Autonomous AI Database (Serverless)** — https://docs.oracle.com/en-us/iaas/Content/gcpbc-business-continuity-hadr-autonomous-ai-database-serverless.html
+    - **Base Database** — https://docs.oracle.com/en-us/iaas/Content/gcpbc-business-continuity-hadr-base-database.html
+  - **Migration** — https://docs.oracle.com/en-us/iaas/Content/gcpmr-migration.html
+    - **Overview** — https://docs.oracle.com/en-us/iaas/Content/gcpmr-migration-overview.html
+    - **Migrate to Exadata Database** — https://docs.oracle.com/en-us/iaas/Content/gcpmr-migration-migrate-exadata-database.html
+    - **Migrate to Autonomous AI Database (Serverless)** — https://docs.oracle.com/en-us/iaas/Content/gcpmr-migration-migrate-autonomous-ai-database-serverless.html
+  - **Monitor** — https://docs.oracle.com/en-us/iaas/Content/gcpmn-monitor.html
+    - **Prerequisites** — https://docs.oracle.com/en-us/iaas/Content/gcpmn-monitor-prerequisites.html
+    - **Google Cloud Observability** — https://docs.oracle.com/en-us/iaas/Content/gcpmn-monitor-google-cloud-observability.html
+    - **Eventarc** — https://docs.oracle.com/en-us/iaas/Content/gcpmn-monitor-eventarc.html
+    - **Google Cloud Audit Logs** — https://docs.oracle.com/en-us/iaas/Content/gcpmn-monitor-google-cloud-audit-logs.html
+    - **OEM** — https://docs.oracle.com/en-us/iaas/Content/gcpmn-monitor-oem.html
+    - **OCI** — https://docs.oracle.com/en-us/iaas/Content/gcpmn-monitor-oci.html
+    - **Billing** — https://docs.oracle.com/en-us/iaas/Content/gcpmn-monitor-billing.html
+  - **Security** — https://docs.oracle.com/en-us/iaas/Content/gcpsr-security.html
+    - **Prerequisites** — https://docs.oracle.com/en-us/iaas/Content/gcpsr-security-prerequisites.html
+    - **Protect Exadata Database** — https://docs.oracle.com/en-us/iaas/Content/gcpsr-security-protect-exadata-database.html
+    - **Protect Autonomous AI Database (Serverless)** — https://docs.oracle.com/en-us/iaas/Content/gcpsr-security-protect-autonomous-ai-database-serverless.html
+    - **Protect Exascale Database** — https://docs.oracle.com/en-us/iaas/Content/gcpsr-security-protect-exascale-database.html
+    - **Protect Base Database** — https://docs.oracle.com/en-us/iaas/Content/gcpsr-security-protect-base-database.html
+    - **Compliance** — https://docs.oracle.com/en-us/iaas/Content/gcpsr-security-compliance.html
+  - **Troubleshoot** — https://docs.oracle.com/en-us/iaas/Content/gcptr-troubleshoot.html
+    - **Connect** — https://docs.oracle.com/en-us/iaas/Content/gcptr-troubleshoot-connect.html
+    - **Exadata Database Service on Dedicated Infrastructure** — https://docs.oracle.com/en-us/iaas/Content/gcptr-troubleshoot-exadata-database-service-dedicated-infrastructure.html
+    - **Exadata Database Service on Exascale Infrastructure** — https://docs.oracle.com/en-us/iaas/Content/gcptr-troubleshoot-exadata-database-service-exascale-infrastructure.html
+    - **Autonomous AI Database Service** — https://docs.oracle.com/en-us/iaas/Content/gcptr-troubleshoot-autonomous-ai-database-service.html
+    - **Base Database Functions** — https://docs.oracle.com/en-us/iaas/Content/gcptr-troubleshoot-base-database-service.html
+  - **Industry Use Cases** — https://docs.oracle.com/en-us/iaas/Content/gcpcs-industry-use-cases.html
+    - **Automotive and Manufacturing** — https://docs.oracle.com/en-us/iaas/Content/gcpcs-industry-use-cases-uc-automotive-and-manufacturing.html
+    - **Energy and Utilities** — https://docs.oracle.com/en-us/iaas/Content/gcpcs-industry-use-cases-uc-energy-and-utilities.html
+    - **Financial Services** — https://docs.oracle.com/en-us/iaas/Content/gcpcs-industry-use-cases-uc-financial-services.html
+    - **Healthcare and Life Science** — https://docs.oracle.com/en-us/iaas/Content/gcpcs-industry-use-cases-uc-healthcare-and-life-science.html
+    - **Media and Entertainment** — https://docs.oracle.com/en-us/iaas/Content/gcpcs-industry-use-cases-uc-media-and-entertainment.html
+    - **Retail and Consumer Goods** — https://docs.oracle.com/en-us/iaas/Content/gcpcs-industry-use-cases-uc-retail-and-consumer-goods.html
+    - **Telecommunications** — https://docs.oracle.com/en-us/iaas/Content/gcpcs-industry-use-cases-uc-telecommunications.html
+    - **Travel and Hospitality** — https://docs.oracle.com/en-us/iaas/Content/gcpcs-industry-use-cases-uc-travel-and-hospitality.html
+  - **Native Integration** — https://docs.oracle.com/en-us/iaas/Content/gcpuc-native-integration.html
+    - **Google Compute** — https://docs.oracle.com/en-us/iaas/Content/gcpuc-native-integration-google-compute.html
+    - **Google Kubernetes Engine (GKE)** — https://docs.oracle.com/en-us/iaas/Content/gcpuc-native-integration-google-cloud-kubernetes-engine.html
+    - **Google Cloud Functions** — https://docs.oracle.com/en-us/iaas/Content/gcpuc-native-integration-google-cloud-functions.html
+    - **Google Cloud Storage** — https://docs.oracle.com/en-us/iaas/Content/gcpuc-native-integration-google-cloud-storage.html
+    - **Google Cloud Pub/Sub** — https://docs.oracle.com/en-us/iaas/Content/gcpuc-native-integration-google-cloud-pub-sub.html
+    - **Looker** — https://docs.oracle.com/en-us/iaas/Content/gcpuc-native-integration-looker.html
+    - **Google Cloud Vertex AI** — https://docs.oracle.com/en-us/iaas/Content/gcpuc-native-integration-google-cloud-vertex-ai.html
+  - **Oracle Applications** — https://docs.oracle.com/en-us/iaas/Content/gcpoa-oracle-applications.html
+    - **Oracle E-Business Suite** — https://docs.oracle.com/en-us/iaas/Content/gcpoa-oracle-applications-oa-oracle-e-business-suite.html
+    - **PeopleSoft** — https://docs.oracle.com/en-us/iaas/Content/gcpoa-oracle-applications-oa-peoplesoft.html
+    - **JD Edwards** — https://docs.oracle.com/en-us/iaas/Content/gcpoa-oracle-applications-oa-jd-edwards.html
+    - **Retail Merchandising System** — https://docs.oracle.com/en-us/iaas/Content/gcpoa-oracle-applications-oa-retail-merchandising-system.html
+    - **Enterprise Performance Management** — https://docs.oracle.com/en-us/iaas/Content/gcpoa-oracle-applications-oa-enterprise-performance-management.html
+  - **Tutorials** — https://docs.oracle.com/en-us/iaas/Content/database-at-gcp/tutorials.htm
+  - **What&#x27;s New** — https://docs.oracle.com/en-us/iaas/Content/database-at-gcp/whats-new.htm
+  - **Support Information** — https://docs.oracle.com/en-us/iaas/Content/database-at-gcp/support.htm
+- **Oracle Multicloud Hub** — https://docs.oracle.com/en-us/iaas/Content/multicloud-hub/home.htm
+  - **Overview** — https://docs.oracle.com/en-us/iaas/Content/multicloud-hub/overview.htm
+  - **View** — https://docs.oracle.com/en-us/iaas/Content/multicloud-hub/view.htm
+    - **Prerequisites** — https://docs.oracle.com/en-us/iaas/Content/multicloud-hub/view-prerequisites.htm
+    - **Multicloud Subscriptions** — https://docs.oracle.com/en-us/iaas/Content/multicloud-hub/subscriptions.htm
+      - **Viewing Insights for Multicloud Subscriptions (Listing)** — https://docs.oracle.com/en-us/iaas/Content/multicloud-hub/list-subscriptions.htm
+      - **Listing Multicloud Metadata for a Subscription** — https://docs.oracle.com/en-us/iaas/Content/multicloud-hub/list-subscription-metadata.htm
+      - **Getting Details for Multicloud Metadata** — https://docs.oracle.com/en-us/iaas/Content/multicloud-hub/get-subscription-metadata.htm
+    - **Multicloud Resources** — https://docs.oracle.com/en-us/iaas/Content/multicloud-hub/list-resources.htm
+    - **Resource Anchors** — https://docs.oracle.com/en-us/iaas/Content/multicloud-hub/resource-anchors.htm
+      - **Listing Resource Anchors** — https://docs.oracle.com/en-us/iaas/Content/multicloud-hub/list-resource-anchors.htm
+      - **Getting a Resource Anchor&#x27;s Details (OCI)** — https://docs.oracle.com/en-us/iaas/Content/multicloud-hub/get-resource-anchor.htm
+      - **Getting a Resource Anchor&#x27;s Details (Partner Cloud)** — https://docs.oracle.com/en-us/iaas/Content/multicloud-hub/get-resource-anchor-partner-cloud.htm
+    - **Network Anchors** — https://docs.oracle.com/en-us/iaas/Content/multicloud-hub/network-anchors.htm
+      - **Listing Network Anchors** — https://docs.oracle.com/en-us/iaas/Content/multicloud-hub/list-network-anchors.htm
+      - **Getting a Network Anchor&#x27;s Details** — https://docs.oracle.com/en-us/iaas/Content/multicloud-hub/get-network-anchor.htm
+    - **Cross-Cloud Region and Zone Mapping** — https://docs.oracle.com/en-us/iaas/Content/multicloud-hub/view-cloud-mapping.htm
+  - **What&#x27;s New** — https://docs.oracle.com/en-us/iaas/Content/multicloud-hub/whats-new.htm
+  - **Policy Reference** — https://docs.oracle.com/en-us/iaas/Content/multicloud-hub/policy-reference.htm
+- **Multicloud Interconnect** — https://docs.oracle.com/en-us/iaas/Content/multicloud/interconnect.htm
+  - **Interconnect for AWS** — https://docs.oracle.com/en-us/iaas/Content/multicloud/interconnect-aws.htm
+  - **Interconnect for Azure** — https://docs.oracle.com/en-us/iaas/Content/multicloud/interconnect-azure.htm
+  - **Interconnect for Google Cloud** — https://docs.oracle.com/en-us/iaas/Content/multicloud/interconnect-gcp.htm
+- **What&#x27;s New** — https://docs.oracle.com/en-us/iaas/Content/multicloud/whats-new.htm
+- **Oracle Database Service for Azure** — https://docs.oracle.com/en-us/iaas/Content/database-for-azure/intro.htm
+  - **Overview** — https://docs.oracle.com/en-us/iaas/Content/database-for-azure/odsa-overview.htm
+  - **Oracle Database Service for Azure Regional Availability** — https://docs.oracle.com/en-us/iaas/Content/database-for-azure/regions.htm
+  - **Preparation and Prerequisites for OracleDB for Azure** — https://docs.oracle.com/en-us/iaas/Content/database-for-azure/prerequisites.htm
+  - **OracleDB for Azure Onboarding Steps** — https://docs.oracle.com/en-us/iaas/Content/database-for-azure/odsa-onboarding-steps.htm
+    - **Fully-Automated Onboarding** — https://docs.oracle.com/en-us/iaas/Content/database-for-azure/signup_automated.htm
+    - **Guided Onboarding** — https://docs.oracle.com/en-us/iaas/Content/database-for-azure/signup_partially_automated.htm
+      - **Account Linking** — https://docs.oracle.com/en-us/iaas/Content/database-for-azure/signup_guided_stage_one.htm
+      - **Subscription Linking** — https://docs.oracle.com/en-us/iaas/Content/database-for-azure/signup_guided_azure_account_configuration.htm
+      - **Identity Federation** — https://docs.oracle.com/en-us/iaas/Content/database-for-azure/signup_guided_federation.htm
+        - **Oracle Cloud Infrastructure IAM Policy Statements for Oracle Database Service for
+                                          Azure** — https://docs.oracle.com/en-us/iaas/Content/database-for-azure/signup_guided_federation_oci_policy_statements.htm
+    - **Onboarding Follow-up** — https://docs.oracle.com/en-us/iaas/Content/database-for-azure/odsa-onboarding-follow-up.htm
+  - **Managing OracleDB for Azure Users and Groups in Azure** — https://docs.oracle.com/en-us/iaas/Content/database-for-azure/odsa_iam.htm
+    - **Adding OracleDB for Azure Users in Azure After Completing Your Sign Up** — https://docs.oracle.com/en-us/iaas/Content/database-for-azure/odsa_db_users.htm
+    - **Azure User Groups for OracleDB for Azure Database Resources** — https://docs.oracle.com/en-us/iaas/Content/database-for-azure/odsa_db_user_groups.htm
+    - **Azure User Groups for OracleDB for Azure Networking, Cost Management, and Support
+                              Requests** — https://docs.oracle.com/en-us/iaas/Content/database-for-azure/multicloud_azure_user_groups.htm
+  - **Database Provisioning and Management** — https://docs.oracle.com/en-us/iaas/Content/odsa-database-provisioning-and-management.html
+    - **Creating a Resource** — https://docs.oracle.com/en-us/iaas/Content/odsa-creating-resource.html
+    - **Provisioning an Oracle Exadata System** — https://docs.oracle.com/en-us/iaas/Content/odsa-provisioning-exadata-system.html
+      - **Provisioning Exadata Infrastructure** — https://docs.oracle.com/en-us/iaas/Content/odsa-provisioning-exadata-infrastructure.html
+      - **Provisioning an Exadata VM Cluster** — https://docs.oracle.com/en-us/iaas/Content/odsa-provisioning-exadata-vm-cluster.html
+      - **Provisioning an Oracle Exadata Database** — https://docs.oracle.com/en-us/iaas/Content/odsa-provisioning-exadata-database.html
+    - **Provisioning an Oracle Autonomous Database** — https://docs.oracle.com/en-us/iaas/Content/odsa-provisioning-autonomous-database.html
+    - **Provisioning a Base Database** — https://docs.oracle.com/en-us/iaas/Content/odsa-provisioning-base-database.html
+    - **Provisioning Oracle MySQL HeatWave** — https://docs.oracle.com/en-us/iaas/Content/odsa-provisioning-mysql-heatwave.html
+      - **Connecting to Oracle MySQL HeatWave** — https://docs.oracle.com/en-us/iaas/Content/odsa-connecting-mysql-heatwave.html
+      - **Importing Data to Oracle MySQL HeatWave** — https://docs.oracle.com/en-us/iaas/Content/odsa-importing-data-mysql-heatwave.html
+      - **Provisioning MySQL HeatWave Nodes** — https://docs.oracle.com/en-us/iaas/Content/odsa-provisioning-heatwave-nodes.html
+    - **Common Database Management Tasks** — https://docs.oracle.com/en-us/iaas/Content/odsa-common-database-management-tasks.html
+    - **Database Troubleshooting** — https://docs.oracle.com/en-us/iaas/Content/odsa-database-troubleshooting.html
+    - **ODSA Test Topic** — https://docs.oracle.com/en-us/iaas/Content/odsa-test-topic.html
+  - **Management Features in the OracleDB for Azure Portal** — https://docs.oracle.com/en-us/iaas/Content/database-for-azure/odsa_manage.htm
+  - **Support Information** — https://docs.oracle.com/en-us/iaas/Content/database-for-azure/help.htm
+  - **Deletion and Cleanup of OCI Multicloud Resources** — https://docs.oracle.com/en-us/iaas/Content/database-for-azure/multicloudnetworklinkremoval.htm
+  - **Troubleshooting** — https://docs.oracle.com/en-us/iaas/Content/database-for-azure/odsa_troubleshooting.htm
+    - **Azure and Oracle Cloud Account Linking Fails (OCI Tenancies Without Identity Domains)** — https://docs.oracle.com/en-us/iaas/Content/database-for-azure/odsa_troubleshooting_tenancy_domain.htm
+    - **Updates to Azure User Roles Not Reflected in OracleDB for Azure Portal** — https://docs.oracle.com/en-us/iaas/Content/database-for-azure/odsa_troubleshooting_role_updates_require_new_portal_login.htm
+    - **Usage Limit Error During Provisioning** — https://docs.oracle.com/en-us/iaas/Content/database-for-azure/odsa_troubleshooting_service_limits.htm
+    - **SQL*Plus Client Loses Connection to Multicloud Database** — https://docs.oracle.com/en-us/iaas/Content/database-for-azure/odsa_troubleshooting_sqlplus_mtu_size.htm
+    - **OracleDB for Azure Autonomous AI Database with Private Endpoint FQDN Doesn&#x27;t Resolve
+                              When Networking Configuration Doesn&#x27;t Use Azure DNS** — https://docs.oracle.com/en-us/iaas/Content/database-for-azure/odsa_troubleshooting_dns.htm

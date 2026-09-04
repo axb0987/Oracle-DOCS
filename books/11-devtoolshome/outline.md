@@ -1,0 +1,867 @@
+# Developer Resources
+
+- Home: `https://docs.oracle.com/en-us/iaas/Content/devtoolshome.htm`
+- Home fetched: **HTTP 200** (16,114 B) — <title>Developer Resources</title>
+- Pages in book (incl. home): 860
+
+## Header outline
+
+- **Developer Guide** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/devtoolslanding.htm
+  - **Setup and Prerequisites** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/devguidesetupprereq.htm
+    - **Required Keys and OCIDs** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/apisigningkey.htm
+    - **SDK and CLI Configuration File** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/sdkconfig.htm
+    - **Adding Regions** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/sdk_adding_new_region_endpoints.htm
+    - **OCI SDK Authentication Methods** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/sdk_authentication_methods.htm
+  - **SDK Quick Starts with Cloud Shell** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/developerquickstarts.htm
+    - **SDK for Python Cloud Shell Quick Start** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/cloudshellquickstart_python.htm
+    - **SDK for Java Cloud Shell Quick Start** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/cloudshellquickstart_java.htm
+    - **SDK for .NET Cloud Shell Quick Start** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/cloudshellquickstart_dotnet.htm
+    - **SDK for Go Cloud Shell Quick Start** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/cloudshellquickstart_go.htm
+    - **SDK for TypeScript and JavaScript Cloud Shell Quick Start** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/cloudshellquickstart_typescriptandjavascript.htm
+    - **SDK for Ruby Cloud Shell Quick Start** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/cloudshellquickstart_ruby.htm
+    - **OCI Modules for PowerShell Cloud Shell Quick Start** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/cloudshellquickstart_powershell.htm
+  - **Working with Cloud Shell** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/cloudshellintro.htm
+    - **Cloud Shell Networking** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/cloudshellintro_topic-Cloud_Shell_Networking.htm
+    - **Using Cloud Shell** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/devcloudshellgettingstarted.htm
+    - **Known Issues** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/devcloudshell_known_issues.htm
+  - **Working with Code Editor** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/code_editor_intro.htm
+    - **Using Code Editor** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/code_editor_using.htm
+      - **Launching Code Editor** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/code_editor_using_launching_code_editor.htm
+      - **Understanding the Code Editor User Interface** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/code_editor_using_code_editor_ui.htm
+      - **Changing Code Editor Views** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/code_editor_using_changing_code_editor_views.htm
+      - **Accessing the Cloud Shell Home Directory** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/code_editor_using_accessing_the_cloud_shell_home_directory.htm
+      - **Creating a New File** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/code_editor_using_creating_a_new_file.htm
+      - **Using the Command Palette and Keyboard Shortcuts** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/code_editor_using_command_palette.htm
+      - **Working with Workspaces** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/code_editor_using_workspaces.htm
+      - **Starting a Terminal Session** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/code_editor_using_starting_a_terminal_session.htm
+      - **Performing File Operations** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/code_editor_using_performing_file_operations.htm
+      - **Using Git and GitHub** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/code_editor_using_using_git_from_code_editor.htm
+        - **Configuring Git and GitHub** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/code_editor_using_using_git_from_code_editor_setup_authentication.htm
+        - **Cloning a Repository** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/code_editor_using_using_git_from_code_editor_clone_repo.htm
+        - **Using the Open in Code Editor Button** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/code_editor_using_using_git_from_code_editor_one_click_clone.htm
+        - **Performing Basic Git Operations** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/code_editor_using_using_git_from_code_editor_work_with_files.htm
+  - **Working with the CLI** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/cliconcepts.htm
+    - **Quickstart** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/cliinstall.htm
+    - **Working with the OCI CLI Container Image** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/clicontainer.htm
+    - **Manual and Offline Installations** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/climanualinst.htm
+    - **Token-based Authentication for the CLI** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/clitoken.htm
+    - **Configuring the CLI** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/cliconfigure.htm
+    - **Using the CLI** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/cliusing.htm
+    - **Using Interactive Mode** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/cliusing_topic-Using_Interactive_Mode.htm
+    - **Upgrading the CLI** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/cliupgrading.htm
+    - **Uninstalling the CLI** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/cliuninstall.htm
+    - **Troubleshooting the CLI** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/clitroubleshooting.htm
+    - **CLI Environment Variables** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/clienvironmentvariables.htm
+    - **CLI Command Reference** — https://docs.oracle.com/en-us/iaas/Content//iaas/tools/oci-cli/latest/oci_cli_docs/
+  - **SDK Guides** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/sdks.htm
+    - **SDK for Java** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/javasdk.htm
+      - **Getting Started** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/javasdkgettingstarted.htm
+      - **Configuration** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/javasdkconfig.htm
+      - **Concepts** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/javasdkconcepts.htm
+      - **Updates in Version 3 of the OCI SDK for Java** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/javasdk3.htm
+      - **Examples** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/javasdkexamples.htm
+      - **Troubleshooting** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/javasdktroubleshooting.htm
+      - **SDK Reference** — https://docs.oracle.com/en-us/iaas/Content//iaas/tools/java/latest/
+    - **SDK for Python** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/pythonsdk.htm
+      - **SDK Reference** — https://docs.oracle.com/en-us/iaas/Content//iaas/tools/python/latest/api/landing.html
+    - **SDK for TypeScript and JavaScript** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/typescriptsdk.htm
+      - **Getting Started** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/typescriptsdkgettingstarted.htm
+      - **Concepts** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/typescriptsdkconcepts.htm
+      - **Examples** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/typescriptsdkexamples.htm
+      - **SDK Reference** — https://docs.oracle.com/en-us/iaas/Content//iaas/tools/typescript/latest/globals.html
+    - **SDK for .NET** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/dotnetsdk.htm
+      - **Getting Started** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/dotnetsdkgettingstarted.htm
+      - **Concepts** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/dotnetconcepts.htm
+      - **Examples** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/dotnetsdkexamples.htm
+      - **SDK Reference** — https://docs.oracle.com/en-us/iaas/Content//iaas/tools/dotnet/latest/api/index.html
+    - **SDK for Go** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/gosdk.htm
+      - **SDK Reference** — https://docs.oracle.com/en-us/iaas/Content//iaas/tools/go/latest/
+    - **SDK for Ruby** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/rubysdk.htm
+      - **SDK Reference** — https://docs.oracle.com/en-us/iaas/Content//iaas/tools/ruby/latest/index.html
+    - **PL/SQL SDK** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/plsqlsdk.htm
+      - **Examples** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/plsqlsdkexamples.htm
+      - **API Reference** — https://docs.oracle.com/en-us/iaas/Content/api-reference.html
+        - **Access Governance** — https://docs.oracle.com/en-us/iaas/Content/access-governance-cp-package.html
+          - **Access Governance CP Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_agc_access_governance_cp.html
+          - **Access Governance CP Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_agc_access_governance_cp_t.html
+          - **Access Governance CP Common Types** — https://docs.oracle.com/en-us/iaas/Content/access_governance_cp_t.html
+        - **AI Document Understanding** — https://docs.oracle.com/en-us/iaas/Content/ai-document-package.html
+          - **AI Document Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_aid_ai_service_document.html
+          - **AI Document Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_aid_ai_service_document_t.html
+          - **AI Document Common Types** — https://docs.oracle.com/en-us/iaas/Content/ai_document_t.html
+        - **AI Language** — https://docs.oracle.com/en-us/iaas/Content/ai-language-package.html
+          - **AI Language Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ail_ai_service_language.html
+          - **AI Language Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ail_ai_service_language_t.html
+          - **AI Language Common Types** — https://docs.oracle.com/en-us/iaas/Content/ai_language_t.html
+        - **AI Speech** — https://docs.oracle.com/en-us/iaas/Content/ai-speech-package.html
+          - **AI Speech Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ais_ai_service_speech.html
+          - **AI Speech Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ais_ai_service_speech_t.html
+          - **AI Speech Common Types** — https://docs.oracle.com/en-us/iaas/Content/ai_speech_t.html
+        - **AI Vision** — https://docs.oracle.com/en-us/iaas/Content/ai-vision-package.html
+          - **AI Vision Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_aiv_ai_service_vision.html
+          - **AI Vision Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_aiv_ai_service_vision_t.html
+          - **AI Vision Common Types** — https://docs.oracle.com/en-us/iaas/Content/ai_vision_t.html
+        - **Analytics** — https://docs.oracle.com/en-us/iaas/Content/analytics-package.html
+          - **Analytics Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_an_analytics.html
+          - **Analytics Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_an_analytics_t.html
+          - **Analytics Common Types** — https://docs.oracle.com/en-us/iaas/Content/analytics_t.html
+        - **Announcements** — https://docs.oracle.com/en-us/iaas/Content/announcements-package.html
+          - **Announcement Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_as_announcement.html
+          - **Announcement Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_as_announcement_t.html
+          - **Announcements Subscription Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_as_announcement_subscription.html
+          - **Announcements Subscription Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_as_announcement_subscription_t.html
+          - **Announcements Preferences Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_as_announcements_preferences.html
+          - **Announcements Preferences Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_as_announcements_preferences_t.html
+          - **Announcements Common Types** — https://docs.oracle.com/en-us/iaas/Content/announcements_service_t.html
+        - **API Gateway** — https://docs.oracle.com/en-us/iaas/Content/api-gateway-package.html
+          - **API Gateway Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ag_api_gateway.html
+          - **API Gateway Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ag_api_gateway_t.html
+          - **API Gateway Deployment Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ag_deployment.html
+          - **API Gateway Deployment Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ag_deployment_t.html
+          - **API Gateway Gateway Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ag_gateway.html
+          - **API Gateway Gateway Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ag_gateway_t.html
+          - **API Gateway Subscribers Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ag_subscribers.html
+          - **API Gateway Subscribers Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ag_subscribers_t.html
+          - **API Gateway Usage Plans Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ag_usage_plans.html
+          - **API Gateway Usage Plans Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ag_usage_plans_t.html
+          - **API Gateway Work Requests Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ag_work_requests.html
+          - **API Gateway Work Requests Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ag_work_requests_t.html
+          - **API Gateway Common Types** — https://docs.oracle.com/en-us/iaas/Content/apigateway_t.html
+        - **Application Dependency Management (ADM)** — https://docs.oracle.com/en-us/iaas/Content/adm-package.html
+          - **ADM Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_adm_application_dependency_management.html
+          - **ADM Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_adm_application_dependency_management_t.html
+          - **ADM Common Types** — https://docs.oracle.com/en-us/iaas/Content/adm_t.html
+        - **Application Management Control** — https://docs.oracle.com/en-us/iaas/Content/application-management-control-package.html
+          - **Application Management Control Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_apc_appmgmt_control.html
+          - **Application Management Control Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_apc_appmgmt_control_t.html
+          - **Application Management Control Common Types** — https://docs.oracle.com/en-us/iaas/Content/appmgmt_control_t.html
+        - **Application Migration** — https://docs.oracle.com/en-us/iaas/Content/application-migration-package.html
+          - **Application Migration Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_am_application_migration.html
+          - **Application Migration Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_am_application_migration_t.html
+          - **Application Migration Common Types** — https://docs.oracle.com/en-us/iaas/Content/application_migration_t.html
+        - **Application Performance Monitoring Config** — https://docs.oracle.com/en-us/iaas/Content/apm-config-package.html
+          - **Application Performance Monitoring Config Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ac_config.html
+          - **Application Performance Monitoring Config Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ac_config_t.html
+          - **Application Performance Monitoring Config Common Types** — https://docs.oracle.com/en-us/iaas/Content/apm_config_t.html
+        - **Application Performance Monitoring Control Plane** — https://docs.oracle.com/en-us/iaas/Content/apm-control-plane-package.html
+          - **Application Performance Monitoring Domain Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_acp_apm_domain.html
+          - **Application Performance Monitoring Domain Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_acp_apm_domain_t.html
+          - **Application Performance Monitoring Control Plane Common Types** — https://docs.oracle.com/en-us/iaas/Content/apm_control_plane_t.html
+        - **Application Performance Monitoring Synthetics** — https://docs.oracle.com/en-us/iaas/Content/apm-synthetics-package.html
+          - **Application Performance Monitoring Synthetics Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_asy_apm_synthetic.html
+          - **Application Performance Monitoring Synthetics Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_asy_apm_synthetic_t.html
+          - **Application Performance Monitoring Synthetics Common Types** — https://docs.oracle.com/en-us/iaas/Content/apm_synthetics_t.html
+        - **Application Performance Monitoring Traces** — https://docs.oracle.com/en-us/iaas/Content/apm-traces-package.html
+          - **Application Performance Monitoring Traces Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_atr_trace.html
+          - **Application Performance Monitoring Traces Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_atr_trace_t.html
+          - **Application Performance Monitoring Traces Query Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_atr_query.html
+          - **Application Performance Monitoring Traces Query Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_atr_query_t.html
+          - **Application Performance Monitoring Traces Common Types** — https://docs.oracle.com/en-us/iaas/Content/apm_traces_t.html
+        - **Artifacts** — https://docs.oracle.com/en-us/iaas/Content/artifacts-package.html
+          - **Artifacts Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ar_artifacts.html
+          - **Artifacts Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ar_artifacts_t.html
+          - **Artifacts Common Types** — https://docs.oracle.com/en-us/iaas/Content/artifacts_t.html
+        - **Audit** — https://docs.oracle.com/en-us/iaas/Content/audit-package.html
+          - **Audit Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ad_audit.html
+          - **Audit Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ad_audit_t.html
+          - **Audit Common Types** — https://docs.oracle.com/en-us/iaas/Content/audit_t.html
+        - **Autoscaling** — https://docs.oracle.com/en-us/iaas/Content/autoscaling-package.html
+          - **Autoscaling Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_asc_auto_scaling.html
+          - **Autoscaling Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_asc_auto_scaling_t.html
+          - **Autoscaling Common Types** — https://docs.oracle.com/en-us/iaas/Content/autoscaling_t.html
+        - **Bastion** — https://docs.oracle.com/en-us/iaas/Content/bastion-package.html
+          - **Bastion Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_bt_bastion.html
+          - **Bastion Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_bt_bastion_t.html
+          - **Bastion Common Types** — https://docs.oracle.com/en-us/iaas/Content/bastion_t.html
+        - **Big Data Service (BDS)** — https://docs.oracle.com/en-us/iaas/Content/bds-package.html
+          - **BDS Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_bds_bds.html
+          - **BDS Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_bds_bds_t.html
+          - **BDS Common Types** — https://docs.oracle.com/en-us/iaas/Content/bds_t.html
+        - **Blockchain** — https://docs.oracle.com/en-us/iaas/Content/blockchain-package.html
+          - **Blockchain Platform Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_bc_blockchain_platform.html
+          - **Blockchain Platform Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_bc_blockchain_platform_t.html
+          - **Blockchain Common Types** — https://docs.oracle.com/en-us/iaas/Content/blockchain_t.html
+        - **Budget** — https://docs.oracle.com/en-us/iaas/Content/budget-package.html
+          - **Budget Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_bd_budget.html
+          - **Budget Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_bd_budget_t.html
+          - **Budget Common Types** — https://docs.oracle.com/en-us/iaas/Content/budget_t.html
+        - **Certificates** — https://docs.oracle.com/en-us/iaas/Content/certificates-package.html
+          - **Certificates Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_cert_certificates.html
+          - **Certificates Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_cert_certificates_t.html
+          - **Certificates Common Types** — https://docs.oracle.com/en-us/iaas/Content/certificates_t.html
+        - **Certificates Management** — https://docs.oracle.com/en-us/iaas/Content/certificates-management-package.html
+          - **Certificates Management Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_certm_certificates_management.html
+          - **Certificates Management Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_certm_certificates_management_t.html
+          - **Certificates Management Common Types** — https://docs.oracle.com/en-us/iaas/Content/certificates_management_t.html
+        - **CIMS** — https://docs.oracle.com/en-us/iaas/Content/cims-package.html
+          - **CIMS Incident Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ci_incident.html
+          - **CIMS Incident Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ci_incident_t.html
+          - **CIMS Common Types** — https://docs.oracle.com/en-us/iaas/Content/cims_t.html
+        - **Cloud Bridge** — https://docs.oracle.com/en-us/iaas/Content/cloud-bridge-package.html
+          - **Cloud Bridge Discovery Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_cb_discovery.html
+          - **Cloud Bridge Discovery Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_cb_discovery_t.html
+          - **Cloud Bridge Inventory Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_cb_inventory.html
+          - **Cloud Bridge Inventory Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_cb_inventory_t.html
+          - **Cloud Bridge OCB Agent SVC Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_cb_ocb_agent_svc.html
+          - **Cloud Bridge OCB Agent SVC Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_cb_ocb_agent_svc_t.html
+          - **Cloud Bridge Common Types** — https://docs.oracle.com/en-us/iaas/Content/cloud_bridge_t.html
+        - **Cloud Guard** — https://docs.oracle.com/en-us/iaas/Content/cloud-guard-package.html
+          - **Cloud Guard Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_cg_cloud_guard.html
+          - **Cloud Guard Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_cg_cloud_guard_t.html
+          - **Cloud Guard Common Types** — https://docs.oracle.com/en-us/iaas/Content/cloud_guard_t.html
+        - **Cloud Migrations** — https://docs.oracle.com/en-us/iaas/Content/cloud-migrations-package.html
+          - **Cloud Migrations Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_cm_migration.html
+          - **Cloud Migrations Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_cm_migration_t.html
+          - **Cloud Migrations Common Types** — https://docs.oracle.com/en-us/iaas/Content/cloud_migrations_t.html
+        - **Compute Cloud@Customer** — https://docs.oracle.com/en-us/iaas/Content/compute-cloud-customer-package.html
+          - **Compute Cloud at Customer Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ccac_compute_cloud_at_customer.html
+          - **Compute Cloud at Customer Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ccac_compute_cloud_at_customer_t.html
+          - **Compute Cloud at Customer Common Types** — https://docs.oracle.com/en-us/iaas/Content/compute_cloud_at_customer_t.html
+        - **Compute Instance Agent** — https://docs.oracle.com/en-us/iaas/Content/compute-instance-agent-package.html
+          - **Compute Instance Agent Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_cia_compute_instance_agent.html
+          - **Compute Instance Agent Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_cia_compute_instance_agent_t.html
+          - **Compute Instance Agent Plugin Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_cia_plugin.html
+          - **Compute Instance Agent Plugin Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_cia_plugin_t.html
+          - **Compute Instance Agent Plugin Config Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_cia_pluginconfig.html
+          - **Compute Instance Agent Plugin Config Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_cia_pluginconfig_t.html
+          - **Compute Instance Agent Common Types** — https://docs.oracle.com/en-us/iaas/Content/compute_instance_agent_t.html
+        - **Container Engine** — https://docs.oracle.com/en-us/iaas/Content/container-engine-package.html
+          - **Container Engine Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ce_container_engine.html
+          - **Container Engine Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ce_container_engine_t.html
+          - **Container Engine Common Types** — https://docs.oracle.com/en-us/iaas/Content/container_engine_t.html
+        - **Container Instances** — https://docs.oracle.com/en-us/iaas/Content/container-instances-package.html
+          - **Container Instances Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_cin_container_instance.html
+          - **Container Instances Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_cin_container_instance_t.html
+          - **Container Instances Common Types** — https://docs.oracle.com/en-us/iaas/Content/container_instances_t.html
+        - **Core** — https://docs.oracle.com/en-us/iaas/Content/core-package.html
+          - **Core Blockstorage Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_cr_blockstorage.html
+          - **Core Blockstorage Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_cr_blockstorage_t.html
+          - **Core Compute Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_cr_compute.html
+          - **Core Compute Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_cr_compute_t.html
+          - **Core Compute Management Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_cr_compute_management.html
+          - **Core Compute Management Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_cr_compute_management_t.html
+          - **Core Virtual Network Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_cr_virtual_network.html
+          - **Core Virtual Network Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_cr_virtual_network_t.html
+          - **Core Common Types** — https://docs.oracle.com/en-us/iaas/Content/core_t.html
+        - **Dashboard** — https://docs.oracle.com/en-us/iaas/Content/dashboard-package.html
+          - **Dashboard Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_dbs_dashboard.html
+          - **Dashboard Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_dbs_dashboard_t.html
+          - **Dashboard Group Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_dbs_dashboard_group.html
+          - **Dashboard Group Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_dbs_dashboard_group_t.html
+          - **Dashboard Common Types** — https://docs.oracle.com/en-us/iaas/Content/dashboard_service_t.html
+        - **Data Catalog** — https://docs.oracle.com/en-us/iaas/Content/data-catalog-package.html
+          - **Data Catalog Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_dc_data_catalog.html
+          - **Data Catalog Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_dc_data_catalog_t.html
+          - **Data Catalog Common Types** — https://docs.oracle.com/en-us/iaas/Content/datacatalog_t.html
+        - **Data Flow** — https://docs.oracle.com/en-us/iaas/Content/data-flow-package.html
+          - **Data Flow Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_df_data_flow.html
+          - **Data Flow Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_df_data_flow_t.html
+          - **Data Flow Common Types** — https://docs.oracle.com/en-us/iaas/Content/dataflow_t.html
+        - **Data Integration** — https://docs.oracle.com/en-us/iaas/Content/data-integration-package.html
+          - **Data Integration Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_di_data_integration.html
+          - **Data Integration Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_di_data_integration_t.html
+          - **Data Integration Common Types** — https://docs.oracle.com/en-us/iaas/Content/dataintegration_t.html
+        - **Data Labeling Service** — https://docs.oracle.com/en-us/iaas/Content/data-labeling-service-package.html
+          - **Data Labeling Service Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_dls_data_labeling_management.html
+          - **Data Labeling Service Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_dls_data_labeling_management_t.html
+          - **Data Labeling Service Common Types** — https://docs.oracle.com/en-us/iaas/Content/data_labeling_service_t.html
+        - **Data Labeling Service Dataplane** — https://docs.oracle.com/en-us/iaas/Content/data-labeling-service-dataplane-package.html
+          - **Data Labeling Service Dataplane Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_dlsd_data_labeling.html
+          - **Data Labeling Service Dataplane Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_dlsd_data_labeling_t.html
+          - **Data Labeling Service Dataplane Common Types** — https://docs.oracle.com/en-us/iaas/Content/data_labeling_service_dataplane_t.html
+        - **Data Safe** — https://docs.oracle.com/en-us/iaas/Content/data-safe-package.html
+          - **Data Safe Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ds_data_safe.html
+          - **Data Safe Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ds_data_safe_t.html
+          - **Data Safe Common Types** — https://docs.oracle.com/en-us/iaas/Content/datasafe_t.html
+        - **Data Science** — https://docs.oracle.com/en-us/iaas/Content/data-science-package.html
+          - **Data Science Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_dsc_data_science.html
+          - **Data Science Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_dsc_data_science_t.html
+          - **Data Science Common Types** — https://docs.oracle.com/en-us/iaas/Content/datascience_t.html
+        - **Database** — https://docs.oracle.com/en-us/iaas/Content/database-package.html
+          - **Database Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_db_database.html
+          - **Database Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_db_database_t.html
+          - **Database Common Types** — https://docs.oracle.com/en-us/iaas/Content/database_t.html
+        - **Database Management** — https://docs.oracle.com/en-us/iaas/Content/database-management-package.html
+          - **Database Management Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_dm_db_management.html
+          - **Database Management Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_dm_db_management_t.html
+          - **Database Management Diagnosability Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_dm_diagnosability.html
+          - **Database Management Diagnosability Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_dm_diagnosability_t.html
+          - **Database Management Managed MySql Databases Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_dm_managed_my_sql_databases.html
+          - **Database Management Managed MySql Databases Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_dm_managed_my_sql_databases_t.html
+          - **Database Management Perfhub Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_dm_perfhub.html
+          - **Database Management Perfhub Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_dm_perfhub_t.html
+          - **Database Management SQL Tuning Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_dm_sql_tuning.html
+          - **Database Management SQL Tuning Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_dm_sql_tuning_t.html
+          - **Database Management Common Types** — https://docs.oracle.com/en-us/iaas/Content/database_management_t.html
+        - **Database Migration** — https://docs.oracle.com/en-us/iaas/Content/database-migration-package.html
+          - **Database Migrations Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_dmg_database_migration.html
+          - **Database Migrations Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_dmg_database_migration_t.html
+          - **Database Migrations Common Types** — https://docs.oracle.com/en-us/iaas/Content/database_migration_t.html
+        - **Database Tools** — https://docs.oracle.com/en-us/iaas/Content/database-tools-package.html
+          - **Database Tools Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_dt_database_tools.html
+          - **Database Tools Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_dt_database_tools_t.html
+          - **Database Tools Common Types** — https://docs.oracle.com/en-us/iaas/Content/database_tools_t.html
+        - **DevOps** — https://docs.oracle.com/en-us/iaas/Content/devops-package.html
+          - **DevOps Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_do_devops.html
+          - **DevOps Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_do_devops_t.html
+          - **DevOps Common Types** — https://docs.oracle.com/en-us/iaas/Content/devops_t.html
+        - **Disaster Recovery** — https://docs.oracle.com/en-us/iaas/Content/disaster-recovery-package.html
+          - **Disaster Recovery Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_dr_disaster_recovery.html
+          - **Disaster Recovery Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_dr_disaster_recovery_t.html
+          - **Disaster Recovery Common Types** — https://docs.oracle.com/en-us/iaas/Content/disaster_recovery_t.html
+        - **Domain Name System (DNS)** — https://docs.oracle.com/en-us/iaas/Content/dns-package.html
+          - **DNS Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_dns_dns.html
+          - **DNS Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_dns_dns_t.html
+          - **DNS Common Types** — https://docs.oracle.com/en-us/iaas/Content/dns_t.html
+        - **Email** — https://docs.oracle.com/en-us/iaas/Content/email-package.html
+          - **Email Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_em_email.html
+          - **Email Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_em_email_t.html
+          - **Email Common Types** — https://docs.oracle.com/en-us/iaas/Content/email_t.html
+        - **Enterprise Manager Warehouse** — https://docs.oracle.com/en-us/iaas/Content/em-warehouse-package.html
+          - **EM Warehouse Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ew_em_warehouse.html
+          - **EM Warehouse Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ew_em_warehouse_t.html
+          - **EM Warehouse Common Types** — https://docs.oracle.com/en-us/iaas/Content/em_warehouse_t.html
+        - **Events** — https://docs.oracle.com/en-us/iaas/Content/events-package.html
+          - **Events Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ev_events.html
+          - **Events Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ev_events_t.html
+          - **Events Common Types** — https://docs.oracle.com/en-us/iaas/Content/events_t.html
+        - **File Storage** — https://docs.oracle.com/en-us/iaas/Content/file-storage-package.html
+          - **File Storage Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_fs_file_storage.html
+          - **File Storage Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_fs_file_storage_t.html
+          - **File Storage Common Types** — https://docs.oracle.com/en-us/iaas/Content/file_storage_t.html
+        - **Fleet Software Update** — https://docs.oracle.com/en-us/iaas/Content/fleet-software-update-package.html
+          - **Fleet Software Update Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_fsu_fleet_software_update.html
+          - **Fleet Software Update Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_fsu_fleet_software_update_t.html
+          - **Fleet Software Update Common Types** — https://docs.oracle.com/en-us/iaas/Content/fleet_software_update_t.html
+        - **Functions** — https://docs.oracle.com/en-us/iaas/Content/functions-package.html
+          - **Functions Invoke Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_fnc_functions_invoke.html
+          - **Functions Invoke Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_fnc_functions_invoke_t.html
+          - **Functions Management Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_fnc_functions_management.html
+          - **Functions Management Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_fnc_functions_management_t.html
+          - **Functions Common Types** — https://docs.oracle.com/en-us/iaas/Content/functions_t.html
+        - **Fusion Applications** — https://docs.oracle.com/en-us/iaas/Content/fusion-apps-package.html
+          - **Fusion Apps Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_fa_fusion_applications.html
+          - **Fusion Apps Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_fa_fusion_applications_t.html
+          - **Fusion Apps Common Types** — https://docs.oracle.com/en-us/iaas/Content/fusion_apps_t.html
+        - **Generative AI** — https://docs.oracle.com/en-us/iaas/Content/generative-ai-package.html
+          - **Generative AI Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ga_generative_ai.html
+          - **Generative AI Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ga_generative_ai_t.html
+          - **Generative AI Common Types** — https://docs.oracle.com/en-us/iaas/Content/generative_ai_t.html
+        - **Generative AI Inference** — https://docs.oracle.com/en-us/iaas/Content/generative-ai-inference-package.html
+          - **Generative AI Inference Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_gai_generative_ai_inference.html
+          - **Generative AI Inference Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_gai_generative_ai_inference_t.html
+          - **Generative AI Inference Common Types** — https://docs.oracle.com/en-us/iaas/Content/generative_ai_inference_t.html
+        - **Generic Artifacts Content** — https://docs.oracle.com/en-us/iaas/Content/generic-artifacts-content-package.html
+          - **Generic Artifacts Content Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_gac_generic_artifacts_content.html
+          - **Generic Artifacts Content Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_gac_generic_artifacts_content_t.html
+          - **Generic Artifacts Content Common Types** — https://docs.oracle.com/en-us/iaas/Content/generic_artifacts_content_t.html
+        - **Golden Gate** — https://docs.oracle.com/en-us/iaas/Content/golden-gate-package.html
+          - **Golden Gate Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_gg_golden_gate.html
+          - **Golden Gate Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_gg_golden_gate_t.html
+          - **Golden Gate Common Types** — https://docs.oracle.com/en-us/iaas/Content/golden_gate_t.html
+        - **Governance Rules** — https://docs.oracle.com/en-us/iaas/Content/governance-rules-cp-package.html
+          - **Governance Rules CP Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_grcp_governance_rule.html
+          - **Governance Rules CP Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_grcp_governance_rule_t.html
+          - **Governance Rules CP Work Request Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_grcp_work_request.html
+          - **Governance Rules CP Work Request Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_grcp_work_request_t.html
+          - **Governance Rules CP Common Types** — https://docs.oracle.com/en-us/iaas/Content/governance_rules_control_plane_t.html
+        - **Health Checks** — https://docs.oracle.com/en-us/iaas/Content/health-checks-package.html
+          - **Health Checks Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_hc_health_checks.html
+          - **Health Checks Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_hc_health_checks_t.html
+          - **Health Checks Common Types** — https://docs.oracle.com/en-us/iaas/Content/healthchecks_t.html
+        - **Identity** — https://docs.oracle.com/en-us/iaas/Content/identity-package.html
+          - **Identity Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_id_identity.html
+          - **Identity Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_id_identity_t.html
+          - **Identity Common Types** — https://docs.oracle.com/en-us/iaas/Content/identity_t.html
+        - **Identity Dataplane** — https://docs.oracle.com/en-us/iaas/Content/identity-dataplane-package.html
+          - **Identity Dataplane Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_idp_dataplane.html
+          - **Identity Dataplane Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_idp_dataplane_t.html
+          - **Identity Dataplane Common Types** — https://docs.oracle.com/en-us/iaas/Content/identity_dataplane_t.html
+        - **Integration** — https://docs.oracle.com/en-us/iaas/Content/integration-package.html
+          - **Integration Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_int_integration_instance.html
+          - **Integration Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_int_integration_instance_t.html
+          - **Integration Common Types** — https://docs.oracle.com/en-us/iaas/Content/integration_t.html
+        - **Java Download** — https://docs.oracle.com/en-us/iaas/Content/jms-java-downloads-package.html
+          - **Java Downloads Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_jjd_java_download.html
+          - **Java Downloads Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_jjd_java_download_t.html
+          - **Java Downloads Common Types** — https://docs.oracle.com/en-us/iaas/Content/jms_java_downloads_t.html
+        - **Java Management Service** — https://docs.oracle.com/en-us/iaas/Content/jms-package.html
+          - **JMS Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_jms_java_management_service.html
+          - **JMS Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_jms_java_management_service_t.html
+          - **JMS Common Types** — https://docs.oracle.com/en-us/iaas/Content/jms_t.html
+        - **Key Management** — https://docs.oracle.com/en-us/iaas/Content/key-management-package.html
+          - **Key Management Ekm Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_km_ekm.html
+          - **Key Management Ekm Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_km_ekm_t.html
+          - **Key Management Crypto Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_km_kms_crypto.html
+          - **Key Management Crypto Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_km_kms_crypto_t.html
+          - **Key Management Management Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_km_kms_management.html
+          - **Key Management Management Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_km_kms_management_t.html
+          - **Key Management Vault Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_km_kms_vault.html
+          - **Key Management Vault Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_km_kms_vault_t.html
+          - **Key Management Common Types** — https://docs.oracle.com/en-us/iaas/Content/key_management_t.html
+        - **License Management Services (LMS)** — https://docs.oracle.com/en-us/iaas/Content/license-manager-package.html
+          - **License Manager Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_lim_license_manager.html
+          - **License Manager Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_lim_license_manager_t.html
+          - **License Manager Common Types** — https://docs.oracle.com/en-us/iaas/Content/license_manager_t.html
+        - **Limits** — https://docs.oracle.com/en-us/iaas/Content/limits-package.html
+          - **Limits Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_lm_limits.html
+          - **Limits Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_lm_limits_t.html
+          - **Limits Quotas Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_lm_quotas.html
+          - **Limits Quotas Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_lm_quotas_t.html
+          - **Limits Common Types** — https://docs.oracle.com/en-us/iaas/Content/limits_t.html
+        - **Load Balancer** — https://docs.oracle.com/en-us/iaas/Content/load-balancer-package.html
+          - **Load Balancer Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_lb_load_balancer.html
+          - **Load Balancer Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_lb_load_balancer_t.html
+          - **Load Balancer Common Types** — https://docs.oracle.com/en-us/iaas/Content/load_balancer_t.html
+        - **Lockbox** — https://docs.oracle.com/en-us/iaas/Content/lockbox-package.html
+          - **Lockbox Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_lbx_lockbox.html
+          - **Lockbox Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_lbx_lockbox_t.html
+          - **Lockbox Common Types** — https://docs.oracle.com/en-us/iaas/Content/lockbox_t.html
+        - **Logging** — https://docs.oracle.com/en-us/iaas/Content/logging-package.html
+          - **Logging Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_log_logging_management.html
+          - **Logging Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_log_logging_management_t.html
+          - **Logging Common Types** — https://docs.oracle.com/en-us/iaas/Content/logging_t.html
+        - **Logging Ingestion** — https://docs.oracle.com/en-us/iaas/Content/logging-ingestion-package.html
+          - **Logging Ingestion Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_logi_logging.html
+          - **Logging Ingestion Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_logi_logging_t.html
+          - **Logging Ingestion Common Types** — https://docs.oracle.com/en-us/iaas/Content/logging_ingestion_t.html
+        - **Logging Search** — https://docs.oracle.com/en-us/iaas/Content/logging-search-package.html
+          - **Logging Search Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_logsrch_log_search.html
+          - **Logging Search Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_logsrch_log_search_t.html
+          - **Logging Search Common Types** — https://docs.oracle.com/en-us/iaas/Content/logging_search_t.html
+        - **Management Agent** — https://docs.oracle.com/en-us/iaas/Content/management-agent-package.html
+          - **Management Agent Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ma_management_agent.html
+          - **Management Agent Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ma_management_agent_t.html
+          - **Management Agent Common Types** — https://docs.oracle.com/en-us/iaas/Content/management_agent_t.html
+        - **Management Dashboard** — https://docs.oracle.com/en-us/iaas/Content/management-dashboard-package.html
+          - **Management Dashboard Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_md_dashx_apis.html
+          - **Management Dashboard Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_md_dashx_apis_t.html
+          - **Management Dashboard Common Types** — https://docs.oracle.com/en-us/iaas/Content/management_dashboard_t.html
+        - **Marketplace** — https://docs.oracle.com/en-us/iaas/Content/marketplace-package.html
+          - **Marketplace Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_mp_marketplace.html
+          - **Marketplace Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_mp_marketplace_t.html
+          - **Marketplace Account Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_mp_account.html
+          - **Marketplace Account Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_mp_account_t.html
+          - **Marketplace Common Types** — https://docs.oracle.com/en-us/iaas/Content/marketplace_t.html
+        - **Marketplace Publisher** — https://docs.oracle.com/en-us/iaas/Content/marketplace-publisher-package.html
+          - **Marketplace Publisher Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_mpp_marketplace_publisher.html
+          - **Marketplace Publisher Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_mpp_marketplace_publisher_t.html
+          - **Marketplace Publisher Common Types** — https://docs.oracle.com/en-us/iaas/Content/marketplace_publisher_t.html
+        - **Media Services** — https://docs.oracle.com/en-us/iaas/Content/media-services-package.html
+          - **Media Services Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_mds_media_services.html
+          - **Media Services Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_mds_media_services_t.html
+          - **Media Services Media Stream Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_mds_media_stream.html
+          - **Media Services Media Stream Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_mds_media_stream_t.html
+          - **Media Services Common Types** — https://docs.oracle.com/en-us/iaas/Content/media_services_t.html
+        - **Monitoring** — https://docs.oracle.com/en-us/iaas/Content/monitoring-package.html
+          - **Monitoring Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_mn_monitoring.html
+          - **Monitoring Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_mn_monitoring_t.html
+          - **Monitoring Common Types** — https://docs.oracle.com/en-us/iaas/Content/monitoring_t.html
+        - **MySQL** — https://docs.oracle.com/en-us/iaas/Content/mysql-package.html
+          - **MySQL MySQLaaS Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ms_mysqlaas.html
+          - **MySQL MySQLaaS Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ms_mysqlaas_t.html
+          - **MySQL Channels Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ms_channels.html
+          - **MySQL Channels Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ms_channels_t.html
+          - **MySQL DB Backups Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ms_db_backups.html
+          - **MySQL DB Backups Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ms_db_backups_t.html
+          - **MySQL DB System Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ms_db_system.html
+          - **MySQL DB System Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ms_db_system_t.html
+          - **MySQL Replicas Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ms_replicas.html
+          - **MySQL Replicas Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ms_replicas_t.html
+          - **MySQL Work Requests Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ms_work_requests.html
+          - **MySQL Work Requests Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ms_work_requests_t.html
+          - **MySQL Common Types** — https://docs.oracle.com/en-us/iaas/Content/mysql_t.html
+        - **Network Firewall** — https://docs.oracle.com/en-us/iaas/Content/network-firewall-package.html
+          - **Network Firewall Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_nf_network_firewall.html
+          - **Network Firewall Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_nf_network_firewall_t.html
+          - **Network Firewall Common Types** — https://docs.oracle.com/en-us/iaas/Content/network_firewall_t.html
+        - **Network Load Balancer** — https://docs.oracle.com/en-us/iaas/Content/network-load-balancer-package.html
+          - **Network Load Balancer Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_nlb_network_load_balancer.html
+          - **Network Load Balancer Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_nlb_network_load_balancer_t.html
+          - **Network Load Balancer Common Types** — https://docs.oracle.com/en-us/iaas/Content/network_load_balancer_t.html
+        - **NoSQL** — https://docs.oracle.com/en-us/iaas/Content/nosql-package.html
+          - **NoSQL Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ns_nosql.html
+          - **NoSQL Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ns_nosql_t.html
+          - **NoSQL Common Types** — https://docs.oracle.com/en-us/iaas/Content/nosql_t.html
+        - **Notifications** — https://docs.oracle.com/en-us/iaas/Content/ons-package.html
+          - **Notifications Control Plane Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ons_notification_control_plane.html
+          - **Notifications Control Plane Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ons_notification_control_plane_t.html
+          - **Notifications Data Plane Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ons_notification_data_plane.html
+          - **Notifications Data Plane Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ons_notification_data_plane_t.html
+          - **Notifications Common Types** — https://docs.oracle.com/en-us/iaas/Content/ons_t.html
+        - **Object Storage** — https://docs.oracle.com/en-us/iaas/Content/object-storage-package.html
+          - **Object Storage Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_obs_object_storage.html
+          - **Object Storage Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_obs_object_storage_t.html
+          - **Object Storage Common Types** — https://docs.oracle.com/en-us/iaas/Content/object_storage_t.html
+        - **OCI Control Center (OCC)** — https://docs.oracle.com/en-us/iaas/Content/oci-control-center-package.html
+          - **OCI Control Center Metrics Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_occ_occ_metrics.html
+          - **OCI Control Center Metrics Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_occ_occ_metrics_t.html
+          - **OCI Control Center Common Types** — https://docs.oracle.com/en-us/iaas/Content/oci_control_center_t.html
+        - **One Subscription** — https://docs.oracle.com/en-us/iaas/Content/one-subscription-package.html
+          - **One Subscription Billing Schedule Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_os_billing_schedule.html
+          - **One Subscription Billing Schedule Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_os_billing_schedule_t.html
+          - **One Subscription Commitment Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_os_commitment.html
+          - **One Subscription Commitment Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_os_commitment_t.html
+          - **One Subscription Computed Usage Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_os_computed_usage.html
+          - **One Subscription Computed Usage Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_os_computed_usage_t.html
+          - **One Subscription Invoice Summary Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_os_invoice_summary.html
+          - **One Subscription Invoice Summary Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_os_invoice_summary_t.html
+          - **One Subscription Organization Subscription Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_os_organization_subscription.html
+          - **One Subscription Organization Subscription Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_os_organization_subscription_t.html
+          - **One Subscription Ratecard Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_os_ratecard.html
+          - **One Subscription Ratecard Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_os_ratecard_t.html
+          - **One Subscription Subscribed Service Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_os_subscribed_service.html
+          - **One Subscription Subscribed Service Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_os_subscribed_service_t.html
+          - **One Subscription Subscription Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_os_subscription.html
+          - **One Subscription Subscription Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_os_subscription_t.html
+          - **One Subscription Common Types** — https://docs.oracle.com/en-us/iaas/Content/onesubscription_t.html
+        - **OpenSearch** — https://docs.oracle.com/en-us/iaas/Content/opensearch-package.html
+          - **OpenSearch Cluster Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ops_opensearch_cluster.html
+          - **OpenSearch Cluster Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ops_opensearch_cluster_t.html
+          - **OpenSearch Cluster Backup Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ops_opensearch_cluster_backup.html
+          - **OpenSearch Cluster Backup Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ops_opensearch_cluster_backup_t.html
+          - **OpenSearch Common Types** — https://docs.oracle.com/en-us/iaas/Content/opensearch_t.html
+        - **Operations Insights (OPSI)** — https://docs.oracle.com/en-us/iaas/Content/opsi-package.html
+          - **OPSI Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_opsi_operations_insights.html
+          - **OPSI Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_opsi_operations_insights_t.html
+          - **OPSI Common Types** — https://docs.oracle.com/en-us/iaas/Content/opsi_t.html
+        - **Operator Access Control** — https://docs.oracle.com/en-us/iaas/Content/operator-access-control-package.html
+          - **Operator Access Control Access Requests Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_oac_access_requests.html
+          - **Operator Access Control Access Requests Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_oac_access_requests_t.html
+          - **Operator Access Control Operator Actions Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_oac_operator_actions.html
+          - **Operator Access Control Operator Actions Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_oac_operator_actions_t.html
+          - **Operator Access Control Operator Control Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_oac_operator_control.html
+          - **Operator Access Control Operator Control Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_oac_operator_control_t.html
+          - **Operator Access Control Operator Control Assignment Funtions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_oac_operator_control_assignment.html
+          - **Operator Access Control Operator Control Assignment Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_oac_operator_control_assignment_t.html
+          - **Operator Access Control Common Types** — https://docs.oracle.com/en-us/iaas/Content/operator_access_control_t.html
+        - **Optimizer** — https://docs.oracle.com/en-us/iaas/Content/optimizer-package.html
+          - **Optimizer Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_op_optimizer.html
+          - **Optimizer Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_op_optimizer_t.html
+          - **Optimizer Common Types** — https://docs.oracle.com/en-us/iaas/Content/optimizer_t.html
+        - **Oracle Cloud VMware Package (OCVP)** — https://docs.oracle.com/en-us/iaas/Content/ocvp-package.html
+          - **OCVP Cluster Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ov_cluster.html
+          - **OCVP Cluster Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ov_cluster_t.html
+          - **OCVP Esxi Host Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ov_esxi_host.html
+          - **OCVP Esxi Host Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ov_esxi_host_t.html
+          - **OCVP SDDC Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ov_sddc.html
+          - **OCVP SDDC Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ov_sddc_t.html
+          - **OCVP Work Request Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ov_work_request.html
+          - **OCVP Work Request Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ov_work_request_t.html
+          - **OCVP Common Types** — https://docs.oracle.com/en-us/iaas/Content/ocvp_t.html
+        - **Oracle Content and Experience (OCE)** — https://docs.oracle.com/en-us/iaas/Content/oce-package.html
+          - **OCE Instance Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_oce_oce_instance.html
+          - **OCE Instance Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_oce_oce_instance_t.html
+          - **OCE Common Types** — https://docs.oracle.com/en-us/iaas/Content/oce_t.html
+        - **Oracle Digital Assistant (ODA)** — https://docs.oracle.com/en-us/iaas/Content/oda-package.html
+          - **ODA Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_oda_oda.html
+          - **ODA Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_oda_oda_t.html
+          - **ODA Management Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_oda_management.html
+          - **ODA Management Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_oda_management_t.html
+          - **ODA ODA Package Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_oda_odapackage.html
+          - **ODA ODA Package Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_oda_odapackage_t.html
+          - **ODA Common Types** — https://docs.oracle.com/en-us/iaas/Content/oda_t.html
+        - **Oracle Policy Automation (OPA)** — https://docs.oracle.com/en-us/iaas/Content/opa-package.html
+          - **OPA Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_opa_opa_instance.html
+          - **OPA Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_opa_opa_instance_t.html
+          - **OPA Common Types** — https://docs.oracle.com/en-us/iaas/Content/opa_t.html
+        - **OS Management** — https://docs.oracle.com/en-us/iaas/Content/os-management-package.html
+          - **OS Management Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_om_os_management.html
+          - **OS Management Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_om_os_management_t.html
+          - **OS Management Event Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_om_event.html
+          - **OS Management Event Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_om_event_t.html
+          - **OS Management Common Types** — https://docs.oracle.com/en-us/iaas/Content/os_management_t.html
+        - **OS Management Hub** — https://docs.oracle.com/en-us/iaas/Content/os-management-hub-package.html
+          - **OS Management Hub Lifecycle Environment Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_omh_lifecycle_environment.html
+          - **OS Management Hub Lifecycle Environment Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_omh_lifecycle_environment_t.html
+          - **OS Management Hub Managed Instance Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_omh_managed_instance.html
+          - **OS Management Hub Managed Instance Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_omh_managed_instance_t.html
+          - **OS Management Hub Managed Instance Group Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_omh_managed_instance_group.html
+          - **OS Management Hub Managed Instance Group Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_omh_managed_instance_group_t.html
+          - **OS Management Hub Management Station Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_omh_management_station.html
+          - **OS Management Hub Management Station Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_omh_management_station_t.html
+          - **OS Management Hub Onboarding Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_omh_onboarding.html
+          - **OS Management Hub Onboarding Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_omh_onboarding_t.html
+          - **OS Management Hub Reporting Managed Instance Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_omh_reporting_managed_instance.html
+          - **OS Management Hub Reporting Managed Instance Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_omh_reporting_managed_instance_t.html
+          - **OS Management Hub Scheduled Job Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_omh_scheduled_job.html
+          - **OS Management Hub Scheduled Job Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_omh_scheduled_job_t.html
+          - **OS Management Hub Software Source Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_omh_software_source.html
+          - **OS Management Hub Software Source Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_omh_software_source_t.html
+          - **OS Management Hub Work Request Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_omh_work_request.html
+          - **OS Management Hub Work Request Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_omh_work_request_t.html
+          - **OS Management Hub Common Types** — https://docs.oracle.com/en-us/iaas/Content/os_management_hub_t.html
+        - **OSP Gateway** — https://docs.oracle.com/en-us/iaas/Content/osp-gateway-package.html
+          - **OSP Gateway Address Rule Service Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_og_address_rule_service.html
+          - **OSP Gateway Address Rule Service Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_og_address_rule_service_t.html
+          - **OSP Gateway Address Service Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_og_address_service.html
+          - **OSP Gateway Address Service Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_og_address_service_t.html
+          - **OSP Gateway Invoice Service Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_og_invoice_service.html
+          - **OSP Gateway Invoice Service Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_og_invoice_service_t.html
+          - **OSP Gateway Subscription Service Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_og_subscription_service.html
+          - **OSP Gateway Subscription Service Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_og_subscription_service_t.html
+          - **OSP Gateway Common Types** — https://docs.oracle.com/en-us/iaas/Content/osp_gateway_t.html
+        - **OSub Billing Schedule** — https://docs.oracle.com/en-us/iaas/Content/osub-billing-schedule-package.html
+          - **OSub Billing Schedule Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_osb_billing_schedule.html
+          - **OSub Billing Schedule Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_osb_billing_schedule_t.html
+          - **OSub Billing Schedule Common Types** — https://docs.oracle.com/en-us/iaas/Content/osub_billing_schedule_t.html
+        - **OSub Organization Subscription** — https://docs.oracle.com/en-us/iaas/Content/osub-organization-subscription-package.html
+          - **OSub Organization Subscription Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_osos_organization_subscription.html
+          - **OSub Organization Subscription Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_osos_organization_subscription_t.html
+          - **OSub Organization Subscription Common Types** — https://docs.oracle.com/en-us/iaas/Content/osub_organization_subscription_t.html
+        - **OSub Subscription** — https://docs.oracle.com/en-us/iaas/Content/osub-subscription-package.html
+          - **OSub Subscription Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_oss_subscription.html
+          - **OSub Subscription Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_oss_subscription_t.html
+          - **OSub Subscription Commitment Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_oss_commitment.html
+          - **OSub Subscription Commitment Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_oss_commitment_t.html
+          - **OSub Subscription Ratecard Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_oss_ratecard.html
+          - **OSub Subscription Ratecard Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_oss_ratecard_t.html
+          - **OSub Subscription Common Types** — https://docs.oracle.com/en-us/iaas/Content/osub_subscription_t.html
+        - **OSub Usage** — https://docs.oracle.com/en-us/iaas/Content/osub-usage-package.html
+          - **OSub Usage Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_osu_computed_usage.html
+          - **OSub Usage Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_osu_computed_usage_t.html
+          - **OSub Usage Common Types** — https://docs.oracle.com/en-us/iaas/Content/osub_usage_t.html
+        - **PostgreSQL** — https://docs.oracle.com/en-us/iaas/Content/psql-package.html
+          - **PSQL Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_psql_postgresql.html
+          - **PSQL Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_psql_postgresql_t.html
+          - **PSQL Common Types** — https://docs.oracle.com/en-us/iaas/Content/psql_t.html
+        - **Queue** — https://docs.oracle.com/en-us/iaas/Content/queue-package.html
+          - **Queue Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_q_queue.html
+          - **Queue Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_q_queue_t.html
+          - **Queue Admin Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_q_queue_admin.html
+          - **Queue Admin Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_q_queue_admin_t.html
+          - **Queue Common Types** — https://docs.oracle.com/en-us/iaas/Content/queue_t.html
+        - **Recovery** — https://docs.oracle.com/en-us/iaas/Content/recovery-package.html
+          - **Recovery Database Recovery Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_r_database_recovery.html
+          - **Recovery Database Recovery Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_r_database_recovery_t.html
+          - **Recovery Common Types** — https://docs.oracle.com/en-us/iaas/Content/recovery_t.html
+        - **Redis** — https://docs.oracle.com/en-us/iaas/Content/redis-package.html
+          - **Redis Cluster Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_rd_redis_cluster.html
+          - **Redis Cluster Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_rd_redis_cluster_t.html
+          - **Redis Common Types** — https://docs.oracle.com/en-us/iaas/Content/redis_t.html
+        - **Resource Manager** — https://docs.oracle.com/en-us/iaas/Content/resource-manager-package.html
+          - **Resource Manger Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_rm_resource_manager.html
+          - **Resource Manager Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_rm_resource_manager_t.html
+          - **Resource Manager Common Types** — https://docs.oracle.com/en-us/iaas/Content/resource_manager_t.html
+        - **Resource Search** — https://docs.oracle.com/en-us/iaas/Content/resource-search-package.html
+          - **Resource Search Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_rs_resource_search.html
+          - **Resource Search Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_rs_resource_search_t.html
+          - **Resource Search Common Types** — https://docs.oracle.com/en-us/iaas/Content/resource_search_t.html
+        - **Roving Edge Infrastructure** — https://docs.oracle.com/en-us/iaas/Content/rover-package.html
+          - **Roving Edge Infrastructure Bundle Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_rv_rover_bundle.html
+          - **Roving Edge Infrastructure Bundle Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_rv_rover_bundle_t.html
+          - **Roving Edge Infrastructure Cluster Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_rv_rover_cluster.html
+          - **Roving Edge Infrastructure Cluster Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_rv_rover_cluster_t.html
+          - **Roving Edge Infrastructure Entitlement Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_rv_rover_entitlement.html
+          - **Roving Edge Infrastructure Entitlement Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_rv_rover_entitlement_t.html
+          - **Roving Edge Infrastructure Node Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_rv_rover_node.html
+          - **Roving Edge Infrastructure Node Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_rv_rover_node_t.html
+          - **Roving Edge Infrastructure Shape Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_rv_shape.html
+          - **Roving Edge Infrastructure Shape Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_rv_shape_t.html
+          - **Roving Edge Infrastructure Work Requests Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_rv_work_requests.html
+          - **Roving Edge Infrastructure Work Requests Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_rv_work_requests_t.html
+          - **Roving Edge Infrastructure Common Types** — https://docs.oracle.com/en-us/iaas/Content/rover_t.html
+        - **Secrets** — https://docs.oracle.com/en-us/iaas/Content/secrets-package.html
+          - **Secrets Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_sc_secrets.html
+          - **Secrets Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_sc_secrets_t.html
+          - **Secrets Common Types** — https://docs.oracle.com/en-us/iaas/Content/secrets_t.html
+        - **Service Catalog** — https://docs.oracle.com/en-us/iaas/Content/service-catalog-package.html
+          - **Service Catalog Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_svc_service_catalog.html
+          - **Service Catalog Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_svc_service_catalog_t.html
+          - **Service Catalog Common Types** — https://docs.oracle.com/en-us/iaas/Content/service_catalog_t.html
+        - **Service Connector Hub** — https://docs.oracle.com/en-us/iaas/Content/sch-package.html
+          - **Service Connector Hub Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_sch_service_connector.html
+          - **Service Connector Hub Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_sch_service_connector_t.html
+          - **Service Connector Hub Common Types** — https://docs.oracle.com/en-us/iaas/Content/sch_t.html
+        - **Service Manager Proxy** — https://docs.oracle.com/en-us/iaas/Content/service-manager-proxy-package.html
+          - **Service Manager Proxy Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_smp_service_manager_proxy.html
+          - **Service Manager Proxy Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_smp_service_manager_proxy_t.html
+          - **Service Manager Proxy Common Types** — https://docs.oracle.com/en-us/iaas/Content/service_manager_proxy_t.html
+        - **Service Mesh** — https://docs.oracle.com/en-us/iaas/Content/service-mesh-package.html
+          - **Service Mesh Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_svm_service_mesh.html
+          - **Service Mesh Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_svm_service_mesh_t.html
+          - **Service Mesh Common Types** — https://docs.oracle.com/en-us/iaas/Content/service_mesh_t.html
+        - **Stack Monitoring** — https://docs.oracle.com/en-us/iaas/Content/stack-monitoring-package.html
+          - **Stack Monitoring Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_smon_stack_monitoring.html
+          - **Stack Monitoring Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_smon_stack_monitoring_t.html
+          - **Stack Monitoring Common Types** — https://docs.oracle.com/en-us/iaas/Content/stack_monitoring_t.html
+        - **Streaming** — https://docs.oracle.com/en-us/iaas/Content/streaming-package.html
+          - **Streaming Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_st_stream.html
+          - **Streaming Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_st_stream_t.html
+          - **Streaming Admin Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_st_stream_admin.html
+          - **Streaming Admin Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_st_stream_admin_t.html
+          - **Streaming Common Types** — https://docs.oracle.com/en-us/iaas/Content/streaming_t.html
+        - **Tenant Manager Control Plane** — https://docs.oracle.com/en-us/iaas/Content/tenant-manager-control-plane-package.html
+          - **Tenant Manager Control Plane Domain Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_tmcp_domain.html
+          - **Tenant Manager Control Plane Domain Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_tmcp_domain_t.html
+          - **Tenant Manager Control Plane Domain Governance Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_tmcp_domain_governance.html
+          - **Tenant Manager Control Plane Domain Governance Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_tmcp_domain_governance_t.html
+          - **Tenant Manager Control Plane Governance Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_tmcp_governance.html
+          - **Tenant Manager Control Plane Governance Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_tmcp_governance_t.html
+          - **Tenant Manager Control Plane Link Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_tmcp_link.html
+          - **Tenant Manager Control Plane Link Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_tmcp_link_t.html
+          - **Tenant Manager Control Plane Orders Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_tmcp_orders.html
+          - **Tenant Manager Control Plane Orders Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_tmcp_orders_t.html
+          - **Tenant Manager Control Plane Organization Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_tmcp_organization.html
+          - **Tenant Manager Control Plane Organization Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_tmcp_organization_t.html
+          - **Tenant Manager Control Plane Recipient Invitation Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_tmcp_recipient_invitation.html
+          - **Tenant Manager Control Plane Recipient Invitation Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_tmcp_recipient_invitation_t.html
+          - **Tenant Manager Control Plane Sender Invitation Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_tmcp_sender_invitation.html
+          - **Tenant Manager Control Plane Sender Invitation Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_tmcp_sender_invitation_t.html
+          - **Tenant Manager Control Plane Subscription Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_tmcp_subscription.html
+          - **Tenant Manager Control Plane Subscription Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_tmcp_subscription_t.html
+          - **Tenant Manager Control Plane Work Request Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_tmcp_work_request.html
+          - **Tenant Manager Control Plane Work Request Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_tmcp_work_request_t.html
+          - **Tenant Manager Control Plane Common Types** — https://docs.oracle.com/en-us/iaas/Content/tenant_manager_control_plane_t.html
+        - **Threat Intelligence** — https://docs.oracle.com/en-us/iaas/Content/threat-intelligence-package.html
+          - **Threat Intelligence Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ti_threatintel.html
+          - **Threat Intelligence Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ti_threatintel_t.html
+          - **Threat Intelligence Common Types** — https://docs.oracle.com/en-us/iaas/Content/threat_intelligence_t.html
+        - **Usage** — https://docs.oracle.com/en-us/iaas/Content/usage-package.html
+          - **Usage Resources Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_us_resources.html
+          - **Usage Resources Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_us_resources_t.html
+          - **Usage Rewards Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_us_rewards.html
+          - **Usage Rewards Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_us_rewards_t.html
+          - **Usage Limits Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_us_usagelimits.html
+          - **Usage Limits Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_us_usagelimits_t.html
+          - **Usage Common Types** — https://docs.oracle.com/en-us/iaas/Content/usage_t.html
+        - **Usage API** — https://docs.oracle.com/en-us/iaas/Content/usage-api-package.html
+          - **Usage API Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ua_usageapi.html
+          - **Usage API Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ua_usageapi_t.html
+          - **Usage API Common Types** — https://docs.oracle.com/en-us/iaas/Content/usageapi_t.html
+        - **Vault** — https://docs.oracle.com/en-us/iaas/Content/vault-package.html
+          - **Vaults Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_vt_vaults.html
+          - **Vaults Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_vt_vaults_t.html
+          - **Vault Common Types** — https://docs.oracle.com/en-us/iaas/Content/vault_t.html
+        - **Visual Builder** — https://docs.oracle.com/en-us/iaas/Content/visual-builder-package.html
+          - **Visual Builder Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_vb_vb_instance.html
+          - **Visual Builder Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_vb_vb_instance_t.html
+          - **Visual Builder Common Types** — https://docs.oracle.com/en-us/iaas/Content/visual_builder_t.html
+        - **Visual Builder Studio Instance** — https://docs.oracle.com/en-us/iaas/Content/vbs-inst-package.html
+          - **VBS Instance Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_vbi_vbs_instance.html
+          - **VBS Instance Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_vbi_vbs_instance_t.html
+          - **VBS Instance Common Types** — https://docs.oracle.com/en-us/iaas/Content/vbs_inst_t.html
+        - **VN Monitoring** — https://docs.oracle.com/en-us/iaas/Content/vn-monitoring-package.html
+          - **VN Monitoring Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_vnm_vn_monitoring.html
+          - **VN Monitoring Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_vnm_vn_monitoring_t.html
+          - **VN Monitoring Common Types** — https://docs.oracle.com/en-us/iaas/Content/vn_monitoring_t.html
+        - **Vulnerability Scanning** — https://docs.oracle.com/en-us/iaas/Content/vulnerability-scanning-package.html
+          - **Vulnerability Scanning Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_vs_vulnerability_scanning.html
+          - **Vulnerability Scanning Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_vs_vulnerability_scanning_t.html
+          - **Vulnerability Scanning Common Types** — https://docs.oracle.com/en-us/iaas/Content/vulnerability_scanning_t.html
+        - **Web Application Acceleration (WAA)** — https://docs.oracle.com/en-us/iaas/Content/waa-package.html
+          - **WAA Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_waa_waa.html
+          - **WAA Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_waa_waa_t.html
+          - **WAA Work Request Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_waa_work_request.html
+          - **WAA Work Request Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_waa_work_request_t.html
+          - **WAA Common Types** — https://docs.oracle.com/en-us/iaas/Content/waa_t.html
+        - **Web Application Acceleration and Security (WAAS)** — https://docs.oracle.com/en-us/iaas/Content/waas-package.html
+          - **WAAS Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ws_waas.html
+          - **WAAS Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ws_waas_t.html
+          - **WAAS Redirect Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ws_redirect.html
+          - **WAAS Redirect Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_ws_redirect_t.html
+          - **WAAS Common Types** — https://docs.oracle.com/en-us/iaas/Content/waas_t.html
+        - **Web Application Firewall** — https://docs.oracle.com/en-us/iaas/Content/web-application-firewall-package.html
+          - **Web Application Firewall Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_waf_waf.html
+          - **Web Application Firewall Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_waf_waf_t.html
+          - **Web Application Firewall Common Types** — https://docs.oracle.com/en-us/iaas/Content/waf_t.html
+        - **Work Requests** — https://docs.oracle.com/en-us/iaas/Content/work-requests-package.html
+          - **Work Requests Functions** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_wr_work_request.html
+          - **Work Requests Types** — https://docs.oracle.com/en-us/iaas/Content/dbms_cloud_oci_wr_work_request_t.html
+          - **Work Requests Common Types** — https://docs.oracle.com/en-us/iaas/Content/work_requests_t.html
+    - **SDK Troubleshooting** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/sdk_troubleshooting.htm
+  - **DevOps Tools and Plug-ins** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/devopstools_topic-DevOps_Tools_and_Plugins.htm
+    - **OCI Modules for PowerShell** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/powershell.htm
+      - **Getting Started** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/powershellgettingstarted.htm
+      - **Working with Cmdlets** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/powershellconcepts_topic_understanding_oci_cmdlets.htm
+      - **Advanced Concepts** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/powershellconcepts.htm
+      - **Examples** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/powershellexamples.htm
+      - **Cmdlet Reference** — https://docs.oracle.com/en-us/iaas/Content//iaas/tools/powershell/latest/articles/intro.html
+    - **Ansible Collection** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/ansible.htm
+      - **Getting Started** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/ansiblegetstarted.htm
+      - **Working with Ansible Inventory** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/ansibleinventoryintro.htm
+      - **Example Ansible Playbooks** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/ansiblesamples.htm
+    - **Compute Jenkins Plug-in** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/jenkinsplugin.htm
+    - **Chef Knife Plug-in** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/knifeplugin.htm
+    - **DevOps Plugin for Jenkins** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/devops_plugin.htm
+    - **Grafana Plug-in** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/grafana.htm
+    - **Crossplane Provider for OCI** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/crossplane-provider.htm
+    - **Cluster API Provider for OCI** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/cluster-api-provider.htm
+    - **OCI Service Operator for Kubernetes** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/operator-kubernetes.htm
+    - **Solutions for Self-Managed Kubernetes on OCI** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/solutions-kubernetes.htm
+    - **Terraform Provider** — https://docs.oracle.com/en-us/iaas/Content/terraform/home.htm
+      - **Getting Started** — https://docs.oracle.com/en-us/iaas/Content/terraform/getting-started.htm
+        - **Installing the Provider** — https://docs.oracle.com/en-us/iaas/Content/terraform/installing.htm
+        - **Configuring the Provider** — https://docs.oracle.com/en-us/iaas/Content/terraform/configuring.htm
+        - **Describing Infrastructure** — https://docs.oracle.com/en-us/iaas/Content/terraform/describing-infra.htm
+        - **Applying Configurations** — https://docs.oracle.com/en-us/iaas/Content/terraform/applying.htm
+        - **Troubleshooting Basics** — https://docs.oracle.com/en-us/iaas/Content/terraform/troubleshooting-basics.htm
+      - **What&#x27;s New** — https://docs.oracle.com/en-us/iaas/Content/terraform/whats-new.htm
+      - **Tutorials** — https://docs.oracle.com/en-us/iaas/Content/terraform/tutorials.htm
+        - **Set Up OCI Terraform** — https://docs.oracle.com/en-us/iaas/Content/terraform/tutorials/tf-provider.htm
+        - **Create a Compartment** — https://docs.oracle.com/en-us/iaas/Content/terraform/tutorials/tf-compartment.htm
+        - **Create a Compute Instance** — https://docs.oracle.com/en-us/iaas/Content/terraform/tutorials/tf-compute.htm
+        - **Create a Virtual Cloud Network** — https://docs.oracle.com/en-us/iaas/Content/terraform/tutorials/tf-vcn.htm
+        - **Set Up a Simple Infrastructure with OCI Terraform** — https://docs.oracle.com/en-us/iaas/Content/terraform/tutorials/tf-simple-infrastructure.htm
+        - **Create a Kubernetes Cluster** — https://docs.oracle.com/en-us/iaas/Content/terraform/tutorials/tf-cluster.htm
+        - **Set Up Resource Discovery** — https://docs.oracle.com/en-us/iaas/Content/terraform/tutorials/tf-resource-discovery-setup.htm
+        - **Create Scripts and State Files with Resource Discovery** — https://docs.oracle.com/en-us/iaas/Content/terraform/tutorials/tf-resource-discovery.htm
+      - **Examples, Templates, and Solutions** — https://docs.oracle.com/en-us/iaas/Content/terraform/examples-templates.htm
+      - **Guides** — https://docs.oracle.com/en-us/iaas/Content/terraform/guides.htm
+        - **Authoring Configurations** — https://docs.oracle.com/en-us/iaas/Content/terraform/authoring-configs.htm
+        - **Specifying Versions** — https://docs.oracle.com/en-us/iaas/Content/terraform/specifying-versions.htm
+        - **Migrating a Legacy Provider** — https://docs.oracle.com/en-us/iaas/Content/terraform/migrating-legacy.htm
+        - **Enabling Asynchronous Operations** — https://docs.oracle.com/en-us/iaas/Content/terraform/async.htm
+        - **Enabling FIPS Compatibility** — https://docs.oracle.com/en-us/iaas/Content/terraform/fips-compatible.htm
+        - **Managing Volumes** — https://docs.oracle.com/en-us/iaas/Content/terraform/managing-volumes.htm
+        - **Migrating an Exadata DB System** — https://docs.oracle.com/en-us/iaas/Content/terraform/migrating-exadatadb.htm
+        - **Targeting Multiple Regions** — https://docs.oracle.com/en-us/iaas/Content/terraform/targeting-multiple-regions.htm
+        - **Upgrading to Terraform v0.12** — https://docs.oracle.com/en-us/iaas/Content/terraform/upgrading.htm
+        - **Using Object Storage for State Files** — https://docs.oracle.com/en-us/iaas/Content/terraform/object-storage-state.htm
+      - **Best Practices** — https://docs.oracle.com/en-us/iaas/Content/terraform/best-practices.htm
+        - **Managing Default VCN Resources** — https://docs.oracle.com/en-us/iaas/Content/terraform/default-vcn.htm
+        - **Referencing Availability Domains** — https://docs.oracle.com/en-us/iaas/Content/terraform/ref-availability-domains.htm
+        - **Referencing Images** — https://docs.oracle.com/en-us/iaas/Content/terraform/ref-images.htm
+        - **Storing Sensitive Data** — https://docs.oracle.com/en-us/iaas/Content/terraform/storing-sensitive-data.htm
+        - **Tagging Resources** — https://docs.oracle.com/en-us/iaas/Content/terraform/tagging-resources.htm
+      - **Resource Discovery** — https://docs.oracle.com/en-us/iaas/Content/terraform/resource-discovery.htm
+        - **Using Resource Discovery** — https://docs.oracle.com/en-us/iaas/Content/terraform/resource-discovery-using.htm
+        - **Output File Contents** — https://docs.oracle.com/en-us/iaas/Content/terraform/resource-discovery-output.htm
+      - **Services Reference** — https://docs.oracle.com/en-us/iaas/Content/terraform/supported-services.htm
+        - **Deprecated Resources** — https://docs.oracle.com/en-us/iaas/Content/terraform/deprecated-resources.htm
+      - **Troubleshooting the Terraform Provider** — https://docs.oracle.com/en-us/iaas/Content/terraform/troubleshooting.htm
+      - **Known Issues** — https://docs.oracle.com/en-us/iaas/Content/terraform/known-issues.htm
+  - **Other Tools** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/devopstools.htm
+    - **HDFS Connector for Object Storage** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/hdfsconnector.htm
+      - **Using the HDFS Connector with Spark** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/hdfsconnectorspark.htm
+    - **Toolkit for Eclipse** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/eclipsetoolkit.htm
+      - **Getting Started with Toolkit for Eclipse** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/eclipsegettingstarted.htm
+      - **Using Toolkit for Eclipse** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/eclipseusing.htm
+    - **Oracle Developer Tools for Visual Studio** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/visualstudio_intro.htm
+      - **Getting Started with Oracle Developer Tools for Visual Studio** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/visualstudio_gettingstarted.htm
+      - **Using the Oracle Developer Tools for Visual Studio** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/visualstudio_using.htm
+    - **OCI Toolkit for Visual Studio Code** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/vscode_plugins_intro.htm
+    - **Toolkit for Java Download** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/javadownload.htm
+      - **Using the Toolkit for Java Download** — https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/usingthetoolkitforjavadownload.htm
+  - **API Reference and Appendices** — https://docs.oracle.com/en-us/iaas/Content/ToolsConfig.htm
+    - **REST APIs** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/usingapi.htm
+      - **API Reference and Endpoints** — https://docs.oracle.com/en-us/iaas/Content//iaas/api/
+      - **API Errors** — https://docs.oracle.com/en-us/iaas/Content/API/References/apierrors.htm
+      - **Asynchronous Work Requests** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/workrequests.htm
+      - **Request Signatures** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/signingrequests.htm
+    - **Client-Side Encryption** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/clientsideencryption.htm
+  - **Known Issues** — https://docs.oracle.com/en-us/iaas/Content/API/Concepts/dev_tools_known_issues.htm
+- **Developer Tutorials** — https://docs.oracle.com/en-us/iaas/Content/developer/home.htm
+  - **Free Tier: Install Apache and PHP on an Oracle Linux Instance** — https://docs.oracle.com/en-us/iaas/Content/developer/apache-on-oracle-linux/01-summary.htm
+  - **Free Tier: Install Apache and PHP on an Ubuntu Instance** — https://docs.oracle.com/en-us/iaas/Content/developer/apache-on-ubuntu/01oci-ubuntu-apache-summary.htm
+  - **Free Tier: Install Flask on an Ubuntu VM** — https://docs.oracle.com/en-us/iaas/Content/developer/flask-on-ubuntu/01oci-ubuntu-flask-summary.htm
+  - **Free Tier: Install Node Express on an Oracle Linux Instance** — https://docs.oracle.com/en-us/iaas/Content/developer/node-on-ol/01oci-ol-node-summary.htm
+  - **Free Tier: Install Spring Boot on an Oracle Linux Instance** — https://docs.oracle.com/en-us/iaas/Content/developer/spring-on-ol/01oci-ol-spring-summary.htm
+  - **Free Tier: Install WordPress on an Ubuntu Instance** — https://docs.oracle.com/en-us/iaas/Content/developer/wp-on-ubuntu/01-summary.htm
+  - **Functions: Get Started using Cloud Shell** — https://docs.oracle.com/en-us/iaas/Content/developer/functions/func-setup-cs/01-summary.htm
+  - **Functions: Get Started using the CLI** — https://docs.oracle.com/en-us/iaas/Content/developer/functions/func-setup-cli/01-summary.htm
+  - **Functions: Call a Function using API Gateway** — https://docs.oracle.com/en-us/iaas/Content/developer/functions/func-api-gtw/01-summary.htm
+  - **Functions: Validate an API Key with API Gateway** — https://docs.oracle.com/en-us/iaas/Content/developer/functions/func-api-gtw-token/01-summary.htm
+  - **Kubernetes: Deploy a Node Express Application** — https://docs.oracle.com/en-us/iaas/Content/developer/node-on-k8s/01oci-node-k8s-summary.htm
+  - **Kubernetes: Deploy a Spring Boot Application** — https://docs.oracle.com/en-us/iaas/Content/developer/spring-on-k8s/01oci-spring-k8s-summary.htm
+  - **Kubernetes Using Cloud Shell: Deploy a Python Flask Application** — https://docs.oracle.com/en-us/iaas/Content/developer/flask-cloud-shell/01oci-flask-shell-summary.htm
