@@ -26,6 +26,15 @@ coordinate through git.
 7. Commits are per-agent identities (work.sh sets user.name/email from the
    agent name), so `git log` is the audit trail.
 
+## GitHub remote (per-agent tokens)
+1. human: `git remote add origin <origin-url>` and `git push -u origin main`
+   (or hand the token to Hermes — it will be stored only in the repo-local
+   `git config credential.helper store` / `~/.git-credentials`, never in the
+   repo itself).
+2. Once tracking is set, `work.sh sync` does a real `git pull --rebase`
+   between agents and `claim`/`done` push automatically.
+3. Until then everything still works fully locally (no-op pull, local commits).
+
 ## Human interface
 - `shared-docs/plan.md` is the doc; GitHub issues = the message board.
 - Optional: sync `plan.md` → Google Doc / SharePoint for viewers; the git
