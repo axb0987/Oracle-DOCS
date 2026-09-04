@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T00:00:00Z",
+  "updated": "2026-09-04T19:17:57Z",
   "tasks": [
     {
       "id": "survey",
@@ -32,8 +32,8 @@
     {
       "id": "crawl",
       "section": "## Crawl Log",
-      "status": "open",
-      "owner": null,
+      "status": "in-progress",
+      "owner": "crawl-agent",
       "note": "Await scope decision; partition by book for parallel agents.",
       "updated": "2026-09-04T16:37:06Z"
     }
