@@ -234,33 +234,65 @@ def main_span(body_html):
 
 
 def main():
-    if len(sys.argv) < 4:
+    if len(sys.argv) < 3:
         print(__doc__)
+        print(
+            "\nModes:\n"
+            "  file <pages-list> [delay] [outdir]\n"
+            "    pages-list: one toc path per line (e.g. shards/tars.pages);\n"
+            "    crawls exactly those pages, no interleaving. PREFERRED.\n"
+            "  book <book-substring> <shard> <nshards> [delay] [outdir]\n"
+            "    legacy: match pages whose first-3 path segments contain the\n"
+            "    substring, interleave by index. Known undercount for books\n"
+            "    whose pages sit under unrelated path prefixes.")
         sys.exit(2)
-    pat, shard, nsh = sys.argv[1], int(sys.argv[2]), int(sys.argv[3])
-    delay = float(sys.argv[4]) if len(sys.argv) > 4 else 0.7
-    outdir = sys.argv[5] if len(sys.argv) > 5 else os.path.join(HERE, "pages-all")
-    pages_dir = os.path.join(outdir, "pages")
-    os.makedirs(pages_dir, exist_ok=True)
-
-    tree, pages = load_toc()
-    # build ordered list of (path, title) for this book
-    items = []
-    def walk(sub):
-        for n in sub:
-            info = pages.get(n["i"], {})
-            p = info.get("p", "")
-            if pat.lower() in (p.lower().split("/")[:3]):
-                items.append((p, info.get("t", "")))
-            walk(n.get("c") or [])
-    for root in tree:
-        info = pages.get(root["i"], {})
-        if pat.lower() in (info.get("p", "").lower().split("/")[:3]):
-            items.append((info.get("p", ""), info.get("t", "")))
-            walk(root.get("c") or [])
-
-    slug = pat
-    log_path = os.path.join(outdir, f"crawl-{slug}-S{shard}-of{nsh}.csv")
+    mode, a1 = sys.argv[1], sys.argv[2]
+    delay, outdir = 0.7, None
+    if mode == "file":
+        if len(sys.argv) > 3 and sys.argv[3].replace(".", "", 1).replace("-", "").isdigit():
+            delay = sys.argv[3]
+            delay = float(sys.argv[3]); outdir = sys.argv[4] if len(sys.argv) > 4 else None
+        else:
+            outdir = sys.argv[3] if len(sys.argv) > 3 else None
+        if outdir is None:
+            outdir = os.path.join(HERE, "pages-all")
+        pages_dir = os.path.join(outdir, "pages")
+        os.makedirs(pages_dir, exist_ok=True)
+        tree, pages = load_toc()
+        bypath = {v["p"]: v.get("t", "") for v in pages.values()}
+        items = []
+        for line in open(a1):
+            p = line.strip()
+            if p and p in bypath:
+                items.append((p, bypath[p]))
+        missed = sum(1 for line in open(a1) if line.strip() not in bypath)
+        if missed:
+            print(f"WARN: {missed} list paths not found in toc.json (skipped)")
+        slug = os.path.basename(a1).split(".")[0]
+        shard_name, nsh_name, picked_label = "L", "L", f"{len(items)} pages"
+    else:  # legacy book mode
+        pat, shard, nsh = a1, int(sys.argv[3]), int(sys.argv[4])
+        delay = float(sys.argv[5]) if len(sys.argv) > 5 else 0.7
+        outdir = sys.argv[6] if len(sys.argv) > 6 else os.path.join(HERE, "pages-all")
+        pages_dir = os.path.join(outdir, "pages")
+        os.makedirs(pages_dir, exist_ok=True)
+        tree, pages = load_toc()
+        items = []
+        def walk(sub):
+            for n in sub:
+                info = pages.get(n["i"], {})
+                pp = info.get("p", "")
+                if pat.lower() in (pp.lower().split("/")[:3]):
+                    items.append((pp, info.get("t", "")))
+                walk(n.get("c") or [])
+        for root in tree:
+            info = pages.get(root["i"], {})
+            if pat.lower() in (info.get("p", "").lower().split("/")[:3]):
+                items.append((info.get("p", ""), info.get("t", "")))
+                walk(root.get("c") or [])
+        slug, shard_name, nsh_name = pat, str(shard), str(nsh)
+        picked_label = f"S{shard}/{nsh}"
+    log_path = os.path.join(outdir, f"crawl-{slug}-S{shard_name}-of{nsh_name}.csv")
     seen = set()
     if os.path.exists(log_path):
         with open(log_path) as f:
@@ -271,7 +303,7 @@ def main():
                         seen.add(row[1])
     new = cached = failed = 0
     total = len(items)
-    picked = [it for i, it in enumerate(items) if i % nsh == shard]
+    picked = items if mode == "file" else [it for i, it in enumerate(items) if i % nsh == shard]
     tstart = time.time()
     with open(log_path, "a", newline="") as log:
         w = csv.writer(log)
@@ -317,7 +349,7 @@ def main():
                 w.writerow([ts, url, code, size, err])
             time.sleep(delay)
     dt = time.time() - tstart
-    print(f"S{shard}/{nsh} {slug}: fetched={new} cached={cached} "
+    print(f"{picked_label} {slug}: fetched={new} cached={cached} "
           f"failed={failed} picked={len(picked)} total_book={total} "
           f"took={dt:.0f}s ({dt/max(len(picked),1):.1f}s/page)")
     sys.exit(1 if failed else 0)

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T19:49:31Z",
+  "updated": "2026-09-05T06:33:15Z",
   "tasks": [
     {
       "id": "survey",
@@ -37,6 +37,20 @@
       "note": "phase 1 (books + headers) complete: 16/16 book home pages HTTP 200 + full header outlines (books/<slug>/outline.md), 18,936 pages mapped, ARTIFACTS-README.md + index.md; phase-2 full crawl pending user sign-off",
       "updated": "2026-09-04T16:37:06Z",
       "completed": "2026-09-04T17:55:00CDT"
+    },
+    {
+      "id": "crawl-p2-tars",
+      "section": "## Phase-2 Crawl Log (tars)",
+      "status": "open",
+      "owner": null,
+      "note": "Phase-2 shard run per WORKER-PLAYBOOK.md; shard file shards/<worker>.pages; disjoint page sets, 15 books"
+    },
+    {
+      "id": "crawl-p2-plex",
+      "section": "## Phase-2 Crawl Log (plex)",
+      "status": "open",
+      "owner": null,
+      "note": "Phase-2 shard run per WORKER-PLAYBOOK.md; shard file shards/<worker>.pages; disjoint page sets, 15 books"
     }
   ]
 }
