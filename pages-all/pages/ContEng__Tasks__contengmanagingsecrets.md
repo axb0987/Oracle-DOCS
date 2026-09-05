@@ -1,0 +1,13 @@
+# Managing Secrets for Kubernetes Clusters
+- Source: https://docs.oracle.com/en-us/iaas/Content/ContEng/Tasks/contengmanagingsecrets.htm
+- Fetched: 2026-09-05 01:55 CDT
+
+# Managing Secrets for Kubernetes Clusters
+
+Find out about the options for storing secrets for applications running on the Kubernetes clusters you've created using Kubernetes Engine (OKE).
+
+The containerized applications that run on the Kubernetes clusters you create with Kubernetes Engine typically require secrets (such as authentication tokens, certificates, and credentials) to be stored and accessed securely.
+
+When you create Kubernetes clusters using Kubernetes Engine you can choose to store application secrets in two ways:
+- As secrets stored and managed in an external secrets store, accessed using the Kubernetes Secrets Store CSI driver (secrets-store.csi.k8s.io). The Secrets Store CSI driver integrates secrets stores with Kubernetes clusters as[Container Storage Interface (CSI)](https://kubernetes-csi.github.io/docs/)volumes. The Secrets Store CSI driver enables Kubernetes clusters to mount multiple secrets, keys, and certificates stored in external secrets stores into pods as a volume. Once the volume is attached, the data in the volume is mounted into the application container's file system. OCI Vault is one such external secrets store, and Oracle provides the open source OCI Secrets Store CSI Driver Provider to enable Kubernetes clusters to access secrets in Vault. For information, see the[OCI Secrets Store CSI Driver Provider documentation on GitHub](https://github.com/oracle-samples/oci-secrets-store-csi-driver-provider).
+- As Kubernetes secret objects stored and managed in etcd. Etcd is an open source distributed key-value store that Kubernetes uses for cluster coordination and state management. In the Kubernetes clusters created by Kubernetes Engine, etcd writes and reads data to and from block storage volumes in the Oracle Cloud Infrastructure Block Volume service. By default, Oracle encrypts data in block volumes at rest, including etcd and Kubernetes secrets. Oracle manages this default encryption using a master encryption key, without requiring any action on your part. For information about managing the master encryption key yourself, rather than having Oracle manage it for you, see[Encrypting Kubernetes Secrets at Rest in Etcd](https://docs.oracle.com/en-us/iaas/Content/ContEng/Tasks/contengencryptingdata.htm). For information about migrating existing Kubernetes secret objects to KMS provider version 2, see[Migrating Kubernetes Secrets to KMS v2](https://docs.oracle.com/en-us/iaas/Content/ContEng/Tasks/contengmigratingsecretstokmsv2.htm)

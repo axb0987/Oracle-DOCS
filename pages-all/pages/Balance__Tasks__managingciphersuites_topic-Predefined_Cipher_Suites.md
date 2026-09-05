@@ -1,0 +1,299 @@
+# Predefined Load Balancer Cipher Suites
+- Source: https://docs.oracle.com/en-us/iaas/Content/Balance/Tasks/managingciphersuites_topic-Predefined_Cipher_Suites.htm
+- Fetched: 2026-09-05 01:41 CDT
+
+# Predefined Load Balancer Cipher Suites
+
+View the predefined cipher suites and their individual ciphers supported by the Load Balancer service.
+Note  
+  
+You can't change or delete a predefined cipher suite.
+
+When available, the version 3 of a cipher suite is recommended instead of the version 1.
+
+## oci-tls-12-ssl-cipher-suite-v3
+
+This version 3 cipher suite contains the default set of ciphers that are only supported in Transport Layer Security (TLS) 1.2.
+- ECDHE-ECDSA-CHACHA20-POLY1305
+- ECDHE-ECDSA-AES256-GCM-SHA384
+- ECDHE-ECDSA-AES128-GCM-SHA256
+- ECDHE-RSA-AES128-GCM-SHA256
+- ECDHE-RSA-CHACHA20-POLY1305
+- ECDHE-ECDSA-AES256-CCM
+- ECDHE-ECDSA-AES128-CCM
+- ECDHE-RSA-AES256-GCM-SHA384
+
+## oci-fips-tls-12-ssl-cipher-suite-v3
+
+This version 3 cipher suite contains the default set of ciphers that are only supported in Federal Information Processing Standards (FIPS) TLS 1.2.
+- ECDHE-ECDSA-AES256-GCM-SHA384
+- ECDHE-ECDSA-AES128-GCM-SHA256
+- ECDHE-RSA-AES128-GCM-SHA256
+- ECDHE-ECDSA-AES256-CCM
+- ECDHE-ECDSA-AES128-CCM
+- ECDHE-RSA-AES256-GCM-SHA384
+
+## oci-tls-13-ssl-cipher-suite-v3
+
+This version 3 cipher suite contains the default set of ciphers that are only supported in TLS 1.3.
+- TLS_CHACHA20_POLY1305_SHA256
+- TLS_AES_128_GCM_SHA256
+- TLS_AES_256_GCM_SHA384
+- TLS_AES_128_CCM_SHA256
+
+## oci-fips-tls-13-ssl-cipher-suite-v3
+
+This version 3 cipher suite contains the default set of ciphers that are only supported in FIPS TLS 1.3.
+- TLS_AES_128_GCM_SHA256
+- TLS_AES_256_GCM_SHA384
+- TLS_AES_128_CCM_SHA256
+
+## oci-tls-12-13-ssl-cipher-suite-v3
+
+This version 3 cipher suite contains the default set of ciphers that are only supported in TLS 1.2 and 1.3.
+- TLS_CHACHA20_POLY1305_SHA256
+- TLS_AES_128_GCM_SHA256
+- ECDHE-ECDSA-CHACHA20-POLY1305
+- ECDHE-ECDSA-AES256-GCM-SHA384
+- TLS_AES_256_GCM_SHA384
+- ECDHE-ECDSA-AES128-GCM-SHA256
+- ECDHE-RSA-AES128-GCM-SHA256
+- ECDHE-RSA-CHACHA20-POLY1305
+- ECDHE-ECDSA-AES256-CCM
+- ECDHE-ECDSA-AES128-CCM
+- ECDHE-RSA-AES256-GCM-SHA384
+- TLS_AES_128_CCM_SHA256
+
+## oci-fips-tls-12-13-ssl-cipher-suite-v3
+
+This version 3 cipher suite contains the default set of ciphers that are only supported in FIPS TLS 1.2 and 1.3.
+- TLS_AES_128_GCM_SHA256
+- ECDHE-ECDSA-AES256-GCM-SHA384
+- TLS_AES_256_GCM_SHA384
+- ECDHE-ECDSA-AES128-GCM-SHA256
+- ECDHE-RSA-AES128-GCM-SHA256
+- ECDHE-ECDSA-AES256-CCM
+- ECDHE-ECDSA-AES128-CCM
+- ECDHE-RSA-AES256-GCM-SHA384
+- TLS_AES_128_CCM_SHA256
+
+## oci-default-http2-tls-13-ssl-cipher-suite-v1
+
+This cipher suite contains the default set of ciphers that are only supported in TLS 1.3.
+- TLS_AES_128_GCM_SHA256
+- TLS_AES_256_GCM_SHA384
+- TLS_CHACHA20_POLY1305_SHA256
+
+## oci-default-http2-tls-12-13-ssl-cipher-suite-v1
+
+This cipher suite contains the default set of ciphers that are only supported in TLS 1.2 and 1.3.
+- ECDHE-RSA-AES256-GCM-SHA384
+- ECDHE-ECDSA-AES256-GCM-SHA384
+- ECDHE-RSA-AES128-GCM-SHA256
+- ECDHE-ECDSA-AES128-GCM-SHA256
+- DHE-RSA-AES256-GCM-SHA384
+- DHE-RSA-AES128-GCM-SHA256
+- TLS_AES_128_GCM_SHA256
+- TLS_AES_256_GCM_SHA384
+- TLS_CHACHA20_POLY1305_SHA256
+
+## oci-tls-13-recommended-ssl-cipher-suite-v1
+
+This cipher suite contains a restricted set of ciphers that are recommended in TLS 1.3, and meets stricter compliance requirements.
+- TLS_AES_128_GCM_SHA256
+- TLS_AES_256_GCM_SHA384
+- TLS_CHACHA20_POLY1305_SHA256
+
+## oci-tls-12-13-wider-ssl-cipher-suite-v1
+
+This cipher suite contains a wider set of ciphers for use with TLS 1.2 and 1.3.
+- TLS_AES_128_GCM_SHA256
+- TLS_AES_256_GCM_SHA384
+- TLS_CHACHA20_POLY1305_SHA256
+- ECDHE-ECDSA-AES128-GCM-SHA256
+- ECDHE-RSA-AES128-GCM-SHA256
+- ECDHE-ECDSA-AES128-SHA256
+- ECDHE-RSA-AES128-SHA256
+- ECDHE-ECDSA-AES256-GCM-SHA384
+- ECDHE-RSA-AES256-GCM-SHA384
+- ECDHE-ECDSA-AES256-SHA384
+- ECDHE-RSA-AES256-SHA384
+- AES128-GCM-SHA256
+- AES128-SHA256
+- AES256-GCM-SHA384
+- AES256-SHA256
+
+## oci-tls-11-12-13-wider-ssl-cipher-suite-v1
+
+This cipher suite contains a wider set of ciphers for use with TLS 1.1, 1.2, and 1.3.
+- TLS_AES_128_GCM_SHA256
+- TLS_AES_256_GCM_SHA384
+- TLS_CHACHA20_POLY1305_SHA256
+- ECDHE-ECDSA-AES128-GCM-SHA256
+- ECDHE-RSA-AES128-GCM-SHA256
+- ECDHE-ECDSA-AES128-SHA256
+- ECDHE-RSA-AES128-SHA256
+- ECDHE-ECDSA-AES256-GCM-SHA384
+- ECDHE-RSA-AES256-GCM-SHA384
+- ECDHE-ECDSA-AES256-SHA384
+- ECDHE-RSA-AES256-SHA384
+- AES128-GCM-SHA256
+- AES128-SHA256
+- AES256-GCM-SHA384
+- AES256-SHA256
+- ECDHE-ECDSA-AES128-SHA
+- ECDHE-RSA-AES128-SHA
+- ECDHE-RSA-AES256-SHA
+- ECDHE-ECDSA-AES256-SHA
+- AES128-SHA
+- AES256-SHA
+
+## oci-default-ssl-cipher-suite-v1
+
+This cipher suite contains the default set of ciphers that are only supported in TLS 1.2.
+- ECDHE-RSA-AES128-GCM-SHA256
+- ECDHE-RSA-AES128-SHA256
+- ECDHE-RSA-AES256-GCM-SHA384
+- ECDHE-RSA-AES256-SHA384
+- DHE-RSA-AES256-GCM-SHA384
+- DHE-RSA-AES256-SHA256
+- DHE-RSA-AES128-GCM-SHA256
+- DHE-RSA-AES128-SHA256
+
+## oci-modern-ssl-cipher-suite-v1
+
+This cipher suite offer wider set of ciphers, but still only supported in TLS 1.2.
+- ECDHE-ECDSA-AES128-GCM-SHA256
+- ECDHE-RSA-AES128-GCM-SHA256
+- ECDHE-ECDSA-AES128-SHA256
+- ECDHE-RSA-AES128-SHA256
+- ECDHE-ECDSA-AES256-GCM-SHA384
+- ECDHE-RSA-AES256-GCM-SHA384
+- ECDHE-ECDSA-AES256-SHA384
+- ECDHE-RSA-AES256-SHA384
+- AES128-GCM-SHA256
+- AES128-SHA256
+- AES256-GCM-SHA384
+- AES256-SHA256
+- DHE-RSA-AES256-GCM-SHA384
+- DHE-RSA-AES256-SHA256
+- DHE-RSA-AES128-GCM-SHA256
+- DHE-RSA-AES128-SHA256
+
+## oci-compatible-ssl-cipher-suite-v1
+
+This cipher suite supports broadest set of ciphers. It contains ciphers supported by TLS 1.1 and 1.2.
+- ECDHE-ECDSA-AES128-GCM-SHA256
+- ECDHE-RSA-AES128-GCM-SHA256
+- ECDHE-ECDSA-AES128-SHA256
+- ECDHE-RSA-AES128-SHA256
+- ECDHE-ECDSA-AES128-SHA
+- ECDHE-RSA-AES128-SHA
+- ECDHE-ECDSA-AES256-GCM-SHA384
+- ECDHE-RSA-AES256-GCM-SHA384
+- ECDHE-ECDSA-AES256-SHA384
+- ECDHE-RSA-AES256-SHA384
+- ECDHE-RSA-AES256-SHA
+- ECDHE-ECDSA-AES256-SHA
+- AES128-GCM-SHA256
+- AES128-SHA256
+- AES128-SHA
+- AES256-GCM-SHA384
+- AES256-SHA256
+- AES256-SHA
+- DHE-RSA-AES256-GCM-SHA384
+- DHE-RSA-AES256-SHA256
+- DHE-RSA-AES128-GCM-SHA256
+- DHE-RSA-AES128-SHA256
+
+## oci-customized-ssl-cipher-suite
+
+This cipher suite reflects customized cipher tasks performed by Oracle on a client-specific basis occurring before the general release of the cipher suite feature.
+
+## Deprecated Load Balancer Cipher Suites
+
+View the cipher suites and their individual ciphers no longer supported by the Load Balancer service.
+
+Note  
+  
+
+If you plan to use TLS v1.3 protocol with either a backend set or a listener on the same load balancer, you can't use the predefinedcipher suite`oci-wider-compatible-ssl-cipher-suite-v1`
+
+### oci-wider-compatible-ssl-cipher-suite-v1
+
+This cipher suite contains all supported ciphers.
+- TLS 1.2:
+- ECDHE-ECDSA-AES128-GCM-SHA256
+- ECDHE-RSA-AES128-GCM-SHA256
+- ECDHE-ECDSA-AES128-SHA256
+- ECDHE-RSA-AES128-SHA256
+- ECDHE-ECDSA-AES256-GCM-SHA384
+- ECDHE-RSA-AES256-GCM-SHA384
+- ECDHE-ECDSA-AES256-SHA384
+- ECDHE-RSA-AES256-SHA384
+- AES128-SHA256
+- AES256-GCM-SHA384
+- AES256-SHA256
+- DHE-RSA-AES256-GCM-SHA384
+- DHE-RSA-AES256-SHA256
+- DHE-RSA-AES128-GCM-SHA256
+- DHE-RSA-AES128-SHA256
+- DH-DSS-AES256-GCM-SHA384
+- DHE-DSS-AES256-GCM-SHA384
+- DH-RSA-AES256-GCM-SHA384
+- DHE-DSS-AES256-SHA256
+- DH-RSA-AES256-SHA256
+- DH-DSS-AES256-SHA256
+- ECDH-RSA-AES256-GCM-SHA384
+- ECDH-ECDSA-AES256-GCM-SHA384
+- ECDH-RSA-AES256-SHA384
+- ECDH-ECDSA-AES256-SHA384
+- DH-DSS-AES128-GCM-SHA256
+- DHE-DSS-AES128-GCM-SHA256
+- DH-RSA-AES128-GCM-SHA256
+- DHE-DSS-AES128-SHA256
+- DH-RSA-AES128-SHA256
+- DH-DSS-AES128-SHA256
+- ECDH-RSA-AES128-GCM-SHA256
+- ECDH-ECDSA-AES128-GCM-SHA256
+- ECDH-RSA-AES128-SHA256
+- ECDH-ECDSA-AES128-SHA256
+- TLS 1.1:
+- ECDHE-ECDSA-AES128-SHA
+- ECDHE-ECDSA-AES256-SHA
+- ECDHE-RSA-AES128-SHA
+- ECDHE-RSA-AES256-SHA
+- AES128-GCM-SHA256
+- AES128-SHA
+- AES256-SHA
+- DES-CBC3-SHA
+- DHE-RSA-AES256-SHA
+- DHE-RSA-AES128-SHA
+- DHE-RSA-CAMELLIA256-SHA
+- DHE-RSA-CAMELLIA128-SHA
+- DHE-RSA-SEED-SHA
+- DHE-RSA-AES256-SHA
+- DHE-DSS-AES256-SHA
+- DH-RSA-AES256-SHA
+- DH-DSS-AES256-SHA
+- DHE-RSA-CAMELLIA256-SHA
+- DHE-DSS-CAMELLIA256-SHA
+- DH-RSA-CAMELLIA256-SHA
+- DH-DSS-CAMELLIA256-SHA
+- ECDH-RSA-AES256-SHA
+- ECDH-ECDSA-AES256-SHA
+- CAMELLIA256-SHA
+- PSK-AES256-CBC-SHA
+- DHE-RSA-AES128-SHA
+- DHE-DSS-AES128-SHA
+- DH-RSA-AES128-SHA
+- DH-DSS-AES128-SHA
+- DHE-RSA-CAMELLIA128-SHA
+- DHE-DSS-CAMELLIA128-SHA
+- DH-RSA-CAMELLIA128-SHA
+- DH-DSS-CAMELLIA128-SHA
+- ECDH-RSA-AES128-SHA
+- ECDH-ECDSA-AES128-SHA
+- CAMELLIA128-SHA
+- PSK-AES128-CBC-SHA
+-

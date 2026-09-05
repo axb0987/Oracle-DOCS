@@ -1,0 +1,360 @@
+# Overview of Search
+- Source: https://docs.oracle.com/en-us/iaas/Content/Search/Concepts/queryoverview.htm
+- Fetched: 2026-09-05 03:03 CDT
+
+# Overview of Search
+
+Use Search to find resources within a tenancy, Console pages in services, and documentation within the Oracle Cloud Infrastructure getting started and user guides.
+
+Search categorizes search results by resource, service, or documentation, helping you avoid navigating through menus, the latency associated with loading a long list of results onto a single page, or the inconvenience of viewing a long list that spans many pages. You can also filter results by criteria specific to the search category after results are found and sorted by category.
+
+You might find it helpful to use Search to find related resources when creating or deleting another resource. For example, you might want to find what compartments already exist before creating a new one. Or, before you decide whether to delete a volume, you can use a query to verify that a backup exists.
+
+Another benefit of Search is that you can find resources that require action. For example, you might want to delete terminated block volumes because you no longer need them and don’t want them to count against service limits. Or, you can search for all resources that match a specific naming scheme, in case you want to act on a category of associated resources. Sometimes, resources in a specific lifecycle state, such as databases in a failed state, require troubleshooting. With Search, you can quickly identify those resources and resolve problems. You can save frequent searches as resource collections to access the latest results more quickly later. Lastly, Search lets you use bulk actions to view work requests, manage tags, move resources, or delete resources.
+
+Search can also help you find pages within the Console, even if you can't recall their location among services in the navigation menu. When you find a page, if you want to know more about its contents, you can use Search to find documentation to help you. For example, you might search for "create virtual cloud network" to read documentation about creating a virtual cloud network.
+
+## Search Categories and Ways to Search Them
+
+To search for a resource, you can use a free text search based on keywords. You can also use structured resource query language to build an advanced query based on as little as a single resource attribute, such as the resource's creation date. Results for resource searches are limited to the tenancy and the selected regions.
+
+To find a named page in the Console without knowing the service, to find help in the documentation, or to find an Oracle Cloud Infrastructure Marketplace listing, you can use a free text search. Advanced queries don't work for these types of searches.
+
+## Supported Resources
+
+Search supports queries for the Oracle Cloud Infrastructure services and resources listed in this section. The following table is updated as query support is added for more resources. You can see each resource's object reference for information about the resource, including its attributes. Sometimes, where indicated, a resource might not support all attributes for search. Often, services index only the required attributes for a particular resource. For current information about supported resources and resource attributes, use the[ListResourceTypes](https://docs.oracle.com/iaas/api/#/en/search/latest/ResourceType/ListResourceTypes)API.
+
+Service Resource Type Attributes
+Application Performance Monitoring`apmdomain`See[ApmDomain Reference](https://docs.oracle.com/iaas/api/#/en/apm-control-plane/latest/ApmDomain).
+Analytics Cloud`analyticsinstance`See[AnalyticsInstance Reference](https://docs.oracle.com/iaas/api/#/en/analytics/latest/AnalyticsInstance/).
+API Gateway`apideployment`See[Deployment Reference](https://docs.oracle.com/iaas/api/#/en/api-gateway/latest/Deployment/).
+API Gateway`apigateway`See[Gateway Reference](https://docs.oracle.com/iaas/api/#/en/api-gateway/latest/Gateway/).
+API Gateway`apigatewayapi`See[Api Reference](https://docs.oracle.com/iaas/api/#/en/api-gateway/latest/Api).
+API Gateway`apigatewaycertificate`See[Certificate Reference](https://docs.oracle.com/iaas/api/#/en/api-gateway/latest/Certificate/).
+Application Dependency Management`admknowledgebase`See[KnowledgeBase Reference](https://docs.oracle.com/iaas/api/#/en/adm/latest/KnowledgeBase/)
+Application Dependency Management`admvulnerabilityaudit`See[VulnerabilityAudit Reference](https://docs.oracle.com/iaas/api/#/en/adm/latest/VulnerabilityAudit/)
+Autonomous Recovery Service`ProtectedDatabase`See[ProtectedDatabase Reference](https://docs.oracle.com/iaas/api/#/en/recovery-service/latest/ProtectedDatabase/)
+Autonomous Recovery Service`ProtectionPolicy`See[ProtectionPolicy Reference](https://docs.oracle.com/iaas/api/#/en/recovery-service/latest/ProtectionPolicy/)
+Autonomous Recovery Service`RecoveryServiceSubnet`See[RecoveryServiceSubnet Reference](https://docs.oracle.com/iaas/api/#/en/recovery-service/latest/RecoveryServiceSubnet/)
+Bastion`bastion`See[Bastion Reference](https://docs.oracle.com/iaas/api/#/en/bastion/latest/Bastion/).
+Big Data Service`bigdataservice`See[Big Data Service: Search](https://docs.oracle.com/iaas/Content/bigdata/overview.htm#integration)for a list of supported fields.
+Big Data Service`bigdataserviceapikey`See[Big Data Service: Search](https://docs.oracle.com/iaas/Content/bigdata/overview.htm#integration)for a list of supported fields.
+Big Data Service`bigdataservicemetastoreconfig`See[Big Data Service: Search](https://docs.oracle.com/iaas/Content/bigdata/overview.htm#integration)for a list of supported fields.
+Big Data Service`bigdataservicelakehouseconfig`See[Big Data Service: Search](https://docs.oracle.com/iaas/Content/bigdata/overview.htm#integration)for a list of supported fields.
+Block Volume`bootvolume`See[BootVolume Reference](https://docs.oracle.com/iaas/api/#/en/iaas/latest/BootVolume).
+Block Volume`bootvolumebackup`See[BootVolumeBackup Reference](https://docs.oracle.com/iaas/api/#/en/iaas/latest/BootVolumeBackup).
+Block Volume`bootvolumereplica`See[BootVolumeReplica Reference](https://docs.oracle.com/iaas/api/#/en/iaas/latest/BootVolumeReplica/).
+Block Volume`volume`See[Volume Reference](https://docs.oracle.com/iaas/api/#/en/iaas/latest/Volume/).
+Block Volume`volumebackup`See[VolumeBackup Reference](https://docs.oracle.com/iaas/api/#/en/iaas/latest/VolumeBackup/).
+
+Note: Queries for the`sourceType`attribute are not supported.
+Block Volume`volumebackuppolicy`See[VolumeBackupPolicy Reference](https://docs.oracle.com/iaas/api/#/en/iaas/latest/VolumeBackupPolicy/).
+Block Volume`volumegroup`See[VolumeGroup Reference](https://docs.oracle.com/iaas/api/#/en/iaas/latest/VolumeGroup/).
+Block Volume`volumegroupbackup`See[VolumeGroupBackup Reference](https://docs.oracle.com/iaas/api/#/en/iaas/latest/VolumeGroupBackup/).
+Block Volume`volumereplica`See[VolumeReplica Reference](https://docs.oracle.com/iaas/api/#/en/iaas/latest/BlockVolumeReplica/).
+Blockchain Platform`blockchainplatforms`See[BlockchainPlatform Reference](https://docs.oracle.com/iaas/api/#/en/blockchain/latest/BlockchainPlatform/).
+Budgets`budget`
+
+See[Budget Reference](https://docs.oracle.com/iaas/api/#/en/budgets/latest/Budget/).
+Certificates`cabundle`See[CaBundle Reference](https://docs.oracle.com/iaas/api/#/en/certificatesmgmt/latest/CaBundle/).
+Certificates`cabundleassociation`See[Association Reference](https://docs.oracle.com/iaas/api/#/en/certificatesmgmt/latest/Association/).
+Certificates`certificate`See[Certificate Reference](https://docs.oracle.com/iaas/api/#/en/certificatesmgmt/latest/Certificate/).
+Certificates`certificateassociation`See[Association Reference](https://docs.oracle.com/iaas/api/#/en/certificatesmgmt/latest/Association/).
+Certificates`certificateauthority`See[CertificateAuthority Reference](https://docs.oracle.com/iaas/api/#/en/certificatesmgmt/latest/CertificateAuthority/).
+Certificates`certificateauthorityassociation`See[Association Reference](https://docs.oracle.com/iaas/api/#/en/certificatesmgmt/latest/Association/).
+Cloud Guard`cloudguarddetectorrecipe`
+
+See[DetectorRecipe Reference](https://docs.oracle.com/iaas/api/#/en/cloud-guard/latest/DetectorRecipe).
+Cloud Guard`cloudguardmanagedlist`
+
+See[ManagedList Reference](https://docs.oracle.com/iaas/api/#/en/cloud-guard/latest/ManagedList).
+Cloud Guard`cloudguardresponderrecipe`
+
+See[ResponderRecipe Reference](https://docs.oracle.com/iaas/api/#/en/cloud-guard/latest/ResponderRecipe).
+Cloud Guard`cloudguardtarget`
+
+See[Target Reference](https://docs.oracle.com/iaas/api/#/en/cloud-guard/latest/Target).
+Cluster Placement Groups`clusterplacementgroup`
+
+See[ClusterPlacementGroup Reference](https://docs.oracle.com/iaas/api/#/en/clusterplacementgroups/latest/ClusterPlacementGroup/).
+
+Note: Queries for the`capabilities`attribute aren't supported.
+Compute`autoscalingconfiguration`
+
+See[AutoScalingConfiguration Reference](https://docs.oracle.com/iaas/api/#/en/autoscaling/latest/AutoScalingConfiguration/).
+
+Note: Queries for the`policies`attribute are not supported.
+Compute`clusternetwork`
+
+See[ClusterNetwork Reference](https://docs.oracle.com/iaas/api/#/en/iaas/latest/ClusterNetwork/).
+
+Note: Queries for the`primarySubnetId`,`secondaryVnicSubnets`, and`timeUpdated`attributes are not supported.
+Compute`computecapacityreservation`See[ComputeCapacityReservation Reference](https://docs.oracle.com/iaas/api/#/en/iaas/latest/ComputeCapacityReservation/)
+Compute`consolehistory`See[ConsoleHistory Reference](https://docs.oracle.com/iaas/api/#/en/iaas/latest/ConsoleHistory/).
+Compute`dedicatedvmhost`
+
+See[DedicatedVmHost Reference](https://docs.oracle.com/iaas/api/#/en/iaas/latest/DedicatedVmHost/).
+Compute`image`See[Image Reference](https://docs.oracle.com/iaas/api/#/en/iaas/latest/Image/).
+Compute`instance`
+
+See[Instance Reference](https://docs.oracle.com/iaas/api/#/en/iaas/latest/Instance/).
+
+Note: Queries for the`privateIp`or`publicIp`attribute of a`vnic`will include the related`instance`, if one exists, and is running, in the query results.
+Compute`instanceconfiguration`See[InstanceConfiguration Reference](https://docs.oracle.com/iaas/api/#/en/iaas/latest/InstanceConfiguration/).
+Compute`instancepool`
+
+See[InstancePool Reference](https://docs.oracle.com/iaas/api/#/en/iaas/latest/InstancePool/).
+
+Note: Queries for the`primarySubnetId`,`faultDomains`,`secondaryVnicSubnets`, and`loadBalancers`attributes are not supported.
+Compute Cloud@Customer`ccc-infrastructure`See[CccInfrastructure Reference](https://docs.oracle.com/iaas/api/#/en/compute-cloud-at-customer/latest/CccInfrastructure/)
+Compute Cloud@Customer`ccc-upgrade-schedule`See[CccUpgradeSchedule Reference](https://docs.oracle.com/iaas/api/#/en/compute-cloud-at-customer/latest/CccUpgradeSchedule/)
+Connector Hub`serviceconnector`See[ServiceConnector Reference](https://docs.oracle.com/iaas/api/#/en/serviceconnectors/latest/ServiceConnector).
+Container Instances`container`See[Container Reference](https://docs.oracle.com/iaas/api/#/en/container-instances/latest/Container/).
+Container Instances`containerinstance`See[ContainerInstance Reference](https://docs.oracle.com/iaas/api/#/en/container-instances/latest/ContainerInstance/).
+Content Management`oceinstance`See[OceInstance Reference](https://docs.oracle.com/iaas/api/#/en/oce/latest/OceInstance).
+Console Dashboards`ConsoleDashboard`See[Dashboard Reference](https://docs.oracle.com/iaas/api/#/en/dashboard/latest/Dashboard/)
+Console Dashboards`ConsoleDashboardGroup`See[Dashboard Group Reference](https://docs.oracle.com/iaas/api/#/en/dashboard/latest/DashboardGroup/)
+Data Catalog`datacatalog`See[Catalog Reference](https://docs.oracle.com/iaas/api/#/en/data-catalog/latest/Catalog/).
+Data Catalog`datacatalogprivateendpoint`See[CatalogPrivateEndpoint Reference](https://docs.oracle.com/iaas/api/#/en/data-catalog/latest/CatalogPrivateEndpoint/).
+Data Catalog`datacatalogmetastore`See[Metastore Reference](https://docs.oracle.com/iaas/api/#/en/data-catalog/latest/Metastore/).
+Data Flow`application`See[Application Reference](https://docs.oracle.com/iaas/api/#/en/data-flow/latest/Application).
+Data Flow`run`See[Run Reference](https://docs.oracle.com/iaas/api/#/en/data-flow/latest/Run).
+Data Integration`disworkspace`See[Workspace Reference](https://docs.oracle.com/iaas/api/#/en/data-integration/latest/Workspace).
+Data Labeling`datalabelingdataset`See[Dataset](https://docs.oracle.com/iaas/api/#/en/datalabeling/latest/Dataset/).
+Data Safe`datasafeprivateendpoint`See[DataSafePrivateEndpoint Reference](https://docs.oracle.com/iaas/api/#/en/data-safe/latest/DataSafePrivateEndpoint/).
+Data Science`datasciencejob`See[Job Reference](https://docs.oracle.com/iaas/api/#/en/data-science/latest/Job/).
+Data Science`datasciencejobrun`See[JobRun Reference](https://docs.oracle.com/iaas/api/#/en/data-science/latest/JobRun/).
+Data Science`datasciencemodel`See[Model Reference](https://docs.oracle.com/iaas/api/#/en/data-science/latest/Model/).
+Data Science`datasciencemodeldeployment`See[ModelDeployment Reference](https://docs.oracle.com/iaas/api/#/en/data-science/latest/ModelDeployment/).
+Data Science`datasciencenotebooksession`See[NotebookSession Reference](https://docs.oracle.com/iaas/api/#/en/data-science/latest/NotebookSession/).
+Data Science`datascienceproject`See[Project Reference](https://docs.oracle.com/iaas/api/#/en/data-science/latest/Project/).
+Database`autonomouscontainerdatabase`See[AutonomousContainerDatabase Reference](https://docs.oracle.com/iaas/api/#/en/database/latest/AutonomousContainerDatabase/).
+Database`autonomousdatabase`See[AutonomousDatabase Reference](https://docs.oracle.com/iaas/api/#/en/database/latest/AutonomousDatabase/).
+Database`autonomousvmcluster`See[AutonomousVmCluster Reference](https://docs.oracle.com/iaas/api/#/en/database/latest/AutonomousVmCluster/).
+Database`backupdestination`See[BackupDestination Reference](https://docs.oracle.com/iaas/api/#/en/database/latest/BackupDestination/).
+Database`cloudautonomousvmcluster`See[CloudAutonomousVmCluster Reference](https://docs.oracle.com/iaas/api/#/en/database/latest/CloudAutonomousVmCluster/).
+Database`cloudexadatainfrastructure`See[CloudExadataInfrastructure Reference](https://docs.oracle.com/iaas/api/#/en/database/latest/CloudExadataInfrastructure/).
+Database`cloudvmcluster`See[CloudVmCluster Reference](https://docs.oracle.com/iaas/api/#/en/database/latest/CloudVmCluster/).
+Database`database`See[Database Reference](https://docs.oracle.com/iaas/api/#/en/database/latest/Database/).
+Database`databasesoftwareimage`See[DatabaseSoftwareImage Reference](https://docs.oracle.com/iaas/api/#/en/database/latest/DatabaseSoftwareImage).
+Database`dbhome`See[DbHome Reference](https://docs.oracle.com/iaas/api/#/en/database/latest/DbHome/).
+Database`dbkeystore`See[KeyStore Reference](https://docs.oracle.com/iaas/api/#/en/database/latest/KeyStore).
+Database`dbnode`See[DbNode Reference](https://docs.oracle.com/iaas/api/#/en/database/latest/DbNode).
+Database`dbserver`See[DbServer Reference](https://docs.oracle.com/iaas/api/#/en/database/latest/DbServer).
+Database`dbsystem`See[DbSystem Reference](https://docs.oracle.com/iaas/api/#/en/database/latest/DbSystem/).
+Database`exadatainfrastructure`See[ExadataInfrastructure Reference](https://docs.oracle.com/iaas/api/#/en/database/latest/ExadataInfrastructure/).
+Database`externalcontainerdatabase`See[ExternalContainerDatabase Reference](https://docs.oracle.com/iaas/api/#/en/database/latest/ExternalContainerDatabase).
+Database`externaldatabaseconnector`See[ExternalDatabaseConnector Reference](https://docs.oracle.com/iaas/api/#/en/database/latest/ExternalDatabaseConnector).
+Database`externalnoncontainerdatabase`See[ExternalNonContainerDatabase Reference](https://docs.oracle.com/iaas/api/#/en/database/latest/ExternalNonContainerDatabase).
+Database`externalpluggabledatabase`See[ExternalPluggableDatabase Reference](https://docs.oracle.com/iaas/api/#/en/database/latest/ExternalPluggableDatabase).
+Database`pluggabledatabase`See[PluggableDatabase Reference](https://docs.oracle.com/iaas/api/#/en/database/latest/PluggableDatabase).
+Database`vmcluster`See[VmCluster Reference](https://docs.oracle.com/iaas/api/#/en/database/latest/VmCluster/).
+Database`vmclusternetwork`See[VmClusterNetwork Reference](https://docs.oracle.com/iaas/api/#/en/database/latest/VmClusterNetwork/).
+Database Management`dbmgmtexternalasm`See[ExternalAsm Reference](https://docs.oracle.com/iaas/api/#/en/database-management/latest/ExternalAsm/).
+Database Management`dbmgmtexternalasminstance`See[ExternalAsmInstance Reference](https://docs.oracle.com/iaas/api/#/en/database-management/latest/ExternalAsmInstance/).
+Database Management`dbmgmtexternalcluster`See[ExternalCluster Reference](https://docs.oracle.com/iaas/api/#/en/database-management/latest/ExternalCluster/).
+Database Management`dbmgmtexternalclusterinstance`See[ExternalClusterInstance Reference](https://docs.oracle.com/iaas/api/#/en/database-management/latest/ExternalClusterInstance/).
+Database Management`dbmgmtexternaldbhome`See[ExternalDbHome Reference](https://docs.oracle.com/iaas/api/#/en/database-management/latest/ExternalDbHome/).
+Database Management`dbmgmtexternaldbnode`See[ExternalDbNode Reference](https://docs.oracle.com/iaas/api/#/en/database-management/latest/ExternalDbNode/).
+Database Management`dbmgmtexternaldbsystem`See[ExternalDbSystem Reference](https://docs.oracle.com/iaas/api/#/en/database-management/latest/ExternalDbSystem/).
+Database Management`dbmgmtexternaldbsystemconnector`See[ExternalDbSystemConnector Reference](https://docs.oracle.com/iaas/api/#/en/database-management/latest/ExternalDbSystemConnector/).
+Database Management`dbmgmtexternalexadatainfrastructure`See[ExternalExadataInfrastructure Reference](https://docs.oracle.com/iaas/api/#/en/database-management/latest/ExternalExadataInfrastructure/).
+Database Management`dbmgmtexternalexadatastorageconnector`See[ExternalExadataStorageConnector Reference](https://docs.oracle.com/iaas/api/#/en/database-management/latest/ExternalExadataStorageConnector/).
+Database Management`dbmgmtexternalexadatastoragegrid`See[ExternalExadataStorageGrid Reference](https://docs.oracle.com/iaas/api/#/en/database-management/latest/ExternalExadataStorageGrid/).
+Database Management`dbmgmtexternalexadatastorageserver`See[ExternalExadataStorageServer Reference](https://docs.oracle.com/iaas/api/#/en/database-management/latest/ExternalExadataStorageServer/).
+Database Management`dbmgmtexternallistener`See[ExternalListener Reference](https://docs.oracle.com/iaas/api/#/en/database-management/latest/ExternalListener/).
+Database Management`dbmgmtexternalmysqldb`See[ExternalMySqlDatabase Reference](https://docs.oracle.com/iaas/api/#/en/database-management/latest/ExternalMySqlDatabase/).
+Database Management`dbmgmtmysqldbconnector`See[ExternalMySqlDatabaseConnector Reference](https://docs.oracle.com/iaas/api/#/en/database-management/latest/ExternalMySqlDatabaseConnector/).
+Database Management`dbmgmtjob`See[Job Reference](https://docs.oracle.com/iaas/api/#/en/database-management/latest/Job/).
+Database Management`dbmgmtmanageddatabase`See[ManagedDatabase Reference](https://docs.oracle.com/iaas/api/#/en/database-management/latest/ManagedDatabase/).
+Database Management`dbmgmtmanageddatabasegroup`See[ManagedDatabaseGroup Reference](https://docs.oracle.com/iaas/api/#/en/database-management/latest/ManagedDatabaseGroup/).
+Database Management`dbmgmtnamedcredential`See[NamedCredential Reference](https://docs.oracle.com/iaas/api/#/en/database-management/latest/NamedCredential/).
+Database Management`dbmgmtprivateendpoint`See[DbManagementPrivateEndpoint Reference](https://docs.oracle.com/iaas/api/#/en/database-management/latest/DbManagementPrivateEndpoint/).
+Database Migration`agent`See[Agent Reference](https://docs.oracle.com/iaas/api/#/en/database-migration/latest/Agent/).
+Database Migration`connection`See[Connection Reference](https://docs.oracle.com/iaas/api/#/en/database-migration/latest/Connection/).
+Database Migration`job`See[Job Reference](https://docs.oracle.com/iaas/api/#/en/database-migration/latest/Job/).
+Database Migration`migration`See[Migration Reference](https://docs.oracle.com/iaas/api/#/en/database-migration/latest/Migration/).
+Database Tools`databasetoolsconnection`See[Database Tools Connection Reference](https://docs.oracle.com/iaas/api/#/en/database-tools/latest/DatabaseToolsConnection).
+Database Tools`databasetoolsprivateendpoint`See[Database Tools Private Endpoint Reference](https://docs.oracle.com/iaas/api/#/en/database-tools/latest/DatabaseToolsPrivateEndpoint)
+DevOps`devopsdeployartifact`See[DeployArtifact Reference](https://docs.oracle.com/iaas/api/#/en/devops/latest/DeployArtifact/).
+DevOps`devopsdeployenvironment`See[DeployEnvironment Reference](https://docs.oracle.com/iaas/api/#/en/devops/latest/DeployEnvironment/).
+DevOps`devopsdeployment`See[Deployment Reference](https://docs.oracle.com/iaas/api/#/en/devops/latest/Deployment/).
+DevOps`devopsdeploypipeline`See[DeployPipeline Reference](https://docs.oracle.com/iaas/api/#/en/devops/latest/DeployPipeline/).
+DevOps`devopsbuildpipeline`See[Build Pipeline Reference](https://docs.oracle.com/iaas/api/#/en/devops/latest/BuildPipeline/).
+DevOps`devopsbuildpipelinestage`See[Build Pipeline Stage Reference](https://docs.oracle.com/iaas/api/#/en/devops/latest/BuildPipeline/).
+DevOps`devopsdeploystage`See[DeployStage Reference](https://docs.oracle.com/iaas/api/#/en/devops/latest/DeployStage/).
+DevOps`devopsrepository`See[Repository Reference](https://docs.oracle.com/iaas/api/#/en/devops/latest/Repository/).
+DevOps`devopsconnection`See[Connection Reference](https://docs.oracle.com/iaas/api/#/en/devops/latest/Connection/).
+DevOps`devopstrigger`See[Trigger Reference](https://docs.oracle.com/iaas/api/#/en/devops/latest/Trigger/).
+DevOps`devopsproject`See[DevOps Project Reference](https://docs.oracle.com/iaas/api/#/en/devops/latest/Project/).
+Digital Assistant`odainstance`See[OdaInstance Reference](https://docs.oracle.com/iaas/api/#/en/digital-assistant/latest/OdaInstance/).
+Email Delivery`emailsender`
+
+See[Sender Reference](https://docs.oracle.com/iaas/api/#/en/emaildelivery/latest/Sender/).
+
+See[EmailDomain Reference](https://docs.oracle.com/iaas/api/#/en/emaildelivery/latest/EmailDomain/).
+
+See[Dkim Reference](https://docs.oracle.com/iaas/api/#/en/emaildelivery/latest/Dkim/).
+Email Delivery`emaildomain`
+Email Delivery`dkim`
+Events`eventrule`See[Rule Reference](https://docs.oracle.com/iaas/api/#/en/events/latest/Rule/).
+File Storage`filesystem`See[FileSystem Reference](https://docs.oracle.com/iaas/api/#/en/filestorage/latest/FileSystem/).
+File Storage`mounttarget`See[MountTarget Reference](https://docs.oracle.com/iaas/api/#/en/filestorage/latest/MountTarget/).
+File Storage with Lustre`lustrefilesystem`See[LustreFileSystem Reference](https://docs.oracle.com/iaas/api/#/en/lustre/latest/LustreFileSystem/).
+Fleet Application Management`famscatalogitem`See[CatalogItem Reference](https://docs.oracle.com/iaas/api/#/en/fleet-management/latest/CatalogItem/).
+Fleet Application Management`famscompliancepolicy`See[CompliancePolicy Reference](https://docs.oracle.com/iaas/api/#/en/fleet-management/latest/CompliancePolicy/).
+Fleet Application Management`famscompliancepolicyrule`See[CompliancePolicyRule Reference](https://docs.oracle.com/iaas/api/#/en/fleet-management/latest/CompliancePolicyRule/).
+Fleet Application Management`famsfleet`See[Fleet Reference](https://docs.oracle.com/iaas/api/#/en/fleet-management/latest/Fleet).
+Fleet Application Management`famsmaintenancewindow`See[MaintenanceWindow Reference](https://docs.oracle.com/iaas/api/#/en/fleet-management/latest/MaintenanceWindow).
+Fleet Application Management`famspatch`See[Patch Reference](https://docs.oracle.com/iaas/api/#/en/fleet-management/latest/Patch/).
+Fleet Application Management`famsplatformconfiguration`See[PlatformConfiguration Reference](https://docs.oracle.com/iaas/api/#/en/fleet-management/latest/PlatformConfiguration/).
+Fleet Application Management`famsproperty`See[Property Reference](https://docs.oracle.com/iaas/api/#/en/fleet-management/latest/Property/).
+Fleet Application Management`famsprovision`See[Provision Reference](https://docs.oracle.com/iaas/api/#/en/fleet-management/latest/Provision/).
+Fleet Application Management`famsrunbook`See[Runbook Reference](https://docs.oracle.com/iaas/api/#/en/fleet-management/latest/Runbook/).
+Fleet Application Management`famsschedulerdefinition`See[Scheduler Definition Reference](https://docs.oracle.com/iaas/api/#/en/fleet-management/latest/SchedulerDefinition).
+Fleet Application Management`famstaskrecord`See[TaskRecord Reference](https://docs.oracle.com/iaas/api/#/en/fleet-management/latest/TaskRecord/).
+Full Stack Disaster Recovery`drprotectiongroup`See[DrProtectionGroup Reference](https://docs.oracle.com/iaas/api/#/en/disaster-recovery/latest/DrProtectionGroup/).
+Full Stack Disaster Recovery`drplan`See[DrPlan Reference](https://docs.oracle.com/iaas/api/#/en/disaster-recovery/latest/DrPlan/).
+Full Stack Disaster Recovery`drplanexeuction`See[DrPlanExecution Reference](https://docs.oracle.com/iaas/api/#/en/disaster-recovery/latest/DrPlanExecution/).
+Functions`functionsapplication`See[Application Reference](https://docs.oracle.com/iaas/api/#/en/functions/latest/Application/).
+Functions`functionsfunction`See[Function Reference](https://docs.oracle.com/iaas/api/#/en/functions/latest/Function/).
+Globally Distributed Autonomous AI Database`osddistributedautonomousdb`See[DistributedAutonomousDatabase Reference](https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/latest/DistributedAutonomousDatabase/).
+Globally Distributed Autonomous AI Database`osddistributeddbprivateendpoint`See[DistributedDatabasePrivateEndpoint Reference](https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/latest/DistributedDatabasePrivateEndpoint/).
+Globally Distributed Exadata Database on Exascale Infrastructure`osddistributeddb`See[DistributedDatabase Reference](https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/latest/DistributedDatabase/).
+Globally Distributed Exadata Database on Exascale Infrastructure`osddistributeddbprivateendpoint`See[DistributedDatabasePrivateEndpoint Reference](https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/latest/DistributedDatabasePrivateEndpoint/).
+GoldenGate`goldengatedeployment`See[Deployment Reference](https://docs.oracle.com/iaas/api/#/en/goldengate/latest/Deployment/).
+GoldenGate`goldengateconnection`See[Connection Reference](https://docs.oracle.com/iaas/api/#/en/goldengate/latest/Connection).
+IAM`compartment`See[Compartment Reference](https://docs.oracle.com/iaas/api/#/en/identity/latest/Compartment/).
+IAM`group`See[Group Reference](https://docs.oracle.com/iaas/api/#/en/identity/latest/Group/).
+IAM`identityprovider`See[IdentityProvider Reference](https://docs.oracle.com/iaas/api/#/en/identity/latest/IdentityProvider/).
+IAM`policy`See[Policy Reference](https://docs.oracle.com/iaas/api/#/en/identity/latest/Policy/).
+IAM`tagdefault`See[TagDefault Reference](https://docs.oracle.com/iaas/api/#/en/identity/latest/TagDefault/).
+IAM`tagnamespace`See[TagNamespace Reference](https://docs.oracle.com/iaas/api/#/en/identity/latest/TagNamespace/).
+IAM`user`See[User Reference](https://docs.oracle.com/iaas/api/#/en/identity/latest/User/).
+Integration`integrationinstance`See[IntegrationInstance Reference](https://docs.oracle.com/iaas/api/#/en/integration/latest/IntegrationInstance/).
+Java Management`jmsfleet`See[FleetSummary Reference](https://docs.oracle.com/iaas/api/#/en/jms/latest/datatypes/FleetSummary).
+Java Management`jmsplugin`See[JmsPluginSummary Reference](https://docs.oracle.com/iaas/api/#/en/jms/latest/datatypes/JmsPluginSummary).
+Kubernetes Engine`clusterscluster`See[Cluster Reference](https://docs.oracle.com/iaas/api/#/en/containerengine/latest/Cluster/).
+Kubernetes Engine`clustersvirtualnodepool`See[VirtualNodePool Reference](https://docs.oracle.com/iaas/api/#/en/containerengine/latest/VirtualNodePool/).
+Kubernetes Engine`clustersvirtualnode`See[VirtualNode Reference](https://docs.oracle.com/iaas/api/#/en/containerengine/latest/datatypes/VirtualNode).
+Load Balancer`loadbalancer`See[LoadBalancer Reference](https://docs.oracle.com/iaas/api/#/en/loadbalancer/latest/LoadBalancer/).
+Logging`log`See[Log Reference](https://docs.oracle.com/iaas/api/#/en/logging-management/latest/Log).
+Logging`loggroup`See[LogGroup Reference](https://docs.oracle.com/iaas/api/#/en/logging-management/latest/LogGroup).
+Logging`logsavedsearch`See[LogSavedSearch Reference](https://docs.oracle.com/iaas/api/#/en/logging-management/latest/LogSavedSearch).
+Logging`unifiedagentconfiguration`See[UnifiedAgentConfiguration Reference](https://docs.oracle.com/iaas/api/#/en/logging-management/latest/UnifiedAgentConfiguration).
+Management Agent`managementagent`See[ManagementAgent Reference](https://docs.oracle.com/iaas/api/#/en/management-agent/latest/ManagementAgent).
+Management Agent`managementagentinstallkey`See[ManagementAgentInstallKey Reference](https://docs.oracle.com/iaas/api/#/en/management-agent/latest/ManagementAgentInstallKey).
+Media Services (Media Flow)`mediaworkflow`See[MediaWorkflow Reference](https://docs.oracle.com/iaas/api/#/en/dms/latest/MediaWorkflow/).
+Media Services (Media Streams)`streamdistributionchannel`See[StreamDistributionChannel Reference](https://docs.oracle.com/iaas/api/#/en/dms/latest/StreamDistributionChannel/).
+Media Services (Media Streams)`streampackagingconfig`See[StreamPackagingConfig Reference](https://docs.oracle.com/iaas/api/#/en/dms/latest/StreamPackagingConfig/).
+Media Services (Media Streams)`streamcdnconfig`See[StreamCdnConfig Reference](https://docs.oracle.com/iaas/api/#/en/dms/latest/StreamCdnConfig/).
+Monitoring`alarm`See[Alarms Feature Overview](https://docs.oracle.com/iaas/Content/Monitoring/Concepts/monitoringoverview.htm#alarms).
+Networking`byoiprange`See[ByoipRange Reference](https://docs.oracle.com/iaas/api/#/en/iaas/latest/ByoipRange).
+Networking`cpe`See[Cpe Reference](https://docs.oracle.com/iaas/api/#/en/iaas/latest/Cpe/).
+Networking`crossconnect`See[CrossConnect Reference](https://docs.oracle.com/iaas/api/#/en/iaas/latest/CrossConnect/).
+Networking`crossconnectgroup`See[CrossConnectGroup Reference](https://docs.oracle.com/iaas/api/#/en/iaas/latest/CrossConnectGroup/).
+Networking`dhcpoptions`See[DhcpOptions Reference](https://docs.oracle.com/iaas/api/#/en/iaas/latest/DhcpOptions).
+Networking`drg`See[Drg Reference](https://docs.oracle.com/iaas/api/#/en/iaas/latest/Drg/).
+Networking`internetgateway`See[InternetGateway Reference](https://docs.oracle.com/iaas/api/#/en/iaas/latest/InternetGateway).
+Networking`ipsecconnection`See[IPSecConnection Reference](https://docs.oracle.com/iaas/api/#/en/iaas/latest/IPSecConnection/).
+Networking`ipv6`See[IPv6 Reference](https://docs.oracle.com/iaas/api/#/en/iaas/latest/Ipv6/).
+Networking`localpeeringgateway`See[LocalPeeringGateway Reference](https://docs.oracle.com/iaas/api/#/en/iaas/latest/LocalPeeringGateway/).
+Networking`natgateway`See[NatGateway Reference](https://docs.oracle.com/iaas/api/#/en/iaas/latest/NatGateway/).
+Networking`networksecuritygroup`See[NetworkSecurityGroup Reference](https://docs.oracle.com/iaas/api/#/en/iaas/latest/NetworkSecurityGroup).
+Networking`publicip`See[PublicIp Reference](https://docs.oracle.com/iaas/api/#/en/iaas/latest/PublicIp).
+Networking`publicippool`See[PublicIpPool Reference](https://docs.oracle.com/iaas/api/#/en/iaas/latest/PublicIpPool).
+Networking`privateip`See[PrivateIp Reference](https://docs.oracle.com/iaas/api/#/en/iaas/latest/PrivateIp).
+Networking`remotepeeringconnection`See[RemotePeeringConnection Reference](https://docs.oracle.com/iaas/api/#/en/iaas/latest/RemotePeeringConnection/).
+Networking`routetable`See[RouteTable Reference](https://docs.oracle.com/iaas/api/#/en/iaas/latest/RouteTable/).
+Networking`securitylist`See[SecurityList Reference](https://docs.oracle.com/iaas/api/#/en/iaas/latest/SecurityList/).
+Networking`servicegateway`See[ServiceGateway Reference](https://docs.oracle.com/iaas/api/#/en/iaas/latest/ServiceGateway/).
+Networking`subnet`See[Subnet Reference](https://docs.oracle.com/iaas/api/#/en/iaas/latest/Subnet/).
+Networking`vcn`See[Vcn Reference](https://docs.oracle.com/iaas/api/#/en/iaas/latest/Vcn/).
+Networking`virtualcircuit`See[VirtualCircuit Reference](https://docs.oracle.com/iaas/api/#/en/iaas/latest/VirtualCircuit/).
+Networking`vlan`See[Vlan Reference](https://docs.oracle.com/iaas/api/#/en/iaas/latest/Vlan/).
+Networking`vnic`
+
+See[Vnic Reference](https://docs.oracle.com/iaas/api/#/en/iaas/latest/Vnic/).
+
+Note: Queries for the`privateIp`or`publicIp`attribute of a`vnic`will include the related`instance`, if one exists and is running, in the query results.
+Network Firewall`networkfirewall`See[NetworkFirewall Reference](https://docs.oracle.com/iaas/api/#/en/network-firewall/latest/NetworkFirewall/)
+Network Firewall`networkfirewallpolicy`See[NetworkFirewallPolicy Reference](https://docs.oracle.com/iaas/api/#/en/network-firewall/latest/NetworkFirewallPolicy/)
+NoSQL Database Cloud`nosqltable`See[Table Reference](https://docs.oracle.com/iaas/api/#/en/nosql-database/latest/Table/).
+Notifications`onssubscription`
+
+See[Subscription Reference](https://docs.oracle.com/iaas/api/#/en/notification/latest/Subscription).
+
+Note: Queries for the`endpoint`attribute are not supported.
+Notifications`onstopic`See[NotificationTopic Reference](https://docs.oracle.com/iaas/api/#/en/notification/latest/NotificationTopic/).
+Object Storage`bucket`See[Bucket Reference](https://docs.oracle.com/iaas/api/#/en/objectstorage/latest/Bucket/).
+OCI Database with PostgreSQL`postgresqlbackup`See[Backup Reference](https://docs.oracle.com/iaas/api/#/en/postgresql/latest/Backup/).
+OCI Database with PostgreSQL`postgresqlconfiguration`See[Configuration Reference](https://docs.oracle.com/iaas/api/#/en/postgresql/latest/Configuration/).
+OCI Database with PostgreSQL`postgresqldbsystem`See[DbSystem Reference](https://docs.oracle.com/iaas/api/#/en/postgresql/latest/DbSystem/).
+Oracle Cloud Bridge`OcbInventory`See[Inventory Reference](https://docs.oracle.com/iaas/api/#/en/OCB/latest/Inventory/).
+Oracle Cloud Bridge`OcbVmAsset`See[Asset Reference](https://docs.oracle.com/iaas/api/#/en/OCB/latest/Asset/).
+Oracle Cloud Bridge`OcbVmwareVmAsset`See[AssetSource Reference](https://docs.oracle.com/iaas/api/#/en/OCB/latest/AssetSource/).
+OS Management Hub`osmhlifecycleenvironment`See[LifecycleEnvironment Reference](https://docs.oracle.com/iaas/api/#/en/osmh/latest/LifecycleEnvironment/).
+OS Management Hub`osmhmanagedinstancegroup`See[ManagedInstanceGroup Reference](https://docs.oracle.com/iaas/api/#/en/osmh/latest/ManagedInstanceGroup/).
+OS Management Hub`osmhmanagementstation`See[ManagementStation Reference](https://docs.oracle.com/iaas/api/#/en/osmh/latest/ManagementStation/).
+OS Management Hub`osmhprofile`See[Profile Reference](https://docs.oracle.com/iaas/api/#/en/osmh/latest/Profile/).
+OS Management Hub`osmhscheduledjob`See[ScheduledJob Reference](https://docs.oracle.com/iaas/api/#/en/osmh/latest/ScheduledJob/).
+OS Management Hub`osmhsoftwaresource`See[SoftwareSource Reference](https://docs.oracle.com/iaas/api/#/en/osmh/latest/SoftwareSource/).
+Process Automation`OpaInstance`See[OpaInstance Reference](https://docs.oracle.com/iaas/api/#/en/opa/latest/OpaInstance/).
+Queue`queue`See[Queue Reference](https://docs.oracle.com/iaas/api/#/en/queue/).
+Container Registry`containerimage`See[ContainerImage Reference](https://docs.oracle.com/iaas/api/#/en/registry/latest/ContainerImage).
+Container Registry`containerrepo`See[ContainerRepository Reference](https://docs.oracle.com/iaas/api/#/en/registry/latest/ContainerRepository).
+Resource Manager`ormconfigsourceprovider`See[ConfigurationSourceProvider Reference](https://docs.oracle.com/iaas/api/#/en/resourcemanager/latest/ConfigurationSourceProvider).
+Resource Manager`ormjob`See[Job Reference](https://docs.oracle.com/iaas/api/#/en/resourcemanager/latest/Job/).
+Resource Manager`ormprivateendpoint`See[PrivateEndpoint Reference](https://docs.oracle.com/iaas/api/#/en/resourcemanager/latest/PrivateEndpoint/).
+Resource Manager`ormstack`See[Stack Reference](https://docs.oracle.com/iaas/api/#/en/resourcemanager/latest/Stack/).
+Resource Manager`ormtemplate`See[Template Reference](https://docs.oracle.com/iaas/api/#/en/resourcemanager/latest/Template).
+Search`consoleresourcecollections`
+Security Zones`securityzonessecurityzone`See[SecurityZone Reference](https://docs.oracle.com/iaas/api/#/en/cloud-guard/latest/SecurityZone)
+Security Zones`securityzonessecurityrecipe`See[SecurityRecipe Reference](https://docs.oracle.com/iaas/api/#/en/cloud-guard/latest/SecurityRecipe)
+Service Limits`quota`See[Quota Reference](https://docs.oracle.com/iaas/api/#/en/limits/latest/Quota/).
+Streaming`connectharness`See[ConnectHarness Reference](https://docs.oracle.com/iaas/api/#/en/streaming/latest/ConnectHarness/).
+Streaming`stream`See[Stream Reference](https://docs.oracle.com/iaas/api/#/en/streaming/latest/Stream/).
+Vault`key`See[Key Reference](https://docs.oracle.com/iaas/api/#/en/key/latest/Key/).
+Vault`vault`See[Vault Reference](https://docs.oracle.com/iaas/api/#/en/key/latest/Vault/).
+Vault`vaultsecret`See[Secret Reference](https://docs.oracle.com/iaas/api/#/en/secretmgmt/latest/Secret/).
+Visual Builder`visualbuilderinstance`See[VbInstance Reference](https://docs.oracle.com/iaas/api/#/en/visual-builder/latest/VbInstance).
+Visual Builder Studio`vbsinstance`See[VbsInstance Reference](https://docs.oracle.com/iaas/api/#/en/visual-builder-studio/latest/VbsInstance)
+VMware solution`vmwareesxihost`See[EsxiHost Reference](https://docs.oracle.com/iaas/api/#/en/vmware/latest/EsxiHost).
+VMware solution`vmwaresddc`See[Sddc Reference](https://docs.oracle.com/iaas/api/#/en/vmware/latest/Sddc).
+Vulnerability Scanning`vsshostscanrecipe`See[HostScanRecipe Reference](https://docs.oracle.com/iaas/api/#/en/scanning/latest/HostScanRecipe/).
+Vulnerability Scanning`vsshostscantarget`See[HostScanTarget Reference](https://docs.oracle.com/iaas/api/#/en/scanning/latest/HostScanTarget/).
+Vulnerability Scanning`vsscontainerscanrecipe`See[ContainerScanRecipe Reference](https://docs.oracle.com/iaas/api/#/en/scanning/latest/ContainerScanRecipe/).
+Vulnerability Scanning`vsscontainerscantarget`See[ContainerScanTarget Reference](https://docs.oracle.com/iaas/api/#/en/scanning/latest/ContainerScanTarget/).
+WAF`httpredirect`See[HttpRedirect Reference](https://docs.oracle.com/iaas/api/#/en/waas/latest/HttpRedirect/).
+WAF`waasaddresslist`See[AddressList Reference](https://docs.oracle.com/iaas/api/#/en/waas/latest/AddressList/).
+WAF`waascertificate`See[Certificate Reference](https://docs.oracle.com/iaas/api/#/en/waas/latest/Certificate/).
+WAF`waascustomprotectionrule`See[CustomProtectionRule Reference](https://docs.oracle.com/iaas/api/#/en/waas/latest/CustomProtectionRule/).
+WAF`waaspolicy`See[WaasPolicy Reference](https://docs.oracle.com/iaas/api/#/en/waas/latest/WaasPolicy/).
+WebLogic Management`WlmsWlsDomain`See[WlsDomain Reference](https://docs.oracle.com/iaas/api/#/en/wlms/latest/WlsDomain/).
+Zero Trust Packet Routing`securityattributenamespace`See[SecurityAttributeNamespace Reference](https://docs.oracle.com/iaas/api/#/en/security-attribute/latest/SecurityAttributeNamespace)
+Zero Trust Packet Routing`zprpolicy`See[ZprPolicy Reference](https://docs.oracle.com/iaas/api/#/en/zero-trust-packet-routing/latest/ZprPolicy)
+
+### Common Resource Attributes
+
+Although you can use the query language to search fields and values for any supported attribute, query results only provide information about the following resource attributes:
+- Resource type
+- Oracle Cloud Identifier (OCID)
+- Compartment
+- Availability domain
+- Display name
+- Creation date and time
+- Lifecycle state
+- Tags (visible in the API only)
+
+The preceding attributes are common to most Oracle Cloud Infrastructure resources. Their meaning is consistent across resource types, so they're provided by default for each result when you view a list of query results. Query results do not contain information specific to any resource type except where a matching search term appears. Meaning, you can query for volumes of a certain size. If there's a match, then the search result will display the attribute with the value that matches. In this example, in addition to the common attributes, the result also provides the Size attribute if that's where the match was found. You must view the details of a resource to see other resource-specific information.
+Tip  
+  
+If you use the Console, neither query results nor resource details will include either defined tags or free-form tags, due to display constraints. Any given resource might contain hundreds of tags. If you want to see tags, use the API to view resource details.
+
+## Required IAM Permissions
+
+The resources that you see in search or query results depend on the permissions you have in place for the resource type. You don't necessarily see results for every resource in the compartment or tenancy. For example, if your user account isn't associated with a policy that grants you the ability to, at a minimum,`inspect`the`dbsystem`resource type, then you can’t query for DB systems. (The verb`inspect`lets you list and get resources.) Instead, Search shows no results for queries of DB system resources.
+
+Permissions and policy language applies to resources. Searching for pages across services in the Console or documentation requires no special permissions because they aren't resources. An administrator can't restrict access to search results for services or documentation.
+
+For more information about policies, see[IAM Policies Overview](https://docs.oracle.com/iaas/Content/Identity/policieshow/Policy_Basics.htm). For information about the specific permissions required for the list API operation for a particular resource type, see the[Policy Reference](https://docs.oracle.com/iaas/Content/Identity/policyreference/policyreference.htm)

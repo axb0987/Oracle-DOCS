@@ -1,0 +1,28 @@
+# Policy Regulatory Compliance Control
+- Source: https://docs.oracle.com/en-us/iaas/Content/KeyManagement/Tasks/kms_policy_compliance.htm
+- Fetched: 2026-09-05 02:35 CDT
+
+# Policy Regulatory Compliance Control
+
+List of key vault regulatory compliance policies.
+
+The Key Management policy regulatory compliance provides a list of OCI policy to secure services on OCI.
+
+Domain Control ID Control Title OCI Control/Approach Key Links
+Access Control AC-4 Information Flow Enforcement OCI Network Firewall Enabled[https://docs.oracle.com/iaas/Content/network-firewall/setting-up-network-firewall.htm](https://docs.oracle.com/iaas/Content/network-firewall/setting-up-network-firewall.htm)
+Access Control AC-4 Information Flow Enforcement Enable OCI Private Endpoint[https://docs.oracle.com/iaas/Content/KeyManagement/Tasks/ekms_creating_ekms_private_endpoint.htm#ekms_creating_ekms_private_endpoint](https://docs.oracle.com/iaas/Content/KeyManagement/Tasks/ekms_creating_ekms_private_endpoint.htm#ekms_creating_ekms_private_endpoint)
+Access Control AC-17 Remote Access Enable OCI Private Endpoint[https://docs.oracle.com/iaas/Content/KeyManagement/Tasks/ekms_creating_ekms_private_endpoint.htm#ekms_creating_ekms_private_endpoint](https://docs.oracle.com/iaas/Content/KeyManagement/Tasks/ekms_creating_ekms_private_endpoint.htm#ekms_creating_ekms_private_endpoint)
+Access Control AC-17 (1) Monitoring and Control Enable OCI Private Endpoint[https://docs.oracle.com/iaas/Content/KeyManagement/Tasks/ekms_creating_ekms_private_endpoint.htm#ekms_creating_ekms_private_endpoint](https://docs.oracle.com/iaas/Content/KeyManagement/Tasks/ekms_creating_ekms_private_endpoint.htm#ekms_creating_ekms_private_endpoint)
+Audit and Accountability AU-6 (4) Central Review and Analysis Audit Log Retention set to 365 days. Enabled by default no configuration required[https://docs.oracle.com/iaas/Content/Audit/Tasks/settingretentionperiod.htm](https://docs.oracle.com/iaas/Content/Audit/Tasks/settingretentionperiod.htm)
+Audit and Accountability AU-6 (5) Integrated Analysis of Audit Records Audit Log Retention set to 365 days. Enabled by default no configuration required[https://docs.oracle.com/iaas/Content/Audit/Tasks/settingretentionperiod.htm](https://docs.oracle.com/iaas/Content/Audit/Tasks/settingretentionperiod.htm)
+Audit and Accountability AU-12 Audit Record Generation Audit Log Retention set to 365 days. Enabled by default no configuration required[https://docs.oracle.com/iaas/Content/Audit/Tasks/settingretentionperiod.htm](https://docs.oracle.com/iaas/Content/Audit/Tasks/settingretentionperiod.htm)
+Audit and Accountability AU-12 (1) System-wide and Time-correlated Audit Trail Audit Log Retention set to 365 days. Enabled by default no configuration required[https://docs.oracle.com/iaas/Content/Audit/Tasks/settingretentionperiod.htm](https://docs.oracle.com/iaas/Content/Audit/Tasks/settingretentionperiod.htm)
+Contingency Planning CP-9 System Backup Vaults Deletion Protection is Enabled - Enabled by default no configuration required[https://www.oracle.com/security/cloud-security/key-management/faq/#recovery](https://www.oracle.com/security/cloud-security/key-management/faq/#recovery)
+Contingency Planning CP-9 System Backup Vaults Soft Delete is Enabled - Enabled by default no configuration required[https://docs.oracle.com/iaas/Content/KeyManagement/Tasks/managingkeys_topic-To_delete_a_key.htm](https://docs.oracle.com/iaas/Content/KeyManagement/Tasks/managingkeys_topic-To_delete_a_key.htm)
+Identification and Authentication IA-5 Authenticator Management OCI Certificate Expiration - Certificates have a specified maximum validity period[https://docs.oracle.com/iaas/Content/certificates/creating-certificate.htm#creating_certificate](https://docs.oracle.com/iaas/Content/certificates/creating-certificate.htm#creating_certificate)
+Identification and Authentication IA-5 Authenticator Management Modify OCI IAM Policy Key/Secret Controls - Assign access to keys to individuals or groups through vault policy[https://docs.oracle.com/iaas/Content/Identity/Concepts/commonpolicies.htm#sec-admins-manage-vaults-keys](https://docs.oracle.com/iaas/Content/Identity/Concepts/commonpolicies.htm#sec-admins-manage-vaults-keys)
+Identification and Authentication IA-5 Authenticator Management Modify OCI IAM Policy Key/Secret Controls - Assign access to secrets to individuals or groups through vault policy[https://docs.oracle.com/iaas/Content/Identity/Concepts/commonpolicies.htm#sec-admins-manage-vaults-keys](https://docs.oracle.com/iaas/Content/Identity/Concepts/commonpolicies.htm#sec-admins-manage-vaults-keys)
+System and Communications Protection SC-7 Boundary Protection OCI Network Firewall Should be Enabled[https://docs.oracle.com/iaas/Content/network-firewall/policies.htm](https://docs.oracle.com/iaas/Content/network-firewall/policies.htm)
+System and Communications Protection SC-7 Boundary Protection OCI Vault must use Service Gateway[https://docs.oracle.com/iaas/compute-cloud-at-customer/cmn/network/service-gateway.htm](https://docs.oracle.com/iaas/compute-cloud-at-customer/cmn/network/service-gateway.htm)
+System and Communications Protection SC-7 (3) Access Points OCI Network Firewall must be enabled[https://docs.oracle.com/iaas/Content/network-firewall/setting-up-network-firewall.htm](https://docs.oracle.com/iaas/Content/network-firewall/setting-up-network-firewall.htm)
+System and Communications Protection SC-7 (3) Access Points OCI Vault must use Service Gateway[https://docs.oracle.com/iaas/compute-cloud-at-customer/cmn/network/service-gateway.htm](https://docs.oracle.com/iaas/compute-cloud-at-customer/cmn/network/service-gateway.htm)

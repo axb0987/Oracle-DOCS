@@ -1,0 +1,25 @@
+# Working with Policies
+- Source: https://docs.oracle.com/en-us/iaas/Content/Identity/policymgmt/managingpolicies_topic-Working_with_Policies.htm
+- Fetched: 2026-09-05 02:26 CDT
+
+# Working with Policies
+
+Work with policies.
+
+For more information on policies see[IAM Policies Overview](https://docs.oracle.com/en-us/iaas/Content/Identity/policymgmt/../policieshow/Policy_Basics.htm)to understand the basics of how policies work.
+
+When creating a policy, you must specify the compartment where it should be attached , which is either the tenancy (the root compartment) or another compartment. Where it's attached governs who can later modify or delete it. For more information, see[Policy Attachment](https://docs.oracle.com/en-us/iaas/Content/Identity/policymgmt/../policieshow/Policy_Attachment.htm). When creating the policy in the Console, you attach the policy to a compartment by creating the policy in that compartment . If you're using the API, you specify the identifier of the compartment in the[CreatePolicy](https://docs.oracle.com/iaas/api/#/en/identity/latest/Policy/CreatePolicy)request.
+
+When creating a policy, you must also provide a non changeable name for it. The name must be unique across all policies in the compartment where you create it. You must also provide a description , which is a non unique, changeable description for the policy. Oracle also assigns the policy a unique ID called an Oracle Cloud ID. For more information, see[Resource Identifiers](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+Note  
+  
+
+If you delete a policy and then create a new policy with the same name, they'll be considered different policies because they'll have different OCIDs.
+
+For information about how to write a policy,[IAM Policies Overview](https://docs.oracle.com/en-us/iaas/Content/Identity/policymgmt/../policieshow/Policy_Basics.htm). When using the Console to write policies, you can use the[policy builder](https://docs.oracle.com/en-us/iaas/Content/Identity/policymgmt/managingpolicies_topic-Using_the_Policy_Builder.htm)to help you construct the syntax of the policies you want to add.
+
+When you create a policy, change an existing policy, or delete a policy, your changes go into effect typically within 10 seconds.
+
+You can view a list of your policies in the Console or with the API. In the Console, the list is automatically filtered to show only the policies attached to the compartment you're viewing. To decide which policies apply to a particular group, you must view the individual statements inside all your policies. There isn't a way to automatically obtain that information in the Console or API.
+
+For information about the number of policies you can have, see[IAM Identity Domain Object Limits](https://docs.oracle.com/en-us/iaas/Content/Identity/policymgmt/../sku/overview.htm#iam-object-limits)

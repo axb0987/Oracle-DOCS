@@ -1,0 +1,149 @@
+# PL/SQL SDK
+- Source: https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/plsqlsdk.htm
+- Fetched: 2026-09-05 01:36 CDT
+
+# PL/SQL SDK
+
+The Oracle Cloud Infrastructure SDK for PL/SQL enables you to write PL/SQL code to manage Oracle Cloud Infrastructure resources.
+
+The latest version of the SDK is pre-installed by Oracle for all Autonomous AI Database Serverless.
+
+## Requirements
+
+To use the PL/SQL SDK, you must have the following:
+- An Oracle Cloud Infrastructure account.
+- A user created in that account, in a group with a policy that grants the desired permissions. This can be a user for yourself, or another person/system that needs to call the API. For an example of how to set up a new user, group, compartment, and policy, see[Adding Users](https://docs.oracle.com/iaas/Content/GSG/Tasks/addingusers.htm). For a list of typical policies you may want to use, see[Common Policies](https://docs.oracle.com/iaas/Content/Identity/Concepts/commonpolicies.htm).
+- A key pair used for signing API requests, with the public key uploaded to Oracle. Only the user calling the API should be in possession of the private key.
+
+## Services Supported
+
+- Access Governance
+- AI Document Understanding
+- AI Language
+- AI Speech
+- AI Vision
+- Analytics
+- Announcements
+- API Gateway
+- Application Dependency Management (ADM)
+- Application Management Control
+- Application Migration
+- Application Performance Monitoring Configuration
+- Application Performance Monitoring Control Plane
+- Application Performance Monitoring Synthetics
+- Application Performance Monitoring Traces
+- Artifacts
+- Audit
+- Autoscaling
+- Bastion
+- Big Data Service (BDS)
+- Blockchain
+- Budget
+- Certificates
+- Certificates Management
+- CIMS
+- Cloud Bridge
+- Cloud Guard
+- Cloud Migrations
+- Compute Cloud@Customer
+- Compute Instance Agent
+- Container Instances
+- Core
+- Dashboard
+- Data Catalog
+- Data Flow
+- Data Integration
+- Data Labeling Service
+- Data Labeling Service Dataplane
+- Data Safe
+- Data Science
+- Database
+- Database Management
+- Database Migration
+- Database Tools
+- DevOps
+- Disaster Recovery
+- Domain Name System (DNS)
+- Email
+- Enterprise Manager Warehouse
+- Events
+- File Storage
+- Fleet Software Update
+- Functions
+- Fusion Applications
+- Generative AI
+- Generative AI Inference
+- Generic Artifacts Content
+- Golden Gate
+- Governance Rules
+- Health Checks
+- Identity
+- Identity Dataplane
+- Integration Generation 2
+- Java Download
+- Java Management Service
+- Key Management
+- Kubernetes Engine (OKE)
+- License Management Services (LMS)
+- Limits
+- Load Balancer
+- Lockbox
+- Logging
+- Logging Ingestion
+- Logging Search
+- Management Agent
+- Management Dashboard
+- Marketplace
+- Marketplace Publisher
+- Media Services
+- Monitoring
+- MySQL Heatwave
+- Network Firewall
+- Network Load Balancer
+- NoSQL
+- Object Storage
+- OCI Control Center (OCC)
+- One Subscription
+- OpenSearch
+- Operations Insights (OPSI)
+- Operator Access Control
+- Optimizer
+- Oracle Cloud VMware Package (OCVP)
+- Oracle Content and Experience (OCE)
+- Oracle Digital Assistant (ODA)
+- Oracle Notification Service (ONS)
+- Oracle Policy Automation (OPA)
+- OS Management
+- OS Management Hub
+- OSP Gateway
+- OSub Billing Schedule
+- OSub Organization Subscription
+- OSub Subscription
+- OSub Usage
+- PostgreSQL
+- Queue
+- Recovery
+- Redis
+- Resource Manager
+- Resource Search
+- Roving Edge Infrastructure
+- Secrets
+- Service Catalog
+- Service Connector Hub
+- Service Manager Proxy
+- Service Mesh
+- Stack Monitoring
+- Streaming
+- Tenant Manager Control Plane
+- Threat Intelligence
+- Usage
+- Usage API
+- Vault
+- Visual Builder
+- Visual Builder Studio Instance
+- VN Monitoring
+- Vulnerability Scanning
+- Web Application Acceleration (WAA)
+- Web Application Acceleration and Security (WAAS)
+- Web Application Firewall
+-

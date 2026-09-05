@@ -1,0 +1,372 @@
+# Exadata Use Cases
+- Source: https://docs.oracle.com/en-us/iaas/Content/General/MyServices/Tasks/Exadatausecases.htm
+- Fetched: 2026-09-05 02:11 CDT
+
+# Exadata Use Cases
+
+Important  
+  
+The My Services dashboard and APIs are deprecated.
+
+The following use case examples can get you started working with the Exadata operations available in the[Oracle Cloud My Services API](https://docs.oracle.com/iaas/api/#/en/itas/latest/).
+Important  
+  
+These procedures are for use with Oracle Database Exadata Database Service on Cloud@Customer ONLY . For more information, see[Administering Oracle Database Exadata Cloud at Customer](https://docs.oracle.com/en/cloud/cloud-at-customer/exadata-cloud-at-customer/exacc/get-started-this-service.html). These procedures DO NOT apply to the Exadata Cloud Service available in Oracle Cloud Infrastructure.
+
+## Exadata Firewall Allowlisting
+
+To enable access to your Exadata Cloud Service instance, you can configure security rules and associate them with your instance. The security rules define an allowlist of allowed network access points.
+
+The firewall provides a system of rules and groups. By default, the firewall denies network access to the Exadata Cloud Service instance. When you enable a security rule, you enable access to the Exadata Cloud Service instance. To enable access you must:
+- 
+
+Create a security group and create security rules that define specific network access allowances.
+- 
+
+Assign the security group to your Exadata Cloud Service instance.
+
+You can define multiple security groups, and each security group can contain multiple security rules. You can associate multiple security groups with each Exadata Cloud Service instance, and each security group can be associated with multiple Exadata Cloud Service instances. You can dynamically enable and disable security rules by modifying the security groups that are associated with each Exadata Cloud Service instance.
+
+To enable access to an Exadata Cloud Service instance:
+Note  
+  
+
+In the following examples, &lt;domain&gt; is the identity domain ID. An identity domain ID can be either the IDCS GUID that identifies the identity domain for the users within Identity Cloud Service (IDCS) or the Identity Domain name for a traditional Cloud Account.
+- 
+
+Get the service instance IDs.
+
+Operation:[GET ServiceInstances](https://docs.oracle.com/iaas/api/#/en/itas/latest/MSServiceInstances/resource_MSServiceInstancesResource_get_GET)
+
+Example
+
+Example request:
+
+```
+
+```
+
+Example payload returned for this request:
+
+```
+
+```
+
+This example payload returns the service instance ID csi-585928949, which is part of the service entitlement ID cesi-585927251.
+- 
+
+Get the service configuration IDs.
+
+Operation:[GET SIServiceConfigurations](https://docs.oracle.com/iaas/api/#/en/itas/latest/MSSIServiceConfiguration/resource_MSSIServiceConfigurationResource_get_GET)
+
+Example
+
+Example request, using the service instance ID csi-585928949:
+
+```
+
+```
+
+Example payload returned for this request:
+
+```
+
+```
+
+This example payload shows that /itas/ &lt;domain&gt; /myservices/api/v1/serviceInstances/csi-585928949/serviceConfigurations/Exadata/securityGroupAssignments is used for Exadata Firewall.
+- 
+
+Get the current security groups for the service entitlement.
+
+Operation:[GET SEExadataSecurityGroups](https://docs.oracle.com/iaas/api/#/en/itas/latest/MSSEExadataSecurityGroups/resource_MSSEExadataSecurityGroupsResource_get_GET)
+
+Example
+
+Example request, using the service entitlement ID cesi-585927251:
+
+```
+
+```
+
+Example payload returned for this request:
+
+```
+
+```
+
+This example payload shows two security groups defined for the specified service entitlement ID.
+- 
+
+Get the current security group assignments for the service instance
+
+Operation:[GET SIExadataSecurityGroupAssignments](https://docs.oracle.com/iaas/api/#/en/itas/latest/MSSEExadataSecurityGroups/resource_MSSEExadataSecurityGroupsResource_get_GET)
+
+Example
+
+Example request, using the service instance ID csi-585928949:
+
+```
+
+```
+
+Example payload returned for this request:
+
+```
+
+```
+
+This example payload shows one security group assigned to the service instance csi-585928949.
+- 
+
+Create a security group with security rules.
+
+Operation:[POST SEExadataSecurityGroups](https://docs.oracle.com/iaas/api/#/en/itas/latest/MSSEExadataSecurityGroups/resource_MSSEExadataSecurityGroupsResource_post_POST)
+
+Example
+
+Example request, using the service entitlement ID cesi-585927251:
+
+```
+
+```
+
+Attributes:
+
+Name Description
+
+customerId
+
+Required: Yes
+
+String
+
+This must be the same as the &lt;serviceEntitlementId&gt;
+
+direction
+
+Required: Yes
+
+String
+
+Allowed values: [ingress | egress] for inbound or outbound.
+
+proto
+
+Required: Yes
+
+String
+
+Allowed values: [tcp | udp].
+
+startPort
+
+Required: Yes
+
+Integer
+
+startPort defines the beginning of a range of ports to open/white-list [0 - 65535].
+
+endPort
+
+Required: Yes
+
+Integer
+
+endPort defines the ending of a range of ports to open/white-list [0 - 65535].
+
+ipSubnet
+
+Required: Yes
+
+String
+
+Single IP address or range specified in CIDR notation.
+
+ruleInterface
+
+Required: Yes
+
+String
+
+Allowed values: [admin | client | backup] where:
+- admin — specifies that the rule applies to network communications over the administration network interface. The administration network is typically used to support administration tasks by using terminal sessions, monitoring agents, and so on.
+- client — specifies that the rule applies to network communications over the client access network interface, which is typically used by Oracle Net Services connections.
+- backup — specifies that the rule applies to network communications over the backup network interface, which is typically used to transport backup information to and from network-based storage that is separate from Exadata Cloud Service.
+
+If successful, the POST request will return the unique ID of the newly created security group. For the next step, we'll assume that the newly created security group ID is 3.
+Note  
+  
+A security group can also be modified or deleted. See[Oracle Cloud My Services API](https://docs.oracle.com/iaas/api/#/en/itas/latest/).
+- 
+
+Assign the security group to a service instance.
+
+Operation:[POST SIExadataSecurityGroupAssignments](https://docs.oracle.com/iaas/api/#/en/itas/latest/MSSIExadataSecurityGroupAssignments/resource_MSSIExadataSecurityGroupAssignmentsResource_post_POST)
+
+Example
+
+Example request, using the service instance csi-585928949 and the security group ID 3:
+
+```
+
+```
+
+Attributes:
+
+Name Description
+customerId
+
+Required: Yes
+
+String
+
+This must be the same as the serviceEntitlementId.
+
+If successful, the POST request will return the unique Id of the newly created security group assignment.
+Note  
+  
+A security group assignment can also be deleted. See[Oracle Cloud My Services API](https://docs.oracle.com/iaas/api/#/en/itas/latest/).
+
+You can now verify all your security groups and assignments. See:
+- [Get the current security groups for the service entitlement](https://docs.oracle.com/en-us/iaas/Content/General/MyServices/Tasks/Exadatausecases.htm#firewall__GetCurrentSecurityGroups).
+- [Get the current security group assignments for the service instance](https://docs.oracle.com/en-us/iaas/Content/General/MyServices/Tasks/Exadatausecases.htm#firewall__GetCurrentSecurityGroupAssignments).
+
+[To obtain the IDCS GUID](https://docs.oracle.com/en-us/iaas/Content/General/MyServices/Tasks/Exadatausecases.htm#)
+
+Go to the Users page in My Services dashboard and click Identity Console . The URL in the browser address field displays the IDCS GUID for your identity domain. For example:
+
+```
+
+```
+
+In the above URL,`idcs-105bbbdfe5644611bf7ce04496073adf`is the IDCS GUID for your identity domain.
+
+## Exadata Scaling with Bursting
+
+You can temporarily modify the capacity of your Exadata environment by configuring bursting. Bursting is a method you can use to scale Exadata Cloud Service non-metered instances within an Exadata system.
+
+To scale up your non-metered instances, increase the number of compute nodes by modifying the`burstOcpu`attribute of the host. When you no longer need the additional nodes, update the`burstOcpu`attribute back to its original setting.
+Note  
+  
+
+In the following examples, &lt;domain&gt; is the identity domain ID. An identity domain ID can be either the IDCS GUID that identifies the identity domain for the users within Identity Cloud Service (IDCS) or the Identity Domain name for a traditional Cloud Account.
+- 
+
+Get the service instance IDs.
+
+Operation:[GET ServiceInstances](https://docs.oracle.com/iaas/api/#/en/itas/latest/MSServiceInstances/resource_MSServiceInstancesResource_get_GET)
+
+Example
+
+Example request:
+
+```
+
+```
+
+Example payload returned for this request:
+
+```
+
+```
+
+This example payload returns the service instance ID csi-585928949.
+- 
+
+Get the service configuration IDs.
+
+Operation:[GET SIServiceConfigurations](https://docs.oracle.com/iaas/api/#/en/itas/latestMSSIServiceConfigurations/resource_MSSIServiceConfigurationsResource_get_GET)
+
+Example
+
+Example request, using the service instance ID csi-585928949:
+
+```
+
+```
+
+Example payload returned for this request:
+
+```
+
+```
+
+This example payload shows that /itas/ &lt;domain&gt; /myservices/api/v1/serviceInstances/csi-585928949/serviceConfigurations/Exadata/securityGroupAssignments is used for Bursting.
+- 
+
+Get the current compute node configuration.
+
+Operation:[GET SIExadataBursting](https://docs.oracle.com/iaas/api/#/en/itas/latest/MSSIExadataBursting/resource_MSSIExadataBurstingResource_get_GET)
+
+Example
+
+Example request, using the service instance ID csi-585928949:
+
+```
+
+```
+
+Example payload returned for this request:
+
+```
+
+```
+
+- 
+
+Modify the values for`burstOcpu`.
+
+Operation:[PUT SIExadataBursting](https://docs.oracle.com/iaas/api/#/en/itas/latest/MSSIExadataBursting/resource_MSSIExadataBurstingResource_put_PUT)
+
+You can modify`burstOcpu`to a value that is up to the value of`maxBurstOcpu`. This example adds two compute nodes to each host.
+
+Example
+
+Example request, using the service instance csi-585928949:
+
+```
+
+```
+
+Attributes:
+
+Name Description
+burstOcpu
+
+Required: Yes
+
+Type: Integer, Minimum Value: 0, Maximum Value: maxBurstOcpu
+
+Number of additional cores
+Note  
+  
+This action may take a few minutes to complete.
+- 
+
+Verify the new compute node configuration.
+
+Operation:[GET SIExadataBursting](https://docs.oracle.com/iaas/api/#/en/itas/latest/MSSIExadataBursting/resource_MSSIExadataBurstingResource_get_GET)
+
+Example
+
+Example request, using the service instance ID csi-585928949:
+
+```
+
+```
+
+Example payload returned for this request:
+
+```
+
+```
+
+[To obtain the IDCS GUID](https://docs.oracle.com/en-us/iaas/Content/General/MyServices/Tasks/Exadatausecases.htm#)
+
+Go to the Users page in My Services dashboard and click Identity Console . The URL in the browser address field displays the IDCS GUID for your identity domain. For example:
+
+```
+
+```
+
+In the above URL,`idcs-105bbbdfe5644611bf7ce04496073adf`
